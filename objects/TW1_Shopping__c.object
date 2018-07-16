@@ -485,7 +485,12 @@
         <filterScope>Everything</filterScope>
         <label>Todos os Shoppings</label>
     </listViews>
-    
+    <nameField>
+        <label>Nome</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
     <pluralLabel>Shoppings</pluralLabel>
     <recordTypes>
         <fullName>TW1_Condominio</fullName>
