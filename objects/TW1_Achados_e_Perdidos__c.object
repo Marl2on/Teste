@@ -61,23 +61,8 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Achados e Perdidos</pluralLabel>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>Achado</fullName>
-        <active>true</active>
-        
-        <label>Achado</label>
-        
-    </recordTypes>
-    <recordTypes>
-        <fullName>Perdido</fullName>
-        <active>true</active>
-        
-        <label>Perdido</label>
-        
-    </recordTypes>
-    <searchLayouts/>
+    
+
     <sharingModel>ReadWrite</sharingModel>
     
     <visibility>Public</visibility>
