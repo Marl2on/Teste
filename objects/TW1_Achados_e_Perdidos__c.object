@@ -50,5 +50,55 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     
+    <label>Achados e Perdidos</label>
+    
+    
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>Número</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Achados e Perdidos</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Achado</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        <label>Achado</label>
+        <picklistValues>
+            <picklist>TW1_Status__c</picklist>
+            <values>
+                <fullName>Armazenado</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Destruído</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Perdido</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        <label>Perdido</label>
+        <picklistValues>
+            <picklist>TW1_Status__c</picklist>
+            <values>
+                <fullName>Perdido</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    
     <visibility>Public</visibility>
 </CustomObject>
