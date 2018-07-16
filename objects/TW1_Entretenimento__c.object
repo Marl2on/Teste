@@ -38,7 +38,6 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Shopping</compactLayoutAssignment>
 
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
