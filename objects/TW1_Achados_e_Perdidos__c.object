@@ -72,29 +72,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>TW1_Cliente__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Cliente</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Account.IsPersonAccount</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Achados e Perdidos</relationshipLabel>
-        <relationshipName>Achados_e_Perdidos</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
+    
     <fields>
         <fullName>TW1_Data__c</fullName>
         <externalId>false</externalId>
