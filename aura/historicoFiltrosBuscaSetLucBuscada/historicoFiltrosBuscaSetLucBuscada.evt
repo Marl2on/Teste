@@ -1,3 +1,0 @@
-<aura:event type="COMPONENT" >
-    <aura:attribute name="lucBuscada" type="String" />
-</aura:event>
