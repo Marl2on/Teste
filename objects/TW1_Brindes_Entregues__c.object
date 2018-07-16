@@ -100,11 +100,7 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Cliente</label>
-        <lookupFilter>
-            <active>true</active>
-            
-            <isOptional>false</isOptional>
-        </lookupFilter>
+      
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Brindes Entregues</relationshipLabel>
         <relationshipName>Brindes_Entregues</relationshipName>
