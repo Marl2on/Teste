@@ -95,7 +95,27 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Cliente__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cliente</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Conta pessoal padrão</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Brindes Entregues</relationshipLabel>
+        <relationshipName>Brindes_Entregues</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>TW1_Data_do_Estorno__c</fullName>
         <externalId>false</externalId>
