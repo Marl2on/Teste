@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inadimplência</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inadimplências</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aprovação Diretoria Financeira --></label>
+        <name>TW1_Aprovacao_Diretoria_Financeira_Extra__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aprovação Diretoria Financeira --></label>
+        <name>TW1_Aprovacao_Diretoria_Financeira__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aprovação da Gerência Financeira --></label>
+        <name>TW1_Aprovacao_Gerencia_Financeira__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aprovação Gerência Jurídica --></label>
+        <name>TW1_Aprovacao_Gerencia_Juridica__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Celular --></label>
+        <name>TW1_Celular__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente Principal --></label>
+        <name>TW1_Cliente_Principal__c</name>
+        <relationshipLabel><!-- Inadimplências --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Código Empreendimento UAU --></label>
+        <name>TW1_Codigo_Empreendimento_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Empresa UAU --></label>
+        <name>TW1_Codigo_Empresa_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Obra UAU --></label>
+        <name>TW1_Codigo_Obra_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contato Principal --></label>
+        <name>TW1_Contato_Principal__c</name>
+        <relationshipLabel><!-- Inadimplências --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Data Aprovação Diretoria Financeira --></label>
+        <name>TW1_Data_Aprovacao_Dir_Financeira_Extra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Aprovação Diretoria Financeira --></label>
+        <name>TW1_Data_Aprovacao_Diretoria_Financeira__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Aprovação Gerência Financeira --></label>
+        <name>TW1_Data_Aprovacao_Gerencia_Financeira__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Aprovação Gerência Jurídica --></label>
+        <name>TW1_Data_Aprovacao_Gerencia_Juridica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Conclusão --></label>
+        <name>TW1_Data_Conclusao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data/Hora Vazia --></label>
+        <name>TW1_Data_Hora_Vazia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Postergação --></label>
+        <name>TW1_Data_Postergacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Vencimento Parcela --></label>
+        <name>TW1_Data_Vencimento_Parcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dias Totais Inadimplência Aberta --></label>
+        <name>TW1_Dias_Totais_Inadimplencia_Aberta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dias na Fase Atual --></label>
+        <name>TW1_Dias_na_Fase_Atual__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-mail Alternativo --></label>
+        <name>TW1_E_mail_Alternativo__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-mail --></label>
+        <name>TW1_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>TW1_Etapa__c</name>
+        <picklistValues>
+            <masterLabel>Aguardando Aprovação da Diretoria</masterLabel>
+            <translation><!-- Aguardando Aprovação da Diretoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aguardando Aprovação da Gerência</masterLabel>
+            <translation><!-- Aguardando Aprovação da Gerência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aguardando Data Postergação</masterLabel>
+            <translation><!-- Aguardando Data Postergação --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aguardando Pagamento</masterLabel>
+            <translation><!-- Aguardando Pagamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aguardando encerramento da Inadimplência</masterLabel>
+            <translation><!-- Aguardando encerramento da Inadimplência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aguardando tempo para inicio de cobrança</masterLabel>
+            <translation><!-- Aguardando tempo para inicio de cobrança --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analisando Distrato</masterLabel>
+            <translation><!-- Analisando Distrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analisando Inadimplência</masterLabel>
+            <translation><!-- Analisando Inadimplência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analisando Inclusão das Parcelas no Financiamento</masterLabel>
+            <translation><!-- Analisando Inclusão das Parcelas no Financiamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analisando Negociação</masterLabel>
+            <translation><!-- Analisando Negociação --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analisando Transferência de Responsável</masterLabel>
+            <translation><!-- Analisando Transferência de Responsável --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buscando Contato com Cliente</masterLabel>
+            <translation><!-- Buscando Contato com Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distrato Realizado</masterLabel>
+            <translation><!-- Distrato Realizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encerrada pelo UAU</masterLabel>
+            <translation><!-- Encerrada pelo UAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerando Boleto</masterLabel>
+            <translation><!-- Gerando Boleto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negociação Definida/Aguardando Conclusão da Inadimplência</masterLabel>
+            <translation><!-- Negociação Definida/Aguardando Conclusão da Inadimplência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notificando Jucialmente</masterLabel>
+            <translation><!-- Notificando Jucialmente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nova</masterLabel>
+            <translation><!-- Nova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pausada</masterLabel>
+            <translation><!-- Pausada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realizando Negociação</masterLabel>
+            <translation><!-- Realizando Negociação --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registrando Trativa</masterLabel>
+            <translation><!-- Registrando Trativa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Etapa pré-pausa --></label>
+        <name>TW1_Etapa_pre_pausa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fase --></label>
+        <name>TW1_Fase__c</name>
+        <picklistValues>
+            <masterLabel>Amigável</masterLabel>
+            <translation><!-- Amigável --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concluída</masterLabel>
+            <translation><!-- Concluída --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extrajudicial</masterLabel>
+            <translation><!-- Extrajudicial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judicial</masterLabel>
+            <translation><!-- Judicial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fim da Inadimplência Amigável --></label>
+        <name>TW1_Fim_da_Inadimplencia_Amigavel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fim da Inadimplência Extrajudicial --></label>
+        <name>TW1_Fim_da_Inadimplencia_Extrajudicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fim da Inadimplência Judicial --></label>
+        <name>TW1_Fim_da_Inadimplencia_Judicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Assistencia Tecnica --></label>
+        <name>TW1_ID_Assistencia_Tecnica__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Cartorio --></label>
+        <name>TW1_ID_Cartorio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Comercial --></label>
+        <name>TW1_ID_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Consultor de Atendimento --></label>
+        <name>TW1_ID_Consultor_de_Atendimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Consultor de Relacionamento --></label>
+        <name>TW1_ID_Consultor_de_Relacionamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Contas a Receber --></label>
+        <name>TW1_ID_Contas_a_Receber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Contratos --></label>
+        <name>TW1_ID_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Despachante --></label>
+        <name>TW1_ID_Despachante__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Diretoria --></label>
+        <name>TW1_ID_Diretoria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Engenharia --></label>
+        <name>TW1_ID_Engenharia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Financeiro --></label>
+        <name>TW1_ID_Financeiro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Gestor Financeiro --></label>
+        <name>TW1_ID_Gestor_Financeiro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Gestor Relacionamento --></label>
+        <name>TW1_ID_Gestor_Relacionamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Jurídico Externo --></label>
+        <name>TW1_ID_Jur_dico_Externo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Jurídico Interno --></label>
+        <name>TW1_ID_Jur_dico_Interno__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Manutenção --></label>
+        <name>TW1_ID_Manuten_o__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Operador Financiamento --></label>
+        <name>TW1_ID_Operador_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Qualidade --></label>
+        <name>TW1_ID_Qualidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Registro Financiamento --></label>
+        <name>TW1_ID_Registro_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Início da Inadimplência Amigável --></label>
+        <name>TW1_Incio_Inadimplencia_Amigavel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inicio Fase Atual --></label>
+        <name>TW1_Inicio_Fase_Atual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Início da Inadimplência Extrajudicial --></label>
+        <name>TW1_Inicio_Inadimplencia_Extrajudicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Início da Inadimplência Judicial --></label>
+        <name>TW1_Inicio_Inadimplencia_Judicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maior Data Vencimento --></label>
+        <name>TW1_Maior_Data_Vencimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mudar Responsável --></label>
+        <name>TW1_Mudar_Responsavel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Necessita Aprovação da Diretoria Extra? --></label>
+        <name>TW1_Necessita_Aprovacao_Diretoria_Extra__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Necessita Aprovação da Diretoria? --></label>
+        <name>TW1_Necessita_Aprovacao_Diretoria__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nome do Contato --></label>
+        <name>TW1_Nome_do_Contato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero Parcelas Abertas --></label>
+        <name>TW1_Numero_Parcelas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero Vazio --></label>
+        <name>TW1_Numero_Vazio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número da Venda --></label>
+        <name>TW1_Numero_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observação Tutela --></label>
+        <name>TW1_Observacao_Tuteta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observações --></label>
+        <name>TW1_Observacoes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Possui Tutela --></label>
+        <name>TW1_Possui_Tutela__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prioridade --></label>
+        <name>TW1_Prioridade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inadimplência Consolidada --></label>
+        <name>TW1_Rel_Inadimplencia_Consolidada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resumo Aprovação --></label>
+        <name>TW1_Resumo_Aprovacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retomar Contato --></label>
+        <name>TW1_Retomar_Contato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sem Contato Cliente --></label>
+        <name>TW1_Sem_Contato_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Aprovação --></label>
+        <name>TW1_Status_Aprovacao__c</name>
+        <picklistValues>
+            <masterLabel>Aprovado</masterLabel>
+            <translation><!-- Aprovado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprovado</masterLabel>
+            <translation><!-- Reprovado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Cobrança --></label>
+        <name>TW1_Status_Cobranca__c</name>
+        <picklistValues>
+            <masterLabel>Aguardando retorno</masterLabel>
+            <translation><!-- Aguardando retorno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alega pagamento</masterLabel>
+            <translation><!-- Alega pagamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cobrança indevida (ajustar fluxo)</masterLabel>
+            <translation><!-- Cobrança indevida (ajustar fluxo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diretoria – suspender cobrança</masterLabel>
+            <translation><!-- Diretoria – suspender cobrança --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informa ação contra Calçada</masterLabel>
+            <translation><!-- Informa ação contra Calçada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informa permuta de serviço</masterLabel>
+            <translation><!-- Informa permuta de serviço --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não consegue contato</masterLabel>
+            <translation><!-- Não consegue contato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promessa de Pagamento a vista</masterLabel>
+            <translation><!-- Promessa de Pagamento a vista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recado</masterLabel>
+            <translation><!-- Recado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recusa-se a pagar</masterLabel>
+            <translation><!-- Recusa-se a pagar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicita renegociação</masterLabel>
+            <translation><!-- Solicita renegociação --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Tutela --></label>
+        <name>TW1_Status_Tutela__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telefone Alternativo --></label>
+        <name>TW1_Telefone_Alternativo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telefone Comercial --></label>
+        <name>TW1_Telefone_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telefone --></label>
+        <name>TW1_Telefone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tempo de Inadimplência --></label>
+        <name>TW1_Tempo_Inadimplencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total de Dias - Amigável --></label>
+        <name>TW1_Total_Dias_Amigavel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total de Dias - Extrajudicial --></label>
+        <name>TW1_Total_Dias_Extrajudicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total de Dias - Judicial --></label>
+        <name>TW1_Total_Dias_Judicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tratativa Enviada Aprovação --></label>
+        <name>TW1_Tratativa_Enviada_Aprovacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tratativa da Inadimplência --></label>
+        <name>TW1_Tratativa_Inadimplencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidade Possui AF --></label>
+        <name>TW1_Unidade_Possui_AF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidade --></label>
+        <name>TW1_Unidade__c</name>
+        <relationshipLabel><!-- Inadimplências --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Valor Principal --></label>
+        <name>TW1_Valor_Principal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Reajustado --></label>
+        <name>TW1_Valor_Reajustado__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Inadimplência Amigável</layout>
+        <sections>
+            <label><!-- Aprovações --></label>
+            <section>Aprovações</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Tempos Gerais da Inadimplência --></label>
+            <section>Tempos Gerais da Inadimplência</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inadimplência Amigável - ADM</layout>
+        <sections>
+            <label><!-- Aprovações --></label>
+            <section>Aprovações</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Tempos Gerais da Inadimplência --></label>
+            <section>Tempos Gerais da Inadimplência</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inadimplência Extrajudicial</layout>
+        <sections>
+            <label><!-- Aprovações --></label>
+            <section>Aprovações</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inadimplência Extrajudicial - ADM</layout>
+        <sections>
+            <label><!-- Aprovações --></label>
+            <section>Aprovações</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inadimplência Judicial</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Informações sobre Tutela --></label>
+            <section>Informações sobre Tutela</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Observações --></label>
+            <section>Observações</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inadimplência Judicial - ADM</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Informações sobre Tutela --></label>
+            <section>Informações sobre Tutela</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Observações --></label>
+            <section>Observações</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Layout de Inadimplência</layout>
+        <sections>
+            <label><!-- Aprovações --></label>
+            <section>Aprovações</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Informações de Contato --></label>
+            <section>Informações de Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Tempos Gerais da Inadimplência --></label>
+            <section>Tempos Gerais da Inadimplência</section>
+        </sections>
+        <sections>
+            <label><!-- Testes - Remover Depois --></label>
+            <section>Testes - Remover Depois</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Amigável --></label>
+        <name>TW1_Amigavel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Extrajudicial --></label>
+        <name>TW1_Extrajudicial</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Judicial --></label>
+        <name>TW1_Judicial</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- A Etapa não pode ser alterada enquanto o proprietário for uma fila. Atribua o registro a um usuário e depois altere a etapa. --></errorMessage>
+        <name>ImpedirMudarEtapaFila</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- TW1_Mudar_Responsavel --></label>
+        <name>TW1_Mudar_Responsavel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TW1_Pausar_Reiniciar --></label>
+        <name>TW1_Pausar_Reiniciar</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Settings TW1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Settings TW1</value>
+    </caseValues>
+    <fields>
+        <label><!-- ID Task Tarefa Agendar com Cliente --></label>
+        <name>ID_Agendar_com_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Documentação Contrato --></label>
+        <name>ID_Aguardar_Documentacao_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Documentação de Crédito --></label>
+        <name>ID_Aguardar_Documentacao_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Caso --></label>
+        <name>ID_Analisar_Caso__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Contrato --></label>
+        <name>ID_Analisar_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Crédito --></label>
+        <name>ID_Analisar_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Reclamação --></label>
+        <name>ID_Analisar_Reclamacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Sugestão --></label>
+        <name>ID_Analisar_Sugestao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Atualização Cadastral --></label>
+        <name>ID_Atualizacao_Cadastral__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso AF Comercial --></label>
+        <name>ID_Caso_AF_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Alienação Fiduciária --></label>
+        <name>ID_Caso_Alienacao_Fiduciaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Alteracao de Vencimento --></label>
+        <name>ID_Caso_Alteracao_de_Vencimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Antecipação --></label>
+        <name>ID_Caso_Antecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Cessão de Direito --></label>
+        <name>ID_Caso_Cessao_Direito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Conferência de Contratos de AF --></label>
+        <name>ID_Caso_Conferencia_Contratos_AF__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Conferência de Contratos Venda --></label>
+        <name>ID_Caso_Conferencia_Contratos_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Conferência de Contratos --></label>
+        <name>ID_Caso_Conferencia_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Entrega de Chaves --></label>
+        <name>ID_Caso_Entrega_de_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Entrega de Documentação --></label>
+        <name>ID_Caso_Entrega_de_Documentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Escritura Definitiva Compra Vend --></label>
+        <name>ID_Caso_Escritura_Definitiva_Compra_Vend__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Falecimento Cliente --></label>
+        <name>ID_Caso_Falecimento_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Identificacao de Quitacao --></label>
+        <name>ID_Caso_Identificacao_de_Quitacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Implantar Custas --></label>
+        <name>ID_Caso_Implantar_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Implantar Negociação --></label>
+        <name>ID_Caso_Implantar_Negociacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Informação --></label>
+        <name>ID_Caso_Informacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Leilao --></label>
+        <name>ID_Caso_Leilao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Permuta --></label>
+        <name>ID_Caso_Permuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Quitação --></label>
+        <name>ID_Caso_Quitacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Realizar Reintegração de Posse --></label>
+        <name>ID_Caso_Realizar_Reintegracao_Posse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Realizar Rescisao Judicial --></label>
+        <name>ID_Caso_Realizar_Rescisao_Judicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Repasse --></label>
+        <name>ID_Caso_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Rescisão Venda Nova Fin --></label>
+        <name>ID_Caso_Rescisao_Venda_Nova_Fin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Rescisão --></label>
+        <name>ID_Caso_Rescisao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Rescisão com Venda Nova RC --></label>
+        <name>ID_Caso_Rescisao_com_Venda_Nova_RC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Retomada --></label>
+        <name>ID_Caso_Retomada__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Vistoria Unidade --></label>
+        <name>ID_Caso_Vistoria_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Comunicar Cliente --></label>
+        <name>ID_Comunicar_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Criar Simulação de Antecipação --></label>
+        <name>ID_Criar_Simulacao_Antecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Análise de Crédito Financiamento --></label>
+        <name>ID_FILA_Analise_Credito_Financiam__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Análise Financeira Contratos --></label>
+        <name>ID_FILA_Analise_Financeira_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Análise Jurídica Contratos --></label>
+        <name>ID_FILA_Analise_Juridica_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Cartório --></label>
+        <name>ID_FILA_Cartorio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Consultor de Relacionamento --></label>
+        <name>ID_FILA_Consultor_Relacionamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Consultor de Atendimento --></label>
+        <name>ID_FILA_Consultor_de_Atendimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Contas a Receber --></label>
+        <name>ID_FILA_Contas_a_Receber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Contratos --></label>
+        <name>ID_FILA_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Coordenador Financiamento --></label>
+        <name>ID_FILA_Coordenador_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Diretoria Jurídica --></label>
+        <name>ID_FILA_DIretoria_Juridica__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Despachante --></label>
+        <name>ID_FILA_Despachante__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Diretoria Comercial --></label>
+        <name>ID_FILA_Diretoria_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Diretoria Financeira --></label>
+        <name>ID_FILA_Diretoria_Financeira__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Engenharia --></label>
+        <name>ID_FILA_Engenharia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Equipe Comercial --></label>
+        <name>ID_FILA_Equipe_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Equipe Jurídica Externa --></label>
+        <name>ID_FILA_Equipe_Juridica_Externa__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Equipe Jurídica Interna --></label>
+        <name>ID_FILA_Equipe_Juridica_Interna__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Financiamento PJ --></label>
+        <name>ID_FILA_Financiamento_PJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Gerente Comercial --></label>
+        <name>ID_FILA_Gerente_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Gerente Financiamento --></label>
+        <name>ID_FILA_Gerente_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Gerente Jurídico --></label>
+        <name>ID_FILA_Gerente_Jur_dico__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Gestor Financeiro --></label>
+        <name>ID_FILA_Gestor_Financeiro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Gestor de Relacionamento --></label>
+        <name>ID_FILA_Gestor_de_Relacionamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Manutenção --></label>
+        <name>ID_FILA_Manutencao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Operador Repasse FInanciamento --></label>
+        <name>ID_FILA_Operador_Repasse_FInanciamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Projetos --></label>
+        <name>ID_FILA_Projetos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Qualidade --></label>
+        <name>ID_FILA_Qualidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID FILA Registro Interno Financiamento --></label>
+        <name>ID_FILA_Registro_Interno_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Fila Controle de Financiamento --></label>
+        <name>ID_Fila_Controle_de_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Fila Planejamento Orçamentário --></label>
+        <name>ID_Fila_Planejamento_Orcamentario__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Fornecer Feedback Interno --></label>
+        <name>ID_Fornecer_Feedback_Interno__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Gerar Boleto de Antecipação --></label>
+        <name>ID_Gerar_Boleto_Antecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar tratativa ao cliente --></label>
+        <name>ID_Informar_tratativa_ao_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Negociar Com cliente --></label>
+        <name>ID_Negociar_Com_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Perfil Gerente Financiamento --></label>
+        <name>ID_Perfil_Gerente_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Perfil Gestor Financeiro --></label>
+        <name>ID_Perfil_Gestor_Financeiro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Perfil Operador Financiamento --></label>
+        <name>ID_Perfil_Operador_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Minuta --></label>
+        <name>ID_Providenciar_Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Renegociar com cliente --></label>
+        <name>ID_Renegociar_com_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Resolver Pendência --></label>
+        <name>ID_Resolver_Pendencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Comprovante Residencia --></label>
+        <name>ID_Solicitar_Comprovante_Residencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Documentos do Contrato --></label>
+        <name>ID_Solicitar_Documentos_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Documentos de Crédito --></label>
+        <name>ID_Solicitar_Documentos_de_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Encaminhar para a Construtora Re --></label>
+        <name>ID_TASK__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Acompanhar Assinatura --></label>
+        <name>ID_Task_Acompanhar_Assinatura__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Acompanhar agendamento --></label>
+        <name>ID_Task_Acompanhar_agendamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Adequar Unidade para Vistoria --></label>
+        <name>ID_Task_Adequar_Unidade_para_Vistoria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Assinatura Cliente --></label>
+        <name>ID_Task_Agendar_Assinatura_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Assinatura Rescisao --></label>
+        <name>ID_Task_Agendar_Assinatura_Rescisao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Assinatura Termo Aditivo --></label>
+        <name>ID_Task_Agendar_Assinatura_Termo_Aditivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Assinatura --></label>
+        <name>ID_Task_Agendar_Assinatura__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Entrega Chaves --></label>
+        <name>ID_Task_Agendar_Entrega_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Entrega Documentacao --></label>
+        <name>ID_Task_Agendar_Entrega_Documentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Reunião cliente --></label>
+        <name>ID_Task_Agendar_Reuniao_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar Vistoria com Cliente --></label>
+        <name>ID_Task_Agendar_Vistoria_com_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Agendar com cliente Res.Vend.Fin --></label>
+        <name>ID_Task_Agendar_com_cliente_Res_Vend_Fin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Contato Cliente --></label>
+        <name>ID_Task_Aguardar_Contato_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Doc Contrato Sem Tipo --></label>
+        <name>ID_Task_Aguardar_Doc_Contrato_Sem_Tipo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Documentação Cliente --></label>
+        <name>ID_Task_Aguardar_Documentacao_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Documentos Esc.Definiti --></label>
+        <name>ID_Task_Aguardar_Documentos_Esc_Definiti__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Leilão --></label>
+        <name>ID_Task_Aguardar_Leilao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Minuta Externa --></label>
+        <name>ID_Task_Aguardar_Minuta_Externa__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar Pagamento --></label>
+        <name>ID_Task_Aguardar_Pagamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Aguardar assinatura sócios --></label>
+        <name>ID_Task_Aguardar_assinatura_socios__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Alinhar divergência com cliente --></label>
+        <name>ID_Task_Alinhar_divergencia_com_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisa Devolucao --></label>
+        <name>ID_Task_Analisa_Devolucao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Alteração --></label>
+        <name>ID_Task_Analisar_Alteracao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Baixa de Hipoteca --></label>
+        <name>ID_Task_Analisar_Baixa_de_Hipoteca__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Caso Antecipacao --></label>
+        <name>ID_Task_Analisar_Caso_Antecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Caso Cessão --></label>
+        <name>ID_Task_Analisar_Caso_Cessao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Caso Postergacao --></label>
+        <name>ID_Task_Analisar_Caso_Postergacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Documentos --></label>
+        <name>ID_Task_Analisar_Documentos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Modificações --></label>
+        <name>ID_Task_Analisar_Modificacoes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Pendência --></label>
+        <name>ID_Task_Analisar_Pendencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Projeto --></label>
+        <name>ID_Task_Analisar_Projeto__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Repasse --></label>
+        <name>ID_Task_Analisar_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Rescisao com Cliente --></label>
+        <name>ID_Task_Analisar_Rescisao_com_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Seguridade --></label>
+        <name>ID_Task_Analisar_Seguridade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Solicitação de Modifica --></label>
+        <name>ID_Task_Analisar_Solicita_o_de_Modifica__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Solicitação do Cliente --></label>
+        <name>ID_Task_Analisar_Solicita_o_do_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Renegociação --></label>
+        <name>ID_Task_Analisar_renegociacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar solicitação de alteraçã --></label>
+        <name>ID_Task_Analisar_solicita_o_de_altera__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analise Juridica AF --></label>
+        <name>ID_Task_Analise_Juridica_AF__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analise Juridica do Caso --></label>
+        <name>ID_Task_Analise_Juridica_Caso__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analise Juridica Contratos Venda --></label>
+        <name>ID_Task_Analise_Juridica_Contratos_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analise Juridica de Contratos --></label>
+        <name>ID_Task_Analise_Juridica_de_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analise do Caso --></label>
+        <name>ID_Task_Analise_do_Caso__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Anexar Rescisão Judicial --></label>
+        <name>ID_Task_Anexar_Rescisao_Judicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Apresentar Proposta Antecipacao --></label>
+        <name>ID_Task_Apresentar_Proposta_Antecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Apresentar Proposta ao Cliente --></label>
+        <name>ID_Task_Apresentar_Proposta_ao_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Assinatura Minuta --></label>
+        <name>ID_Task_Assinatura_Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Baixar Pagamento --></label>
+        <name>ID_Task_Baixar_Pagamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Calcular Custas --></label>
+        <name>ID_Task_Calcular_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Colher Assinatura_Baixar Crédito --></label>
+        <name>ID_Task_Colher_Assinatura_Baixar_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Compilar Pendências --></label>
+        <name>ID_Task_Compilar_Pend_ncias__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Conferência de Contratos --></label>
+        <name>ID_Task_Conferencia_de_Contratos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Conferir Minuta --></label>
+        <name>ID_Task_Conferir_Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Contatar Cliente --></label>
+        <name>ID_Task_Contatar_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Controle Repasse --></label>
+        <name>ID_Task_Controle_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Definir Modalidade Entrega --></label>
+        <name>ID_Task_Definir_Modalidade_Entrega__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Devolução de Cheque --></label>
+        <name>ID_Task_Devolucao_de_Cheque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Distratar Venda --></label>
+        <name>ID_Task_Distratar_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Calculo Rescisao --></label>
+        <name>ID_Task_Elaborar_Calculo_Rescisao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Memorial Descritivo --></label>
+        <name>ID_Task_Elaborar_Memorial_Descritivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Orçamento --></label>
+        <name>ID_Task_Elaborar_Orcamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Planta e Orçamento --></label>
+        <name>ID_Task_Elaborar_Planta_e_Or_amento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Proposta de Pagamento --></label>
+        <name>ID_Task_Elaborar_Proposta_Pagamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Elaborar Solitacao Pagamento --></label>
+        <name>ID_Task_Elaborar_Solitacao_Pagamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Emitir Onus Reais --></label>
+        <name>ID_Task_Emitir_Onus_Reais__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Emitir Termo de Quitacao --></label>
+        <name>ID_Task_Emitir_Termo_Quitacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Emitir e Preencher Minuta --></label>
+        <name>ID_Task_Emitir_e_Preencher_Minuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Encaminhar Chaves --></label>
+        <name>ID_Task_Encaminhar_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Encerrar Caso --></label>
+        <name>ID_Task_Encerrar_Caso__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Entrar em Contato Cliente --></label>
+        <name>ID_Task_Entrar_em_Contato_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Entregar Chaves --></label>
+        <name>ID_Task_Entregar_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Enviar Aprovação --></label>
+        <name>ID_Task_Enviar_Aprovacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Enviar Banco/Baixar Crédito --></label>
+        <name>ID_Task_Enviar_Banco_Baixar_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Enviar Documentação --></label>
+        <name>ID_Task_Enviar_Documentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Enviar Termo de Vistoria --></label>
+        <name>ID_Task_Enviar_Termo_de_Vistoria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Enviar documentação correios --></label>
+        <name>ID_Task_Enviar_documentacao_correios__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task  Formalizar Repasse --></label>
+        <name>ID_Task_Formalizar_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Gerar Boleto Interveniencia --></label>
+        <name>ID_Task_Gerar_Boleto_Interveniencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Gerar Boleto --></label>
+        <name>ID_Task_Gerar_Boleto__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Identificar Documentação --></label>
+        <name>ID_Task_Identificar_Documentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Implantar Alienação Fiduciária --></label>
+        <name>ID_Task_Implantar_Aliena_o_Fiduci_ria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Implantar Cobrança --></label>
+        <name>ID_Task_Implantar_Cobranca__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Implantar Custas --></label>
+        <name>ID_Task_Implantar_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Implantar Negociacao UAU CRM --></label>
+        <name>ID_Task_Implantar_Negociacao_UAU_CRM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Implantar Negociação --></label>
+        <name>ID_Task_Implantar_Negociacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar Aprovação ao Cliente --></label>
+        <name>ID_Task_Informar_Aprovacao_ao_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar Dados de Registro --></label>
+        <name>ID_Task_Informar_Dados_de_Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar Debitos Unidade --></label>
+        <name>ID_Task_Informar_Debitos_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar Negativa Escritura --></label>
+        <name>ID_Task_Informar_Negativa_Escritura__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar Negativa ao Cliente --></label>
+        <name>ID_Task_Informar_Negativa_ao_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Informar modificação e valores --></label>
+        <name>ID_Task_Informar_modifica_o_e_valores__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Intimar Via RGI --></label>
+        <name>ID_Task_Intimar_Via_RGI__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Liberar Chaves --></label>
+        <name>ID_Task_Liberar_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Liberar Unidade para Estoque --></label>
+        <name>ID_Task_Liberar_Unidade_para_Estoque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Montar Processo de Registro --></label>
+        <name>ID_Task_Montar_Processo_Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Negociar Cliente Financiamento --></label>
+        <name>ID_Task_Negociar_Cliente_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Negociar Permuta --></label>
+        <name>ID_Task_Negociar_Permuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Negociar Quitação --></label>
+        <name>ID_Task_Negociar_Quitacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Notificar Extrajudicial Entr.Doc --></label>
+        <name>ID_Task_Notificar_Extrajudicial_Entr_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Notificar Extrajudicial --></label>
+        <name>ID_Task_Notificar_Extrajudicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Notificar OAB --></label>
+        <name>ID_Task_Notificar_OAB__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Preencher Informações Contrato --></label>
+        <name>ID_Task_Preencher_Informa_es_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Preparar Ofício --></label>
+        <name>ID_Task_Preparar_Oficio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Preparar Solicitacao de Pagament --></label>
+        <name>ID_Task_Preparar_Solicitacao_de_Pagament__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Prestação Contas Repasse --></label>
+        <name>ID_Task_Prestacao_Contas_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Prestação de Contas --></label>
+        <name>ID_Task_Prestacao_de_Contas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Assinatura Contrato --></label>
+        <name>ID_Task_Providenciar_Assinatura_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Pagamento VMD --></label>
+        <name>ID_Task_Providenciar_Pagamento_VMD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Registro --></label>
+        <name>ID_Task_Providenciar_Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Reintegração Posse --></label>
+        <name>ID_Task_Providenciar_Reintegracao_Posse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Certidoes --></label>
+        <name>ID_Task_Providenciar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Negociacao Permuta --></label>
+        <name>ID_Task_Realizar_Negociacao_Permuta__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Simulação --></label>
+        <name>ID_Task_Realizar_Simulacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Vistoria Area Comum --></label>
+        <name>ID_Task_Realizar_Vistoria_Area_Comum__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Vistoria Cliente --></label>
+        <name>ID_Task_Realizar_Vistoria_Cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Vistoria Interna --></label>
+        <name>ID_Task_Realizar_Vistoria_Interna__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Realizar Vistoria Unidade N Vend --></label>
+        <name>ID_Task_Realizar_Vistoria_Unidade_N_Vend__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Reapresentação de Cheque --></label>
+        <name>ID_Task_Reapresentacao_de_Cheque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Recolher Documentacao --></label>
+        <name>ID_Task_Recolher_Documentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Recolher assinatura procuradores --></label>
+        <name>ID_Task_Recolher_assinatura_procuradores__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Alterações --></label>
+        <name>ID_Task_Registrar_Altera_es__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Contrato --></label>
+        <name>ID_Task_Registrar_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Pendencia Chaves --></label>
+        <name>ID_Task_Registrar_Pendencia_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Recebimento Chaves --></label>
+        <name>ID_Task_Registrar_Recebimento_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Retorno --></label>
+        <name>ID_Task_Registrar_Retorno__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Registrar Sinistro --></label>
+        <name>ID_Task_Registrar_Sinistro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Renegociar Cliente Escalonar --></label>
+        <name>ID_Task_Renegociar_Cliente_Escalonar__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Renegociar Repasse --></label>
+        <name>ID_Task_Renegociar_Repasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Reservar Unidade --></label>
+        <name>ID_Task_Reservar_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Sanar Pendência --></label>
+        <name>ID_Task_Sanar_Pendencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Sanar Pendências - Reassinatura --></label>
+        <name>ID_Task_Sanar_Pendencias_Reassinatura__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Selecionar cartório --></label>
+        <name>ID_Task_Selecionar_cartorio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Soiicitar Pagamento Condominio --></label>
+        <name>ID_Task_Soiicitar_Pagamento_Condominio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitacao de Pagamento --></label>
+        <name>ID_Task_Solicitacao_Pagamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Cheque Administrativo --></label>
+        <name>ID_Task_Solicitar_Cheque_Administrativo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Documento EscrituraDef --></label>
+        <name>ID_Task_Solicitar_Documento_EscrituraDef__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Entrega de Chaves --></label>
+        <name>ID_Task_Solicitar_Entrega_de_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar Termo Hipoteca --></label>
+        <name>ID_Task_Solicitar_Termo_Hipoteca__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Solicitar assinatura do cliente --></label>
+        <name>ID_Task_Solicitar_assinatura_do_cliente__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Substituir Chaves --></label>
+        <name>ID_Task_Substituir_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Suspender Reapresentação --></label>
+        <name>ID_Task_Suspender_Reapresentacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Trasladar Contrato --></label>
+        <name>ID_Task_Trasladar_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Tratativa Reapresentar Cheque --></label>
+        <name>ID_Task_Tratativa_Reapresentar_Cheque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Verificar Analise Banco --></label>
+        <name>ID_Task_Verificar_Analise_Banco__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Alienação Fiduciária --></label>
+        <name>ID_TypeRecord_Caso_Alienacao_Fiduciaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Boas Vindas --></label>
+        <name>ID_TypeRecord_Caso_Boas_Vindas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Cessão de Direitos --></label>
+        <name>ID_TypeRecord_Caso_Cessao_Direitos__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Devolução de Cheque --></label>
+        <name>ID_TypeRecord_Caso_Devolu_o_Cheque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Elogio --></label>
+        <name>ID_TypeRecord_Caso_Elogio__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Informacao --></label>
+        <name>ID_TypeRecord_Caso_Informacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Reclamacao --></label>
+        <name>ID_TypeRecord_Caso_Reclamacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Sugestao --></label>
+        <name>ID_TypeRecord_Caso_Sugestao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Caso Comunicação Sinistro --></label>
+        <name>Id_Caso_Comunicacao_Sinistro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID TypeRecord Caso Quitação Condominial --></label>
+        <name>Id_Caso_Solicitar_Quitacao_Condominial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Task Analisar Condições --></label>
+        <name>Id_Task_Analisar_Condicoes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Task Analisar Saldo Devedor --></label>
+        <name>Id_Task_Analisar_Saldo_Devedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Task Verificar Situacao Condominial --></label>
+        <name>Id_Task_Verificar_Situacao_Condominial__c</name>
+    </fields>
+    <fields>
+        <label><!-- BaseProduçãoUau --></label>
+        <name>TW1_BaseProducaoUau__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endereço Instancia --></label>
+        <name>TW1_Endereco_Instancia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Vistoria Unidade Estoque --></label>
+        <name>TW1_ID_Caso_Vistoria_Unidade_Estoque__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Vistoria de Unidade --></label>
+        <name>TW1_ID_Caso_Vistoria_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Analisar Banco --></label>
+        <name>TW1_ID_Task_Analisar_Banco__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Task Providenciar Documentação Intern --></label>
+        <name>TW1_ID_Task_Providenciar_Documenta_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Caso Vistoria Unidade Vendida Estoque --></label>
+        <name>TW1_ID_Vistoria_Unidade_Vendida_Estoque__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoginUau --></label>
+        <name>TW1_LoginUau__c</name>
+    </fields>
+    <fields>
+        <label><!-- SenhaUAU --></label>
+        <name>TW1_SenhaUau__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLBaseServicoAT --></label>
+        <name>TW1_URLBaseServicoAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLBaseServicoUau --></label>
+        <name>TW1_URLBaseServicoUau__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLCallBackAT --></label>
+        <name>TW1_URLCallBackAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallBackAtualizacaoCadastralUAU --></label>
+        <name>TW1_URLCallBackAtualizacaoCadastralUAU__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

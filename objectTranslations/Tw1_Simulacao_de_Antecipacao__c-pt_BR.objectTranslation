@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Simulação de Antecipação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Simulações de Antecipação</value>
+    </caseValues>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>TW1_QD_Parcela_com_Desconto_CustasGerais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Caso --></label>
+        <name>Tw1_Caso__c</name>
+        <relationshipLabel><!-- Simulações de Antecipação --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comissão --></label>
+        <name>Tw1_Comissao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desconto Encargos --></label>
+        <name>Tw1_Desconto_Encargos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desconto Real --></label>
+        <name>Tw1_Desconto_Real__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gordura --></label>
+        <name>Tw1_Gordura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de Meses --></label>
+        <name>Tw1_Numero_de_Meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Desconto Real --></label>
+        <name>Tw1_Perc_Desconto_Real__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1% am Desconto --></label>
+        <name>Tw1_Perc_Desconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preço de Tabela Atual --></label>
+        <name>Tw1_Preco_de_Tabela_Atual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preço de Tabela --></label>
+        <name>Tw1_Preco_de_Tabela__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Mensais_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Mensais_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Mensais_Parcelas_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Mensais_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Mensais_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parc_Custas_Gerais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parc_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcela_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcela_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcelas_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcelas_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcelas_Seguros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcelas_Semestrai__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multas e Juros --></label>
+        <name>Tw1_QD_Multas_e_Juros_Parcelas_Unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Parcela_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Parcela_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela com Desconto --></label>
+        <name>Tw1_QD_Parcela_com_Desconto_Unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Custas_em_Geral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Intermediarias__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>Tw1_QD_Parcelas_unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parc_Custas_Gera__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parcelas_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parcelas_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parcelas_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parcelas_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Perc_Desconto_Parcelas_Unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Parcelas_Cust__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Parcelas_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Parcelas_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Parcelas_Segu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentual Desconto --></label>
+        <name>Tw1_QD_Percentual_Desconto_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preço de Tabela Atual --></label>
+        <name>Tw1_QD_Preco_de_Tabela_Atual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preço de Tabela --></label>
+        <name>Tw1_QD_Preco_de_Tabela__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo a Pagar Preço e Saldo Pago Preço --></label>
+        <name>Tw1_QD_Saldo_Pagar_Preco_Saldo_Pago_Prec__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Pago Custas e Seguro --></label>
+        <name>Tw1_QD_Saldo_Pago_Custas_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Pago Preço --></label>
+        <name>Tw1_QD_Saldo_Pago_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Pago Total --></label>
+        <name>Tw1_QD_Saldo_Pago_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Total com Desconto --></label>
+        <name>Tw1_QD_Saldo_Total_Desconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Total Preço a Pagar com Desconto --></label>
+        <name>Tw1_QD_Saldo_Total_Prec_Pagar_c_Desconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Total --></label>
+        <name>Tw1_QD_Saldo_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa Comissão --></label>
+        <name>Tw1_QD_Taxa_Comissao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa Gordura --></label>
+        <name>Tw1_QD_Taxa_Gordura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Comissão --></label>
+        <name>Tw1_QD_Valor_Comissao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Gordura --></label>
+        <name>Tw1_QD_Valor_Gordura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_Sem_Multas_Parc_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_Sem_Multas_Parc_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros por Atraso --></label>
+        <name>Tw1_QD_Valor_Sem_Multas_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_Sem_Multas_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_Sem_Multas_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_CustasGerais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Parcela_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Parcela_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Parcelas_Inter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Pos_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Pre_Chaves__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor do Desconto --></label>
+        <name>Tw1_QD_Valor_do_Desconto_Unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_CustasGe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Parc_G__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor sem Multas e Juros Por Atraso --></label>
+        <name>Tw1_QD_Valor_sem_Multas_e_Juros_Unicas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Preço --></label>
+        <name>Tw1_Saldo_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo a Pagar --></label>
+        <name>Tw1_Saldo_a_Pagar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa Anual --></label>
+        <name>Tw1_Taxa_Anual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Comissão --></label>
+        <name>Tw1_Valor_Comissao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Gordura --></label>
+        <name>Tw1_Valor_Gordura__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Pago Final (Preço) --></label>
+        <name>Tw1_Valor_Pago_Final_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Pago NÃO Preço --></label>
+        <name>Tw1_Valor_Pago_Nao_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Pago Preço --></label>
+        <name>Tw1_Valor_Pago_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Total Pago --></label>
+        <name>Tw1_Valor_Total_Pago__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Simulação de Quitação</layout>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Resultado --></label>
+            <section>Resultado</section>
+        </sections>
+        <sections>
+            <label><!-- Resumo --></label>
+            <section>Resumo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Simulação de Quitação - Direta</layout>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Mensais Pré Chaves --></label>
+            <section>Mensais Pré Chaves</section>
+        </sections>
+        <sections>
+            <label><!-- Mensais Pós Chaves --></label>
+            <section>Mensais Pós Chaves</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Anuais --></label>
+            <section>Parcelas Anuais</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Custas --></label>
+            <section>Parcelas Custas</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Custas em Geral --></label>
+            <section>Parcelas Custas em Geral</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas G --></label>
+            <section>Parcelas G</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Intermediárias --></label>
+            <section>Parcelas Intermediárias</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas P --></label>
+            <section>Parcelas P</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Rateio --></label>
+            <section>Parcelas Rateio</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Seguro --></label>
+            <section>Parcelas Seguro</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Semestrais --></label>
+            <section>Parcelas Semestrais</section>
+        </sections>
+        <sections>
+            <label><!-- Parcelas Únicas --></label>
+            <section>Parcelas Únicas</section>
+        </sections>
+        <sections>
+            <label><!-- Resultado --></label>
+            <section>Resultado</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Quitação Direta --></label>
+        <name>Tw1_Quitacao_Direta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quitação por Período --></label>
+        <name>Tw1_Quitacao_Periodo</name>
+    </recordTypes>
+</CustomObjectTranslation>

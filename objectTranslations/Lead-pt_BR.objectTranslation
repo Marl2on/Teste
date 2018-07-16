@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome do Comprador</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>company_lead</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cargo</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>title_lead</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation><!-- GC3000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SICCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPF/CNPJ --></label>
+        <name>TW1_CPF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empreendimento de Interesse --></label>
+        <name>TW1_Empreendimento_de_Interesse__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Região --></label>
+        <name>TW1_Regiao__c</name>
+        <picklistValues>
+            <masterLabel>Centro</masterLabel>
+            <translation><!-- Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona Norte</masterLabel>
+            <translation><!-- Zona Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona Oeste</masterLabel>
+            <translation><!-- Zona Oeste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona Sul</masterLabel>
+            <translation><!-- Zona Sul --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>TW1_Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Comercial</masterLabel>
+            <translation><!-- Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unidade de Interesse --></label>
+        <name>TW1_Unidade_de_Interesse__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Contato --></label>
+            <section>Contato</section>
+        </sections>
+        <sections>
+            <label><!-- Interesse --></label>
+            <section>Interesse</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

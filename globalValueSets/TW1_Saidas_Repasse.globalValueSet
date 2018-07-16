@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Em Alienação Fiduciária</fullName>
+        <default>false</default>
+        <label>Em Alienação Fiduciária</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Cessão de Direito</fullName>
+        <default>false</default>
+        <label>Em Cessão de Direito</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Permuta</fullName>
+        <default>false</default>
+        <label>Em Troca de Unidade</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Quitação</fullName>
+        <default>false</default>
+        <label>Em Quitação</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Rescisão</fullName>
+        <default>false</default>
+        <label>Em Rescisão</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Rescisão com Venda Nova</fullName>
+        <default>false</default>
+        <label>Em Rescisão com Venda Nova</label>
+    </customValue>
+    <customValue>
+        <fullName>Pretende Quitar</fullName>
+        <default>false</default>
+        <label>Pretende Quitar</label>
+    </customValue>
+    <customValue>
+        <fullName>Pretende Vender</fullName>
+        <default>false</default>
+        <label>Pretende Vender</label>
+    </customValue>
+    <customValue>
+        <fullName>Inadimplência jurídica</fullName>
+        <default>false</default>
+        <label>Inadimplência jurídica</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Permuta de Serviços</fullName>
+        <default>false</default>
+        <label>Em Permuta de Serviços</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Permuta de Terreno</fullName>
+        <default>false</default>
+        <label>Em Permuta de Terreno</label>
+    </customValue>
+    <masterLabel>Saídas Repasse</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

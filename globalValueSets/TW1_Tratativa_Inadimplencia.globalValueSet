@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Alienação Fiduciária</fullName>
+        <default>false</default>
+        <label>Alienação Fiduciária</label>
+    </customValue>
+    <customValue>
+        <fullName>Cessão de Direitos</fullName>
+        <default>false</default>
+        <label>Cessão de Direitos</label>
+    </customValue>
+    <customValue>
+        <fullName>Em negociação</fullName>
+        <default>true</default>
+        <label>Em negociação</label>
+    </customValue>
+    <customValue>
+        <fullName>Leilão</fullName>
+        <default>false</default>
+        <label>Leilão</label>
+    </customValue>
+    <customValue>
+        <fullName>Permuta</fullName>
+        <default>false</default>
+        <label>Permuta</label>
+    </customValue>
+    <customValue>
+        <fullName>Alteração de Vencimento</fullName>
+        <default>false</default>
+        <label>Alteração de Vencimento</label>
+    </customValue>
+    <customValue>
+        <fullName>Repasse</fullName>
+        <default>false</default>
+        <label>Repasse</label>
+    </customValue>
+    <customValue>
+        <fullName>Rescisão</fullName>
+        <default>false</default>
+        <label>Rescisão</label>
+    </customValue>
+    <customValue>
+        <fullName>Rescisão com Venda Nova</fullName>
+        <default>false</default>
+        <label>Rescisão com Venda Nova</label>
+    </customValue>
+    <customValue>
+        <fullName>Retomada</fullName>
+        <default>false</default>
+        <label>Retomada</label>
+    </customValue>
+    <customValue>
+        <fullName>Quitação de Saldo na Inadimplência</fullName>
+        <default>false</default>
+        <label>Quitação de Saldo na Inadimplência</label>
+    </customValue>
+    <customValue>
+        <fullName>Trocar Responsável</fullName>
+        <default>false</default>
+        <label>Trocar Responsável</label>
+    </customValue>
+    <customValue>
+        <fullName>Contatar Cliente Novamente</fullName>
+        <default>false</default>
+        <label>Contatar Cliente Novamente</label>
+    </customValue>
+    <customValue>
+        <fullName>Sinal em aberto</fullName>
+        <default>false</default>
+        <label>Sinal em aberto</label>
+    </customValue>
+    <customValue>
+        <fullName>Inclusão das parcelas em atraso ao financiamento</fullName>
+        <default>false</default>
+        <label>Inclusão das parcelas em atraso ao financiamento</label>
+    </customValue>
+    <customValue>
+        <fullName>Distrato da Unidade</fullName>
+        <default>false</default>
+        <label>Distrato da Unidade</label>
+    </customValue>
+    <masterLabel>Tratativa da Inadimplência</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Empresa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Empresas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bairro --></label>
+        <name>TW1_Bairro__c</name>
+    </fields>
+    <fields>
+        <label><!-- CEP --></label>
+        <name>TW1_CEP__c</name>
+    </fields>
+    <fields>
+        <label><!-- CNPJ --></label>
+        <name>TW1_CNPJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cidade --></label>
+        <name>TW1_Cidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complemento --></label>
+        <name>TW1_Complemento__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-mail --></label>
+        <name>TW1_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endereço --></label>
+        <name>TW1_Endereco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>TW1_Estado__c</name>
+    </fields>
+    <fields>
+        <label><!-- I.M. --></label>
+        <name>TW1_IM__c</name>
+    </fields>
+    <fields>
+        <label><!-- I.E. --></label>
+        <name>TW1_Inscricao_Estadual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telefone --></label>
+        <name>TW1_Telefone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Código da Empresa no UAU --></help>
+        <label><!-- Código Empresa ERP --></label>
+        <name>TW1_cod_empresa_UAU__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Layout de Empresa</layout>
+        <sections>
+            <label><!-- Endereço --></label>
+            <section>Endereço</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Favor digitar somente letras ou números. --></errorMessage>
+        <name>TW1_VR_Valida_IM</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CNPJ informado incorreto, favor verificar. --></errorMessage>
+        <name>ValidaCNPJ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- O Código da Empresa poderá conter somente números. --></errorMessage>
+        <name>ValidaCodigoEmpresaERP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inscrição Estadual só pode conter letras e números. --></errorMessage>
+        <name>Valida_IE</name>
+    </validationRules>
+</CustomObjectTranslation>

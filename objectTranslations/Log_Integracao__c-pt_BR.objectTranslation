@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Integração</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Logs de Integração</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data e hora de início --></label>
+        <name>Data_e_hora_de_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data e hora fim integração --></label>
+        <name>Data_e_hora_fim_integracao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descrição --></label>
+        <name>Descricao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nome integração --></label>
+        <name>Nome_integracao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status da integração --></label>
+        <name>Status_da_integracao__c</name>
+        <picklistValues>
+            <masterLabel>Abortada</masterLabel>
+            <translation><!-- Abortada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Callback Concluído</masterLabel>
+            <translation><!-- Callback Concluído --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Em processo</masterLabel>
+            <translation><!-- Em processo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processada com erro</masterLabel>
+            <translation><!-- Processada com erro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processada com sucesso</masterLabel>
+            <translation><!-- Processada com sucesso --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Layout de Log Integração</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Teste --></label>
+        <name>Teste</name>
+    </webLinks>
+</CustomObjectTranslation>

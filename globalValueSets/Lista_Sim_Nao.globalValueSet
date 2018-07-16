@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Sim</fullName>
+        <default>false</default>
+        <label>Sim</label>
+    </customValue>
+    <customValue>
+        <fullName>Não</fullName>
+        <default>false</default>
+        <label>Não</label>
+    </customValue>
+    <description>Lista de Sim e Não</description>
+    <masterLabel>Lista SimNão</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

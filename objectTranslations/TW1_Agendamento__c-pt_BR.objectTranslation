@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agendamento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agendamentos</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsClosed --></label>
+        <name>IsClosed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Caso --></label>
+        <name>TW1_Caso__c</name>
+        <relationshipLabel><!-- Agendamentos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comentários --></label>
+        <name>TW1_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conta --></label>
+        <name>TW1_Conta__c</name>
+        <relationshipLabel><!-- Agendamentos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contato --></label>
+        <name>TW1_Contato__c</name>
+        <relationshipLabel><!-- Agendamentos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Data/Hora Agendamento --></label>
+        <name>TW1_Data_Hora_Agendamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data do Agendamento --></label>
+        <name>TW1_Data_do_Agendamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data prevista para novo agendamento --></label>
+        <name>TW1_Data_prevista_para_novo_agendamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empreendimento --></label>
+        <name>TW1_Empreendimento__c</name>
+        <relationshipLabel><!-- Agendamentos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hora --></label>
+        <name>TW1_Hora__c</name>
+        <picklistValues>
+            <masterLabel>08:00</masterLabel>
+            <translation><!-- 08:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08:30</masterLabel>
+            <translation><!-- 08:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09:00</masterLabel>
+            <translation><!-- 09:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09:30</masterLabel>
+            <translation><!-- 09:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00</masterLabel>
+            <translation><!-- 10:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30</masterLabel>
+            <translation><!-- 10:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00</masterLabel>
+            <translation><!-- 11:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30</masterLabel>
+            <translation><!-- 11:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00</masterLabel>
+            <translation><!-- 12:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30</masterLabel>
+            <translation><!-- 12:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13:00</masterLabel>
+            <translation><!-- 13:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13:30</masterLabel>
+            <translation><!-- 13:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14:00</masterLabel>
+            <translation><!-- 14:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14:30</masterLabel>
+            <translation><!-- 14:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15:00</masterLabel>
+            <translation><!-- 15:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15:30</masterLabel>
+            <translation><!-- 15:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16:00</masterLabel>
+            <translation><!-- 16:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16:30</masterLabel>
+            <translation><!-- 16:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17:00</masterLabel>
+            <translation><!-- 17:00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17:30</masterLabel>
+            <translation><!-- 17:30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18:00</masterLabel>
+            <translation><!-- 18:00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responsável --></label>
+        <name>TW1_Responsavel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>TW1_Status__c</name>
+        <picklistValues>
+            <masterLabel>Agendado</masterLabel>
+            <translation><!-- Agendado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelado pela Engenharia/Manutenção</masterLabel>
+            <translation><!-- Cancelado pela Engenharia/Manutenção --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelado pelo Cliente</masterLabel>
+            <translation><!-- Cancelado pelo Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelado por antecipação</masterLabel>
+            <translation><!-- Cancelado por antecipação --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cliente não compareceu</masterLabel>
+            <translation><!-- Cliente não compareceu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concluído - Vistoria Reprovada</masterLabel>
+            <translation><!-- Concluído - Vistoria Reprovada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concluído com sucesso - Vistoria Aprovada</masterLabel>
+            <translation><!-- Concluído com sucesso - Vistoria Aprovada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>TW1_Tipo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidade --></label>
+        <name>TW1_Unidade__c</name>
+        <relationshipLabel><!-- Agendamentos --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Layout de Agenda</layout>
+        <sections>
+            <label><!-- Dados do Agendamento --></label>
+            <section>Dados do Agendamento</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Depois de encerrado/Cancelado o agendamento não pode ser alterado. --></errorMessage>
+        <name>ImpedirAlteracaoConcluido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Existe um agendamento em aberto neste Caso. Só pode haver um agendamento aberto por Caso. Favor tratar o agendamento aberto antes de abrir um novo. --></errorMessage>
+        <name>ImpedirMaisDeUmAgendamentoAberto</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Somente um usuário da engenharia pode atualizar o status para &quot;Cancelado pela Engenharia/Manutenção&quot; --></errorMessage>
+        <name>Impedir_cancelamento_engenharia_pelo_RC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A data do agendamento tem que ser a partir da data inicio para agendar a vistoria.
+Esta informação aparece na tela do caso --></errorMessage>
+        <name>Impedir_data_anterior_a_data_de_inicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Antes de cancelar, favor informar data prevista para novo agendamento. --></errorMessage>
+        <name>garantir_preenher_nova_data_agendamento</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- TW1_Novo_Agendamento --></label>
+        <name>TW1_Novo_Agendamento</name>
+    </webLinks>
+</CustomObjectTranslation>

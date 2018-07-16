@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case TimeLine Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case TimeLine Status</value>
+    </caseValues>
+    <fields>
+        <label><!-- Índice --></label>
+        <name>Indice__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of icons to choose: https://getbootstrap.com/docs/3.3/components/#glyphicons-glyphs --></help>
+        <label><!-- Status Icon --></label>
+        <name>Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Label --></label>
+        <name>Status_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Value --></label>
+        <name>Status_Value__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

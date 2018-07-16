@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Montagem de Pasta</fullName>
+        <default>false</default>
+        <label>Montagem de Pasta</label>
+    </customValue>
+    <customValue>
+        <fullName>Crédito Banco</fullName>
+        <default>false</default>
+        <label>Crédito Banco</label>
+    </customValue>
+    <customValue>
+        <fullName>Negociação com cliente</fullName>
+        <default>false</default>
+        <label>Negociação com cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrato Emitido</fullName>
+        <default>false</default>
+        <label>Contrato Emitido</label>
+    </customValue>
+    <customValue>
+        <fullName>Em Registro</fullName>
+        <default>false</default>
+        <label>Em Registro</label>
+    </customValue>
+    <customValue>
+        <fullName>Registrado</fullName>
+        <default>false</default>
+        <label>Registrado</label>
+    </customValue>
+    <masterLabel>Lista Status Case Repasse</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

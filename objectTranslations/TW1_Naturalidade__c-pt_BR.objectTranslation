@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Naturalidade</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Naturalidades</value>
+    </caseValues>
+    <fields>
+        <label><!-- Local --></label>
+        <name>TW1_Local__c</name>
+    </fields>
+    <fields>
+        <label><!-- UF --></label>
+        <name>TW1_UF__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

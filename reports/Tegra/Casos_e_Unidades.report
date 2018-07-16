@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Product2.Casos__r$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Product2.Casos__r$Subject</field>
+    </columns>
+    <columns>
+        <field>Product2.Casos__r$Contact</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Product2$TW1_Empreendimento__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Product2$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Casos e Unidades</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Casos_e_Unidades__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Product2.Casos__r$CreatedDate</dateColumn>
+        <endDate>2018-06-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-11-01</startDate>
+    </timeFrameFilter>
+</Report>

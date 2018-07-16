@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item Área Comum</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Itens de Áreas Comuns</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data da Vistoria --></label>
+        <name>TW1_Data_da_Vistoria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observações --></label>
+        <name>TW1_Observacoes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relacionado ao Caso --></label>
+        <name>TW1_Relacionado_ao_Caso__c</name>
+        <relationshipLabel><!-- Itens de Áreas Comuns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Área Vistoriada --></label>
+        <name>Tw1_Area_Vistoriada__c</name>
+        <picklistValues>
+            <masterLabel>Brinquedoteca</masterLabel>
+            <translation><!-- Brinquedoteca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elevador</masterLabel>
+            <translation><!-- Elevador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escadas</masterLabel>
+            <translation><!-- Escadas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hall Elevador</masterLabel>
+            <translation><!-- Hall Elevador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piscina</masterLabel>
+            <translation><!-- Piscina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portaria</masterLabel>
+            <translation><!-- Portaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sauna</masterLabel>
+            <translation><!-- Sauna --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status da Vistoria --></label>
+        <name>Tw1_Status_da_Vistoria__c</name>
+        <picklistValues>
+            <masterLabel>Aprovado</masterLabel>
+            <translation><!-- Aprovado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aprovado Parcial</masterLabel>
+            <translation><!-- Aprovado Parcial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Em aberto</masterLabel>
+            <translation><!-- Em aberto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprovado</masterLabel>
+            <translation><!-- Reprovado --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Layout de Item Área Comum</layout>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Você não pode criar um novo item com a Aprovação da Vistoria como Aprovada. Caso precise criar novo item alterar o campo: Aprovação da Vistoria da Área Comum na tela do Caso --></errorMessage>
+        <name>ImpedirCriarItemDepoisAprovado</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bloco</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Blocos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Código Obra ERP --></label>
+        <name>TW1_CodigoObra_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código do Bloco no ERP --></label>
+        <name>TW1_Codigo_Bloco_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo Obra ERP --></label>
+        <name>TW1_Codigo_Obra_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código do produto no ERP --></label>
+        <name>TW1_Codigo_Produto_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Fim da Obra --></label>
+        <name>TW1_Data_Fim_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Inicio da Obra --></label>
+        <name>TW1_Data_Inicio_Obra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descrição Bloco ERP --></label>
+        <name>TW1_Descricao_Bloco_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descrição --></label>
+        <name>TW1_Descricao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empreendimento --></label>
+        <name>TW1_Empreendimento__c</name>
+        <relationshipLabel><!-- Blocos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ID do Bloco no ERP --></label>
+        <name>TW1_ID_Bloco_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Liberado Repasse --></label>
+        <name>TW1_Liberado_Repasse__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repasse já liberado --></label>
+        <name>TW1_Repasse_ja_liberado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsável Manutenção/Vistoria --></label>
+        <name>TW1_Responsavel_Manutencao_Vistoria__c</name>
+        <picklistValues>
+            <masterLabel>Engenharia</masterLabel>
+            <translation><!-- Engenharia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manutenção</masterLabel>
+            <translation><!-- Manutenção --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Layout de Bloco</layout>
+        <sections>
+            <label><!-- Códigos UAU --></label>
+            <section>Códigos UAU</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Depois do Repasse Liberado não é possível alterar este campo. Qualquer problema favor informar ao Administrador do Sistema. --></errorMessage>
+        <name>LIberadoParaRepasse</name>
+    </validationRules>
+</CustomObjectTranslation>

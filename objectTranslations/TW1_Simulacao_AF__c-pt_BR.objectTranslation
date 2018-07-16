@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Simulação de Alienação Fiduciária</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Simulações de Alienação Fiduciária</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Atualização --></label>
+        <name>Data_Atualizacao_Saldo_Devedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- SERASA --></label>
+        <name>SERASA__c</name>
+        <picklistValues>
+            <masterLabel>Com Restrições</masterLabel>
+            <translation><!-- Com Restrições --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sem Restrições</masterLabel>
+            <translation><!-- Sem Restrições --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Análise Comprometimento de Renda --></label>
+        <name>TW1_Analise_Comprometimento_Renda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Análise de Crédito --></label>
+        <name>TW1_Anelise_Credito__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ato --></label>
+        <name>TW1_Ato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloco --></label>
+        <name>TW1_Bloco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boleto (-) --></label>
+        <name>TW1_Boleto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capitalização Anual --></label>
+        <name>TW1_Capitalizacao_Anual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capitalização Semestral --></label>
+        <name>TW1_Capitalizacao_Semestral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Caso --></label>
+        <name>TW1_Caso__c</name>
+        <relationshipLabel><!-- Simulações de Alienação Fiduciária --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Certidões / Custas Compradores --></label>
+        <name>TW1_Certidoes_Custas_Compradores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certidões / Custas Imóvel --></label>
+        <name>TW1_Certidoes_Custas_Imovel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentário para Aprovação --></label>
+        <name>TW1_Comentario_para_Aprovacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comprometimento Anual --></label>
+        <name>TW1_Comprometimento_Anual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comprometimento Mensal Total --></label>
+        <name>TW1_Comprometimento_Mensal_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comprometimento Mensal --></label>
+        <name>TW1_Comprometimento_Mensal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comprometimento Semestral --></label>
+        <name>TW1_Comprometimento_Semestral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comprometimento de Renda --></label>
+        <name>TW1_Comprometimento_de_Renda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conferência de Valores --></label>
+        <name>TW1_Conferencia_Valores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critério para Limite de Idade --></label>
+        <name>TW1_Criterio_Limite_Idade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critério para Prazo de Financiamento --></label>
+        <name>TW1_Criterio_Prazo_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critério para Saldo Devedor --></label>
+        <name>TW1_Criterio_Saldo_Devedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custas (-) --></label>
+        <name>TW1_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data do Ato --></label>
+        <name>TW1_Data_Ato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Base Inicio --></label>
+        <name>TW1_Data_Base_Inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Base Assinatura --></label>
+        <name>TW1_Data_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Fiduciária --></label>
+        <name>TW1_Data_Fiduciaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data do Habite-se --></label>
+        <name>TW1_Data_Habite_se__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Parcela Mensal Inicio --></label>
+        <name>TW1_Data_Parcela_Mensal_Inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data da Venda --></label>
+        <name>TW1_Data_da_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desconto/Acréscimo --></label>
+        <name>TW1_Desconto_Acrescimo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descrição SERASA --></label>
+        <name>TW1_Descricao_Serasa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Despachante --></label>
+        <name>TW1_Despachante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empreendimento --></label>
+        <name>TW1_Empreendimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encargos (-) --></label>
+        <name>TW1_Encargos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enviar para Aprovação --></label>
+        <name>TW1_Enviar_para_Aprovacao__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fator de Juros --></label>
+        <name>TW1_Fator_de_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- IGPM Atual Não Encontrado --></label>
+        <name>TW1_IGPM_Atual_Nao_Encontrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- IGPM Base não encontrado --></label>
+        <name>TW1_IGPM_Base_nao_encontrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- IGP-M Atual --></label>
+        <name>TW1_IGP_M_Atual__c</name>
+        <relationshipLabel><!-- Simulações de Alienação Fiduciária (IGP-M Atual) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IGP-M Base --></label>
+        <name>TW1_IGP_M_Base__c</name>
+        <relationshipLabel><!-- Simulações de Alienação Fiduciária --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- INCC Base Não Encontrado --></label>
+        <name>TW1_INCC_Base_Nao_Encontrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- INCC Base --></label>
+        <name>TW1_INCC_Base__c</name>
+        <relationshipLabel><!-- Simulações de Alienação Fiduciária --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- INCC Habite-se --></label>
+        <name>TW1_INCC_Habite_se__c</name>
+        <relationshipLabel><!-- Simulações de Alienação Fiduciária (INCC Habite-se) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- INCC Habite-se Não Encontrado --></label>
+        <name>TW1_INCC_Habitese_Nao_Encontrado__c</name>
+    </fields>
+    <fields>
+        <label><!-- ITBI --></label>
+        <name>TW1_ITBI_Simulacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- ITBI (-) --></label>
+        <name>TW1_ITBI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Unidade --></label>
+        <name>TW1_Id_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idade Máxima --></label>
+        <name>TW1_Idade_Maxima__c</name>
+    </fields>
+    <fields>
+        <label><!-- Juros Anuais Efetivo --></label>
+        <name>TW1_Juros_Anuais_Efetivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Juros Semestrais Efetivo --></label>
+        <name>TW1_Juros_Semestrais_Efetivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- LTV Atualizado --></label>
+        <name>TW1_LTV_Atualizado__c</name>
+    </fields>
+    <fields>
+        <label><!-- LTV --></label>
+        <name>TW1_LTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limite Saldo Devedor --></label>
+        <name>TW1_Limite_Saldo_Devedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mês Habite-se --></label>
+        <name>TW1_Mes_Habite_se__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mês Início Correção Monetária --></label>
+        <name>TW1_Mes_Inicio_Correcao_Monetaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mês Início Juros --></label>
+        <name>TW1_Mes_Inicio_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meses de Capitalização --></label>
+        <name>TW1_Meses_Capitalizacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observação Desc/Acres --></label>
+        <name>TW1_Observacao_Desc_Acres__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observação das Parcelas --></label>
+        <name>TW1_Observacao_das_Parcelas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opção/Modificação (-) --></label>
+        <name>TW1_Opcao_Modif__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outras Parcelas - Correspondente Mensal --></label>
+        <name>TW1_Outras_Parcelas_Correspondente_Men__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outras Parcelas --></label>
+        <name>TW1_Outras_Parcelas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcelas --></label>
+        <name>TW1_Parcela_Unica_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela Única B com Juros --></label>
+        <name>TW1_Parcela_Unica_B_capitalizada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcela Única com Juros --></label>
+        <name>TW1_Parcela_Unica_Capitalizada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcelas --></label>
+        <name>TW1_Parcela_Unica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcelas Anuais Capitalizadas --></label>
+        <name>TW1_Parcelas_Anuais_Capitalizadas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcelas --></label>
+        <name>TW1_Parcelas_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcelas Mensais Capitalizadas --></label>
+        <name>TW1_Parcelas_Mensais_Capitalizadas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcelas --></label>
+        <name>TW1_Parcelas_Mensais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcelas Semestrais Capitalizadas --></label>
+        <name>TW1_Parcelas_Semestrais_Capitalizadas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcelas --></label>
+        <name>TW1_Parcelas_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patrimônio --></label>
+        <name>TW1_Patrimonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prazo Financiamento --></label>
+        <name>TW1_Prazo_Financiamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proprietário --></label>
+        <name>TW1_Proprietario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qtd Outras Parcelas --></label>
+        <name>TW1_Qtd_Outras_Parcelas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qtd Parcelas Anuais --></label>
+        <name>TW1_Qtd_Parcelas_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qtd Parcelas Mensais --></label>
+        <name>TW1_Qtd_Parcelas_Mensais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qtd Parcelas Semestrais --></label>
+        <name>TW1_Qtd_Parcelas_Semestrais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rateio (-) --></label>
+        <name>TW1_Rateio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registro --></label>
+        <name>TW1_Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renda Média Mensal --></label>
+        <name>TW1_Renda_Media_Mensal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Devedor UAU --></label>
+        <name>TW1_Saldo_Devedor_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Devedor Base --></label>
+        <name>TW1_Saldo_Devedor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saldo Fiduciária --></label>
+        <name>TW1_Saldo_Fiduciaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seguro Prestamista (-) --></label>
+        <name>TW1_Seguro_Prestamista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seguro (-) --></label>
+        <name>TW1_Seguro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selecionada --></label>
+        <name>TW1_Selecionada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serviço Complementar (-) --></label>
+        <name>TW1_Servico_Complementar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situação da Simulação da AF --></label>
+        <name>TW1_Situacao_Simulacao_AF__c</name>
+        <picklistValues>
+            <masterLabel>Aprovada pela Diretoria</masterLabel>
+            <translation><!-- Aprovada pela Diretoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aprovada pela Gerência</masterLabel>
+            <translation><!-- Aprovada pela Gerência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Em Aprovação da Diretoria</masterLabel>
+            <translation><!-- Em Aprovação da Diretoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Em elaboração</masterLabel>
+            <translation><!-- Em elaboração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprovada pela Diretoria</masterLabel>
+            <translation><!-- Reprovada pela Diretoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprovada pela Gerência</masterLabel>
+            <translation><!-- Reprovada pela Gerência --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status da Conferência --></label>
+        <name>TW1_Status_da_Conferencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Efetiva ao mês --></label>
+        <name>TW1_Taxa_Juros_Efetiva_Unica_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Anual 1/2 --></label>
+        <name>TW1_Taxa_de_Juros_Anual_1_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Efetiva Anuais --></label>
+        <name>TW1_Taxa_de_Juros_Efetiva_Anuais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Efetiva Semestral --></label>
+        <name>TW1_Taxa_de_Juros_Efetiva_Semestral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Efetiva ao mês --></label>
+        <name>TW1_Taxa_de_Juros_Efetiva__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Efetiva ao mês --></label>
+        <name>TW1_Taxa_de_Juros_Parcela_Unica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxa de Juros Semestrais 1/2 --></label>
+        <name>TW1_Taxa_de_Juros_Semestrais_1_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Renda Mensal --></label>
+        <name>TW1_Tipo_Renda_Mensal__c</name>
+        <picklistValues>
+            <masterLabel>Bruta</masterLabel>
+            <translation><!-- Bruta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Líquida</masterLabel>
+            <translation><!-- Líquida --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total a Pagar (Custas) --></label>
+        <name>TW1_Total_Pagar_Custas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unidade --></label>
+        <name>TW1_Unidade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Fiduciária --></label>
+        <name>TW1_Valor_Fiduciaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Pago Preço --></label>
+        <name>TW1_Valor_Pago_Preco__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Parcela Anual com Juros --></label>
+        <name>TW1_Valor_Parcela_Anual_com_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Parcela Mensal com Juros --></label>
+        <name>TW1_Valor_Parcela_Mensal_com_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Parcela Semestral com Juros --></label>
+        <name>TW1_Valor_Parcela_Semestral_com_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Total Pago --></label>
+        <name>TW1_Valor_Total_Pago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor da Venda UAU --></label>
+        <name>TW1_Valor_da_Venda_UAU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor de Venda Atualizado --></label>
+        <name>TW1_Valor_de_Venda_Atualizado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento 1ª Parcela Anual --></label>
+        <name>TW1_Vencimento_1_Parcela_Anual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento 1ª Parcela Semestral --></label>
+        <name>TW1_Vencimento_1_Parcela_Semestral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento 1ª Parcela Mensal --></label>
+        <name>TW1_Vencimento_Parcela_Mensal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento Parcela Única B --></label>
+        <name>TW1_Vencimento_Parcela_Unica_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento Parcela Única --></label>
+        <name>TW1_Vencimento_Parcela_Unica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venda Atualizada Até Habite-se --></label>
+        <name>TW1_Venda_Atualizada_Ate_Habite_se__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venda Atualizada Com Juros --></label>
+        <name>TW1_Venda_Atualizada_Com_Juros__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Layout de Simulação de Alienação Fiduciária - Gestor</layout>
+        <sections>
+            <label><!-- Análise Cliente --></label>
+            <section>Análise Cliente</section>
+        </sections>
+        <sections>
+            <label><!-- Análise Parcelas --></label>
+            <section>Análise Parcelas</section>
+        </sections>
+        <sections>
+            <label><!-- Análise de Renda - Comprometimento --></label>
+            <section>Análise de Renda - Comprometimento</section>
+        </sections>
+        <sections>
+            <label><!-- Análise de Renda - Renda Mensal --></label>
+            <section>Análise de Renda - Renda Mensal</section>
+        </sections>
+        <sections>
+            <label><!-- Dados Alienação Fiduciária -  Valores UAU --></label>
+            <section>Dados Alienação Fiduciária -  Valores UAU</section>
+        </sections>
+        <sections>
+            <label><!-- Dados da Alienação Fiduciária --></label>
+            <section>Dados da Alienação Fiduciária</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor --></label>
+            <section>Saldo Devedor</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Ato --></label>
+            <section>Saldo Devedor - Ato</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcela Única A --></label>
+            <section>Saldo Devedor - Parcela Única A</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcela Única B --></label>
+            <section>Saldo Devedor - Parcela Única B</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Anuais --></label>
+            <section>Saldo Devedor - Parcelas Anuais</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Mensais --></label>
+            <section>Saldo Devedor - Parcelas Mensais</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Semestrais --></label>
+            <section>Saldo Devedor - Parcelas Semestrais</section>
+        </sections>
+        <sections>
+            <label><!-- Simulação de Custos --></label>
+            <section>Simulação de Custos</section>
+        </sections>
+        <sections>
+            <label><!-- Simulação de Custos - Total --></label>
+            <section>Simulação de Custos - Total</section>
+        </sections>
+        <sections>
+            <label><!-- Teste --></label>
+            <section>Teste</section>
+        </sections>
+        <sections>
+            <label><!-- Valores Pagos --></label>
+            <section>Valores Pagos</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Layout de Simulação de Alienação Fiduciária - Usuarios</layout>
+        <sections>
+            <label><!-- Análise Cliente --></label>
+            <section>Análise Cliente</section>
+        </sections>
+        <sections>
+            <label><!-- Análise Parcelas --></label>
+            <section>Análise Parcelas</section>
+        </sections>
+        <sections>
+            <label><!-- Análise de Renda - Comprometimento --></label>
+            <section>Análise de Renda - Comprometimento</section>
+        </sections>
+        <sections>
+            <label><!-- Análise de Renda - Renda Mensal --></label>
+            <section>Análise de Renda - Renda Mensal</section>
+        </sections>
+        <sections>
+            <label><!-- Dados Alienação Fiduciária -  Valores UAU --></label>
+            <section>Dados Alienação Fiduciária -  Valores UAU</section>
+        </sections>
+        <sections>
+            <label><!-- Dados da Alienação Fiduciária --></label>
+            <section>Dados da Alienação Fiduciária</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor --></label>
+            <section>Saldo Devedor</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Ato --></label>
+            <section>Saldo Devedor - Ato</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcela Única A --></label>
+            <section>Saldo Devedor - Parcela Única A</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcela Única B --></label>
+            <section>Saldo Devedor - Parcela Única B</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Anuais --></label>
+            <section>Saldo Devedor - Parcelas Anuais</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Mensais --></label>
+            <section>Saldo Devedor - Parcelas Mensais</section>
+        </sections>
+        <sections>
+            <label><!-- Saldo Devedor - Parcelas Semestrais --></label>
+            <section>Saldo Devedor - Parcelas Semestrais</section>
+        </sections>
+        <sections>
+            <label><!-- Simulação de Custos --></label>
+            <section>Simulação de Custos</section>
+        </sections>
+        <sections>
+            <label><!-- Simulação de Custos - Total --></label>
+            <section>Simulação de Custos - Total</section>
+        </sections>
+        <sections>
+            <label><!-- Valores Pagos --></label>
+            <section>Valores Pagos</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Padrão --></label>
+        <name>TW1_Padrao</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Somente a Diretoria poderá alterar a situação para Aprovada pela Diretoria ou Reprovada pela Diretoria. --></errorMessage>
+        <name>AprovacaoDiretoria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Não é possível salvar a simulação de AF se houver divergências entre o Saldo da Fiduciária e o somatório das parcelas. Favor verificar a diferença no campo Conferência de Valores. --></errorMessage>
+        <name>ConferenciaValores</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Não é possível editar Simulação aprovada/Selecionada. --></errorMessage>
+        <name>Editar_AF_Selecionada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Não é possível alterar  uma simulação selecionada. Entre em contato com o Gestor Financeiro. --></errorMessage>
+        <name>Nao_editar_AF_selecionada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- TW1_Atualiza_Saldo_Devedor --></label>
+        <name>TW1_Atualiza_Saldo_Devedor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TW1_Selecionar_AF --></label>
+        <name>TW1_Selecionar_AF</name>
+    </webLinks>
+</CustomObjectTranslation>

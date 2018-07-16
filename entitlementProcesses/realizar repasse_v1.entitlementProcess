@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>Default</businessHours>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>true</isVersionDefault>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND( 
+RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+NOT(ISPICKVAL(Status,&quot;Fechado&quot;)), 
+NOT(ISPICKVAL(Status,&quot;Cancelado&quot;)) 
+
+)</milestoneCriteriaFormula>
+        <milestoneName>SLA Total</milestoneName>
+        <minutesToComplete>204480</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Contato com Cliente&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Contato com Cliente</milestoneName>
+        <minutesToComplete>17280</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Análise de Crédito Banco&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Análise de Crédito Banco</milestoneName>
+        <minutesToComplete>17280</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Em negociação com o cliente&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Análise Contratação Banco</milestoneName>
+        <minutesToComplete>28800</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Formalização Repasse&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Em Tratativa Financeira</milestoneName>
+        <minutesToComplete>5760</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Contrato Emitido&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Aguardando assinatura do cliente</milestoneName>
+        <minutesToComplete>14400</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Default</businessHours>
+        <milestoneCriteriaFormula>AND(
+    RecordType.DeveloperName = &quot;TW1_Repasse&quot;,
+    ISPICKVAL(Status,&quot;Em registro&quot;) 
+
+    )</milestoneCriteriaFormula>
+        <milestoneName>Em registro</milestoneName>
+        <minutesToComplete>64800</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>Realizar Repasse</name>
+    <versionMaster>552f4000000MGjf</versionMaster>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>

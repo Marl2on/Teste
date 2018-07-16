@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#121212</headerColor>
+        <logo>dados</logo>
+        <logoVersion>1</logoVersion>
+    </brand>
+    <description>Adicionar dados de bancos, agências bancárias, índices financeiros, unidades e etc.</description>
+    <formFactors>Large</formFactors>
+    <label>Gerenciamento de Dados</label>
+    <navType>Console</navType>
+    <tab>standard-home</tab>
+    <tab>TW1_Banco__c</tab>
+    <tab>TW1_Agencia__c</tab>
+    <tab>TW1_IGP_M__c</tab>
+    <tab>TW1_INCC__c</tab>
+    <tab>Log_Integracao__c</tab>
+    <tab>TW1_Naturalidade__c</tab>
+    <tab>standard-Entitlement</tab>
+    <tab>standard-Product2</tab>
+    <uiType>Lightning</uiType>
+    <utilityBar>Gerenciamento_de_Dados_UtilityBar</utilityBar>
+    <workspaceMappings>
+        <mapping>
+            <tab>Log_Integracao__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TW1_Agencia__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TW1_Banco__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TW1_IGP_M__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TW1_INCC__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TW1_Naturalidade__c</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Entitlement</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Product2</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-home</tab>
+        </mapping>
+    </workspaceMappings>
+</CustomApplication>

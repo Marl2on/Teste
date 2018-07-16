@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>INCC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>INCC</value>
+    </caseValues>
+    <fields>
+        <label><!-- Caso --></label>
+        <name>TW1_Caso__c</name>
+        <relationshipLabel><!-- INCC --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Indice Anual --></label>
+        <name>TW1_Indice_Anual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indice Base --></label>
+        <name>TW1_Indice_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indice Mensal --></label>
+        <name>TW1_Indice_Mensal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mês Ano --></label>
+        <name>TW1_Mes_Ano__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <validationRules>
+        <errorMessage><!-- Campo deve ser no formato: ex: 01/MES/ANO.
+Mês - 01 a 12
+Ano - 1900 - atual --></errorMessage>
+        <name>Validar_campo_Mes_Ano</name>
+    </validationRules>
+</CustomObjectTranslation>

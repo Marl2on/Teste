@@ -1,0 +1,95 @@
+<apex:page controller="Cal_Servico_Ctr_AgendVistoria" doctype="html-5.0">
+    <script>
+    function colorPageBlock(pageblock) {
+        if (pageblock != null) pageblock.firstChild.style.cssText = 'background-color: #494949; color: #FFF;';
+    }
+    </script>
+    <apex:sectionHeader title="   Agendamento de vistoria"  />
+    <apex:form id="editAgendamento">
+        <apex:pageBlock title="Agendamento">
+            <apex:pageMessages id="myMessages" />
+            <apex:pageBlockSection id="pnDadosCaso" title="Dados do caso" collapsible="false" >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel style="font-weight: bold;" value="Número do caso:"/>
+                    <apex:outputText value="{!Caso.CaseNumber}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Conta:</apex:outputLabel>
+                    <apex:outputLabel value="{!Caso.Account.Name}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Empreendimento:</apex:outputLabel>
+                    <apex:outputLabel value="{!Caso.TW1_Empreendimento__c}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Contato:</apex:outputLabel>
+                    <apex:outputLabel value="{!Caso.Contact.Name}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Unidade:</apex:outputLabel>
+                    <apex:outputLabel value="{!Caso.TW1_Numero_Unidade__c}" />
+                </apex:pageBlockSectionItem>
+                <script>
+                    colorPageBlock(document.getElementById("{!$Component.pnDadosCaso}"));
+                </script>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection id="pnDadosAgendamento" title="Dados para agendamento" collapsible="false" columns="2">
+                <apex:pageBlockSectionItem >
+                    <apex:pageBlockSection columns="1">
+                        <apex:actionRegion >
+                            <apex:pageBlockSection columns="1">
+                                <apex:outputLabel value="Data para agendamento" for="date" />
+                                <apex:input id="dtAgendamento"  type="date" value="{!DataAgendamento}" disabled="{!IF(Agendamento.Id != NULL, true,false)}">
+                                    <apex:actionSupport event="onchange"
+                                                        action="{!CarregarAgendamentosDoDia}"
+                                                        rerender="editAgendamento" status="lstAgendamentosStatus"/>
+                                </apex:input>
+                            </apex:pageBlockSection>
+                        </apex:actionRegion>
+                        <apex:pageBlockSection columns="1">
+                            <apex:outputLabel value="Horário do agendamento"/>
+                            <apex:selectList value="{!Horarios}" multiselect="false" size="1" disabled="{!IF(Agendamento.Id != NULL, true,false)}" rendered="{!IF(OptHorarios != NULL,true,false)}">
+                                <apex:selectOptions value="{!OptHorarios}" />
+                            </apex:selectList>
+                            <apex:outputLabel style="color:red !important" value="Selecione uma data/hora maior que a atual ou uma data/hora maior do que a data de ínicio de vistoria.." rendered="{!IF(OptHorarios == NULL,true,false)}"/>
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection columns="1">
+                        
+                        <apex:pageBlockSection columns="1">
+                            <apex:outputLabel value="Comentários" />
+                            <apex:inputTextArea id="txtComentario" value="{!Comentario}" style="margin: 0px; width: 297px; height: 122px;" />
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:pageBlockSection columns="1" id="lstAgendamentos">
+                        <apex:actionStatus id="lstAgendamentosStatus"
+                                           startText=" Carregando agendamentos do dia"
+                                           stopText="Agendamentos do dia {!DataAgendamento}" style="font-size: 52px !important;"
+                                           stopStyle="font-size: 15.196px !important;font-weight: bold !important;padding-bottom:10px !important"
+                                           startStyle="font-size: 15.196px !important;font-weight: bold !important;"/>
+                        <apex:pageBlockTable value="{!AgendamentosDiaCorrente}" var="item" title="Agendamendo existêntes" >
+                            <apex:column headerValue="Horários" value="{!item.Horario}"/>
+                            <apex:column headerValue="Quantidade" value="{!item.Quantidade}"/>
+                        </apex:pageBlockTable>
+                    </apex:pageBlockSection>
+                </apex:pageBlockSectionItem>
+                <script>
+                    colorPageBlock(document.getElementById("{!$Component.pnDadosAgendamento}"));
+                </script>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:actionStatus id="mySaveStatus">
+                    <apex:facet name="stop">
+                        <apex:commandButton value="Agendar" action="{!SalvarAgendamento}" status="mySaveStatus" rendered="{!IF(OptHorarios != NULL,true,false)}" ></apex:commandButton>
+                    </apex:facet>
+                    <apex:facet name="start">
+                        <apex:commandButton value="Agendando..." disabled="true" action="{!SalvarAgendamento}" status="mySaveStatus" rendered="{!IF(OptHorarios != NULL,true,false)}" ></apex:commandButton>
+                    </apex:facet>
+                </apex:actionStatus>
+                <apex:commandButton value="Cancelar" action="{!RedirectCancel}" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

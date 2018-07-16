@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TimeLine Fase Inadimplência</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TimeLine Fase Inadimplência</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Fim --></label>
+        <name>Data_Fim__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Início --></label>
+        <name>Data_Inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fase --></label>
+        <name>Fase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inadimplência --></label>
+        <name>Inadimplencia__c</name>
+        <relationshipLabel><!-- TimeLine Fase Inadimplência --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

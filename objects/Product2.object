@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Unidade_P_gina_de_registro1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TW1_Area__c</fullName>
+        <description>Área da Unidade</description>
+        <externalId>false</externalId>
+        <label>Área</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Bancada_Gourmet__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Bancada Gourmet</description>
+        <externalId>false</externalId>
+        <label>Bancada Gourmet</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Bloco__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Bloco vinculado a Unidade</description>
+        <externalId>false</externalId>
+        <label>Bloco</label>
+        <referenceTo>TW1_Bloco__c</referenceTo>
+        <relationshipLabel>Unidades</relationshipLabel>
+        <relationshipName>Unidades</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Brinde_de_Campanha__c</fullName>
+        <description>Lista de brindes de campanha</description>
+        <externalId>false</externalId>
+        <label>Brinde de Campanha</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Armário</fullName>
+                    <default>false</default>
+                    <label>Armário</label>
+                </value>
+                <value>
+                    <fullName>Carro 0Km</fullName>
+                    <default>false</default>
+                    <label>Carro 0Km</label>
+                </value>
+                <value>
+                    <fullName>Documentação</fullName>
+                    <default>false</default>
+                    <label>Documentação</label>
+                </value>
+                <value>
+                    <fullName>Linha branca</fullName>
+                    <default>false</default>
+                    <label>Linha branca</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Chaves_Entregue__c</fullName>
+        <description>Informar se as chaves foram entregues</description>
+        <externalId>false</externalId>
+        <label>Chaves Entregue</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Lista_Sim_Nao</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Churrasqueira__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Churrasqueira</description>
+        <externalId>false</externalId>
+        <label>Churrasqueira</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cobertura_Duplex__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Cobertura Duplex</description>
+        <externalId>false</externalId>
+        <label>Cobertura Duplex</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cobertura_Linear__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Cobertura Linear</description>
+        <externalId>false</externalId>
+        <label>Cobertura Linear</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Bloco_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Codigo_Bloco_UAU__c</formula>
+        <label>Código Bloco ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Conta_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Conta__r.Tw1_Codigo_Cliente_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Codigo Conta ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Empreendimento_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Empreendimento__r.TW1_Codigo_Obra_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código Empreendimento ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Empresa_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Empreendimento__r.TW1_Empresa__r.TW1_cod_empresa_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código Empresa ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Obra_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Codigo_Obra_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código Obra ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Personalizacao_UAU__c</fullName>
+        <description>Código de Personalização do UAU</description>
+        <externalId>true</externalId>
+        <label>Código Personalização ERP</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Produto_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Codigo_Produto_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Codigo Produto ERP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Conta__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Conta</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Unidades</relationshipLabel>
+        <relationshipName>Produtos</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cozinha_Americana__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Cozinha Americana</description>
+        <externalId>false</externalId>
+        <label>Cozinha Americana</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cozinha__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Cozinha</description>
+        <externalId>false</externalId>
+        <label>Cozinha</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Averbacao_Habite_se__c</fullName>
+        <description>Data que o Habite-se foi averbado.</description>
+        <externalId>false</externalId>
+        <label>Data Averbação do Habite-se</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Habite_se__c</fullName>
+        <description>Informar a data do Habite-se</description>
+        <externalId>false</externalId>
+        <label>Data do Habite-se</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Liberacao_Vistoria__c</fullName>
+        <description>Data que a unidade foi liberada para Vistoria</description>
+        <externalId>false</externalId>
+        <label>Data da Liberação da Vistoria</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Previsao_Habite_se__c</fullName>
+        <description>Data prevista para liberação do Habite-se</description>
+        <externalId>false</externalId>
+        <label>Data de Previsão do Habite-se</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Vistoria__c</fullName>
+        <description>Data do término do processo de vistoria.</description>
+        <externalId>false</externalId>
+        <label>Data da Vistoria</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_da_Venda__c</fullName>
+        <externalId>false</externalId>
+        <label>Data da Venda</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_inicio_agend_vistoria_prenchida__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK( TW1_Data_inicio_para_agendar_vistoria__c ),FALSE,TRUE )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data inicio agend vistoria prenchida</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_inicio_para_agendar_vistoria__c</fullName>
+        <externalId>false</externalId>
+        <label>Data inicio para agendar vistoria</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Dependencia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Dependência</description>
+        <externalId>false</externalId>
+        <label>Dependência</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Disponibilidade__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISBLANK(TW1_Conta__c), ISBLANK(TW1_Numero_Venda__c)), &quot;DISPONÍVEL&quot;, &quot;VENDIDA&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Disponibilidade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Documento_Definitivo_Assinado__c</fullName>
+        <externalId>false</externalId>
+        <label>Documento Definitivo Assinado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Empreendimento__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Empreendimento__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Empreendimento</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Empresa__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.TW1_Empreendimento__r.TW1_Empresa__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Empresa</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Entrega_Chaves_Escritura_Definitiva__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Entrega de Chaves - Escritura Definitiva</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Entrega_Chaves_Financiamento__c</fullName>
+        <externalId>false</externalId>
+        <label>Entrega Chaves - Financiamento</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Entrega_Chaves_Iniciado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Entrega de Chaves Iniciado</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Fase_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>Fase Inadimplência</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adimplente</fullName>
+                    <default>true</default>
+                    <label>Adimplente</label>
+                </value>
+                <value>
+                    <fullName>Inadimplência Amigável</fullName>
+                    <default>false</default>
+                    <label>Inadimplência Amigável</label>
+                </value>
+                <value>
+                    <fullName>Inadimplência Extrajudicial</fullName>
+                    <default>false</default>
+                    <label>Inadimplência Extrajudicial</label>
+                </value>
+                <value>
+                    <fullName>Inadimplência Judicial</fullName>
+                    <default>false</default>
+                    <label>Inadimplência Judicial</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Fracao_Ideal__c</fullName>
+        <description>Fração ideal referente a unidade</description>
+        <externalId>false</externalId>
+        <label>Fração ideal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>17</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Home_Office__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Home Office</description>
+        <externalId>false</externalId>
+        <label>Home Office</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_ID_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Inadimplencia</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_ID_Repasse__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Repasse</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Identificador_UAU__c</fullName>
+        <externalId>false</externalId>
+        <label>Identificador ERP</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Lavabo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Lavabo</description>
+        <externalId>false</externalId>
+        <label>Lavabo</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Liberada_para_Vistoria__c</fullName>
+        <description>Libera a unidade para vistoria, com isso criando o Caso de Vistoria de Unidade.</description>
+        <externalId>false</externalId>
+        <label>Liberada para Vistoria</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Lista_Sim_Nao</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Liberado_Repasse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Liberado Repasse</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Liberar_Chaves__c</fullName>
+        <externalId>false</externalId>
+        <label>Liberar Chaves</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Sim - Com Pendências</fullName>
+                    <default>false</default>
+                    <label>Sim - Com Pendências</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Mes_da_Venda__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(MONTH(TW1_Data_da_Venda__c),1,&quot;Janeiro&quot;,2,&quot;Fevereiro&quot;,3,&quot;Março&quot;,4,&quot;Abril&quot;,5,&quot;Maio&quot;,6,&quot;Junho&quot;,7,&quot;Julho&quot;,8,&quot;Agosto&quot;,9,&quot;Setembro&quot;,10,&quot;Outubro&quot;,11,&quot;Novembro&quot;,&quot;Dezembro&quot;) &amp; &quot;/&quot; &amp;  TEXT(YEAR(TW1_Data_da_Venda__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mês da Venda</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Motivo_Pausa_Repasse__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo da Pausa do Repasse</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Nome_Bloco__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Bloco__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TW1_Nome_Bloco</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Numero_Venda__c</fullName>
+        <externalId>true</externalId>
+        <label>Número da Venda</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Pavimento__c</fullName>
+        <description>Pavimento que está localizada a unidade.</description>
+        <externalId>false</externalId>
+        <label>Pavimento</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Pendencia_Condominial_Entrega_Chaves__c</fullName>
+        <externalId>false</externalId>
+        <label>Pendência Condominial - Entrega Chaves</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Piscina__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Piscina</description>
+        <externalId>false</externalId>
+        <label>Piscina</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Posicao_Sol__c</fullName>
+        <description>Posição de incidência do Sol na Unidade</description>
+        <externalId>false</externalId>
+        <label>Posição Sol</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manhã</fullName>
+                    <default>false</default>
+                    <label>Manhã</label>
+                </value>
+                <value>
+                    <fullName>Tarde</fullName>
+                    <default>false</default>
+                    <label>Tarde</label>
+                </value>
+                <value>
+                    <fullName>Manhã/Tarde</fullName>
+                    <default>false</default>
+                    <label>Manhã/Tarde</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Preco__c</fullName>
+        <externalId>false</externalId>
+        <label>Preço</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Primeira_Entrega_Chaves__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Primeira Entrega Chaves</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Vagas__c</fullName>
+        <description>Quantidade de vagas da unidade</description>
+        <externalId>false</externalId>
+        <label>Qtd Vagas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Quarto__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarto</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Responsavel_Vistoria_Manutencao__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(TW1_Bloco__r.TW1_Responsavel_Manutencao_Vistoria__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Responsavel Vistoria/Manutenção</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_Devedor_UAU__c</fullName>
+        <externalId>false</externalId>
+        <label>Saldo Devedor ERP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_em_atraso__c</fullName>
+        <externalId>false</externalId>
+        <label>Saldo em atraso</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Salete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Salete</description>
+        <externalId>false</externalId>
+        <label>Salete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Sauna__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Sauna</description>
+        <externalId>false</externalId>
+        <label>Sauna</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Status_Financeiro__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TW1_Unidade_Adimplente__c = True, IMAGE(&quot;https://c.na59.content.force.com/servlet/servlet.ImageServer?id=015f4000000jbxH&amp;oid=00Df40000037JhH&amp;lastMod=1525882823000&quot;, &quot;Adimplente&quot;), IMAGE(&quot;https://c.na59.content.force.com/servlet/servlet.ImageServer?id=015f4000000jbxG&amp;oid=00Df40000037JhH&amp;lastMod=1525882823000&quot;, &quot;Inadimplente&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Financeiro</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Status_Venda__c</fullName>
+        <externalId>false</externalId>
+        <label>Status da Venda</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Cancelada</fullName>
+                    <default>false</default>
+                    <label>Cancelada</label>
+                </value>
+                <value>
+                    <fullName>Alterada</fullName>
+                    <default>false</default>
+                    <label>Alterada</label>
+                </value>
+                <value>
+                    <fullName>Quitada</fullName>
+                    <default>false</default>
+                    <label>Quitada</label>
+                </value>
+                <value>
+                    <fullName>Em Acerto</fullName>
+                    <default>false</default>
+                    <label>Em Acerto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status da Unidade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Disponível</fullName>
+                    <default>false</default>
+                    <label>Disponível</label>
+                </value>
+                <value>
+                    <fullName>Vendido</fullName>
+                    <default>false</default>
+                    <label>Vendido</label>
+                </value>
+                <value>
+                    <fullName>Fora de venda</fullName>
+                    <default>false</default>
+                    <label>Fora de venda</label>
+                </value>
+                <value>
+                    <fullName>Reservado</fullName>
+                    <default>false</default>
+                    <label>Reservado</label>
+                </value>
+                <value>
+                    <fullName>Proposta</fullName>
+                    <default>false</default>
+                    <label>Proposta</label>
+                </value>
+                <value>
+                    <fullName>Quitado</fullName>
+                    <default>false</default>
+                    <label>Quitado</label>
+                </value>
+                <value>
+                    <fullName>Escriturado</fullName>
+                    <default>false</default>
+                    <label>Escriturado</label>
+                </value>
+                <value>
+                    <fullName>Em venda</fullName>
+                    <default>false</default>
+                    <label>Em venda</label>
+                </value>
+                <value>
+                    <fullName>Suspenso</fullName>
+                    <default>false</default>
+                    <label>Suspenso</label>
+                </value>
+                <value>
+                    <fullName>Em acerto</fullName>
+                    <default>false</default>
+                    <label>Em acerto</label>
+                </value>
+                <value>
+                    <fullName>Dação</fullName>
+                    <default>false</default>
+                    <label>Dação</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Status_do_Repasse__c</fullName>
+        <defaultValue>&quot;Estoque&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Status do Financiamento</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Suite_Canadense__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Suite Canadense</description>
+        <externalId>false</externalId>
+        <label>Suíte Canadense</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Suite_Closet__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Suite com Closet</description>
+        <externalId>false</externalId>
+        <label>Suíte</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Suite__c</fullName>
+        <description>Quantidade de suítes da unidade</description>
+        <externalId>false</externalId>
+        <label>Suíte</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Terraco__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Terraço</description>
+        <externalId>false</externalId>
+        <label>Terraço</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_Contrato_Definitivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Contrato Definitivo</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alienação Fiduciária</fullName>
+                    <default>false</default>
+                    <label>Alienação Fiduciária</label>
+                </value>
+                <value>
+                    <fullName>Financiamento</fullName>
+                    <default>false</default>
+                    <label>Financiamento</label>
+                </value>
+                <value>
+                    <fullName>Compra e Venda com Quitação</fullName>
+                    <default>false</default>
+                    <label>Compra e Venda com Quitação</label>
+                </value>
+                <value>
+                    <fullName>LEGADO</fullName>
+                    <default>false</default>
+                    <label>LEGADO</label>
+                </value>
+                <value>
+                    <fullName>A atualizar</fullName>
+                    <default>false</default>
+                    <label>A atualizar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_Contrato_Venda__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Contrato de Venda</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com financiamento</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com financiamento</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>PCV Pública à vista</label>
+                </value>
+                <value>
+                    <fullName>14</fullName>
+                    <default>false</default>
+                    <label>PCV Particular à vista</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal com prev. Financiamento</label>
+                </value>
+                <value>
+                    <fullName>16</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal a vista</label>
+                </value>
+                <value>
+                    <fullName>17</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal com prev. AF</label>
+                </value>
+                <value>
+                    <fullName>18</fullName>
+                    <default>false</default>
+                    <label>CV com AF Particular</label>
+                </value>
+                <value>
+                    <fullName>19</fullName>
+                    <default>false</default>
+                    <label>CV Pública</label>
+                </value>
+                <value>
+                    <fullName>22</fullName>
+                    <default>false</default>
+                    <label>Rescisão Pública</label>
+                </value>
+                <value>
+                    <fullName>23</fullName>
+                    <default>false</default>
+                    <label>Rescisão Particular</label>
+                </value>
+                <value>
+                    <fullName>24</fullName>
+                    <default>false</default>
+                    <label>Cessão de Direitos Pública</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>Cessão de Direitos Particular</label>
+                </value>
+                <value>
+                    <fullName>26</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com previsão de AF</label>
+                </value>
+                <value>
+                    <fullName>27</fullName>
+                    <default>false</default>
+                    <label>CV com AF Pública</label>
+                </value>
+                <value>
+                    <fullName>28</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com previsão de AF</label>
+                </value>
+                <value>
+                    <fullName>29</fullName>
+                    <default>false</default>
+                    <label>Cessão Pública de AF</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>Cessão Particular de AF</label>
+                </value>
+                <value>
+                    <fullName>31</fullName>
+                    <default>false</default>
+                    <label>Dação em pagamento</label>
+                </value>
+                <value>
+                    <fullName>32</fullName>
+                    <default>false</default>
+                    <label>Aditamento de AF</label>
+                </value>
+                <value>
+                    <fullName>33</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com recursos próprios</label>
+                </value>
+                <value>
+                    <fullName>34</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com recursos próprios</label>
+                </value>
+                <value>
+                    <fullName>PERMUTANTE</fullName>
+                    <default>false</default>
+                    <label>PERMUTANTE</label>
+                </value>
+                <value>
+                    <fullName>LEGADO</fullName>
+                    <default>false</default>
+                    <label>LEGADO</label>
+                </value>
+                <value>
+                    <fullName>A atualizar</fullName>
+                    <default>false</default>
+                    <label>A atualizar</label>
+                </value>
+                <value>
+                    <fullName>Alienação Fiduciária</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Alienação Fiduciária</label>
+                </value>
+                <value>
+                    <fullName>Financiamento</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Financiamento</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_de_Vaga__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Vaga</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dupla</fullName>
+                    <default>false</default>
+                    <label>Dupla</label>
+                </value>
+                <value>
+                    <fullName>Simples</fullName>
+                    <default>false</default>
+                    <label>Simples</label>
+                </value>
+                <value>
+                    <fullName>Vaga descoberta de uso distinto</fullName>
+                    <default>false</default>
+                    <label>Vaga descoberta de uso distinto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Unidade_Adimplente__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Quando a unidade estiver adimplente, o valor padrão é selecionado</description>
+        <externalId>false</externalId>
+        <label>Unidade Adimplente</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Unidade__c</fullName>
+        <description>Número da Unidade</description>
+        <externalId>false</externalId>
+        <label>Unidade</label>
+        <length>6</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Principal_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor Principal Inadimplência</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Reajustado_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor Reajustado Inadimplência</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Total_Pago_UAU__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor Total Pago ERP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_da_Venda_UAU__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor da Venda ERP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_de_Venda_Atualizado_UAU__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor de Venda Atualizado ERP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Varanda_Gourmet__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe Varanda Gourmet</description>
+        <externalId>false</externalId>
+        <label>Varanda Gourmet</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Varanda__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe varanda</description>
+        <externalId>false</externalId>
+        <label>Varanda</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Visao_Carteira__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+	TW1_Disponibilidade__c = &quot;DISPONÍVEL&quot;,
+	&quot;Estoque&quot;,
+	IF(
+		AND(
+				TW1_Disponibilidade__c = &quot;VENDIDA&quot;,
+				ISPICKVAL(TW1_Status__c, &quot;Quitado&quot;)
+			),
+		&quot;Quitado&quot;,
+		IF(
+			OR(
+				AND(
+					NOT(ISBLANK(TW1_ID_Repasse__c)),
+					NOT(TW1_Status_do_Repasse__c = &quot;Pausado&quot;)
+					),
+				AND(
+					NOT(ISBLANK(TW1_ID_Repasse__c)),
+					TW1_Status_do_Repasse__c = &quot;Pausado&quot;,
+					NOT(TW1_Motivo_Pausa_Repasse__c = &quot;Inadimplência jurídica&quot;)
+					),
+				AND(
+					NOT(ISBLANK(TW1_ID_Repasse__c)),
+					TW1_Status_do_Repasse__c = &quot;Pausado&quot;,
+					TW1_Motivo_Pausa_Repasse__c = &quot;Inadimplência jurídica&quot;,
+					ISBLANK( TW1_ID_Inadimplencia__c)
+					)					
+				),
+			&quot;Financiamento&quot;,
+			IF(
+				NOT(ISBLANK( TW1_ID_Inadimplencia__c)),
+				TEXT(TW1_Fase_Inadimplencia__c) ,
+				&quot;Carteira Direta Adimplente&quot;
+				)
+			)
+		)
+	)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visão Carteira</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Vistoria_Area_Comum__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(TW1_Bloco__r.TW1_Empreendimento__r.TW1_Vistoria_Realizada__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vistoria Área Comum</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Vistoriada__c</fullName>
+        <description>Informa se unidade foi ou não vistoriada</description>
+        <externalId>false</externalId>
+        <label>Vistoriada</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Lista_Sim_Nao</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Vistorias_Realizadas__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Vistorias Realizadas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_WC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Campo informativo se existe W.C</description>
+        <externalId>false</externalId>
+        <label>W.C</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tw1_Data_Entrega_Chaves__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Entrega Chaves</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Tw1_Fase__c</fullName>
+        <description>Informa a Fase de Obra da Unidade (Pronta ou em Construção)</description>
+        <externalId>false</externalId>
+        <label>Fase</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pronta</fullName>
+                    <default>false</default>
+                    <label>Pronta</label>
+                </value>
+                <value>
+                    <fullName>Em Construção</fullName>
+                    <default>false</default>
+                    <label>Em Construção</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tw1_Securitizado__c</fullName>
+        <description>Informa se unidade está securitizada ou não.</description>
+        <externalId>false</externalId>
+        <label>Securitizado</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AllProducts</fullName>
+        <columns>TW1_Empresa__c</columns>
+        <columns>TW1_Empreendimento__c</columns>
+        <columns>TW1_Bloco__c</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>TW1_Liberada_para_Vistoria__c</columns>
+        <columns>TW1_Status__c</columns>
+        <columns>TW1_Data_inicio_para_agendar_vistoria__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todas Unidades</label>
+        <sharedTo>
+            <role>Administrador</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Unidades_Engenharia</fullName>
+        <columns>TW1_Empreendimento__c</columns>
+        <columns>TW1_Bloco__c</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>TW1_Liberada_para_Vistoria__c</columns>
+        <columns>TW1_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Unidades - Engenharia</label>
+        <sharedTo>
+            <role>TW1_Engenharia</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Unidades_Repasse</fullName>
+        <columns>TW1_Empreendimento__c</columns>
+        <columns>TW1_Bloco__c</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>TW1_Liberado_Repasse__c</columns>
+        <columns>TW1_Disponibilidade__c</columns>
+        <columns>TW1_Status_Venda__c</columns>
+        <columns>TW1_Status_do_Repasse__c</columns>
+        <columns>TW1_Motivo_Pausa_Repasse__c</columns>
+        <columns>TW1_Status_Financeiro__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TW1_Liberado_Repasse__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Unidades - Repasse</label>
+        <sharedTo>
+            <role>TW1_Gestor_Financiamento</role>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TW1_Bloco__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TW1_Empreendimento__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TW1_Conta__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TW1_Bloco__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TW1_Empreendimento__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TW1_Conta__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Marcar_data_vistoria_para_liberar_unidad</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TW1_Data_inicio_agend_vistoria_prenchida__c = FALSE,
+    ISCHANGED(TW1_Liberada_para_Vistoria__c),
+    ISPICKVAL(TW1_Liberada_para_Vistoria__c,&quot;Sim&quot;)
+    )</errorConditionFormula>
+        <errorDisplayField>TW1_Data_inicio_para_agendar_vistoria__c</errorDisplayField>
+        <errorMessage>Preencha a Data inicio para agendar vistoria antes de liberar a unidade para vistoria.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Validar_Fracao_Ideal</fullName>
+        <active>false</active>
+        <description>Validação da fração ideal ser maior ou igual a zero e menor ou igual 1</description>
+        <errorConditionFormula>NOT(AND(TW1_Fracao_Ideal__c &gt;= 0, TW1_Fracao_Ideal__c &lt;= 1))</errorConditionFormula>
+        <errorDisplayField>TW1_Fracao_Ideal__c</errorDisplayField>
+        <errorMessage>A fração deve ser maior ou igual a 0 e menor ou igual a 1.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>TW1_Novo_Caso</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Novo Caso</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&apos;{!URLFOR($Action.Case.NewCase, Account.Id )}&apos;);</url>
+    </webLinks>
+</CustomObject>

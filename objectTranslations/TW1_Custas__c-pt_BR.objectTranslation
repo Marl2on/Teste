@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Caso Associado --></label>
+        <name>TW1_Caso_Associado__c</name>
+        <relationshipLabel><!-- Custas (Caso Associado) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Caso --></label>
+        <name>TW1_Caso__c</name>
+        <relationshipLabel><!-- Custas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descrição --></label>
+        <name>TW1_Descricao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Custa --></label>
+        <name>TW1_Tipo_Custa__c</name>
+        <picklistValues>
+            <masterLabel>Certidões</masterLabel>
+            <translation><!-- Certidões --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condominio/IPTU</masterLabel>
+            <translation><!-- Condominio/IPTU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conf. de Dívida</masterLabel>
+            <translation><!-- Conf. de Dívida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Despachante</masterLabel>
+            <translation><!-- Despachante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Despesas Extrajudiciais</masterLabel>
+            <translation><!-- Despesas Extrajudiciais --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Despesas judiciais</masterLabel>
+            <translation><!-- Despesas judiciais --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devolução de cliente</masterLabel>
+            <translation><!-- Devolução de cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diferença de contrato</masterLabel>
+            <translation><!-- Diferença de contrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encargos</masterLabel>
+            <translation><!-- Encargos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honorários Advocatícios</masterLabel>
+            <translation><!-- Honorários Advocatícios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITBI</masterLabel>
+            <translation><!-- ITBI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interveniência</masterLabel>
+            <translation><!-- Interveniência --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laudêmio</masterLabel>
+            <translation><!-- Laudêmio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavratura</masterLabel>
+            <translation><!-- Lavratura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manutenção</masterLabel>
+            <translation><!-- Manutenção --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modificação</masterLabel>
+            <translation><!-- Modificação --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opção de acabamento</masterLabel>
+            <translation><!-- Opção de acabamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rateio</masterLabel>
+            <translation><!-- Rateio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receita Financeira</masterLabel>
+            <translation><!-- Receita Financeira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registro</masterLabel>
+            <translation><!-- Registro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sem Custas</masterLabel>
+            <translation><!-- Sem Custas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serviços complementares</masterLabel>
+            <translation><!-- Serviços complementares --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaga de garagem</masterLabel>
+            <translation><!-- Vaga de garagem --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Valor --></label>
+        <name>TW1_Valor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencimento --></label>
+        <name>TW1_Vencimento__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Layout de Custa</layout>
+        <sections>
+            <label><!-- Dados das Custas --></label>
+            <section>Dados das Custas</section>
+        </sections>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

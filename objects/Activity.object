@@ -1,0 +1,2716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>TW1_A_solicitacao_viavel__c</fullName>
+        <externalId>false</externalId>
+        <label>A solicitação é viável?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Aceite_Cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Aceite do Cliente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Acoes_Realizadas__c</fullName>
+        <externalId>false</externalId>
+        <label>Ações Realizadas</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planilha de Rescisão</fullName>
+                    <default>false</default>
+                    <label>Planilha de Rescisão</label>
+                </value>
+                <value>
+                    <fullName>Negociação com o cliente</fullName>
+                    <default>false</default>
+                    <label>Negociação com o cliente</label>
+                </value>
+                <value>
+                    <fullName>Proposta de Pagamento</fullName>
+                    <default>false</default>
+                    <label>Proposta de Pagamento</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Não</label>
+                </value>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sim</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Ajuste_Necessario__c</fullName>
+        <externalId>false</externalId>
+        <label>Ajuste Necessário?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Alteracao_viavel__c</fullName>
+        <externalId>false</externalId>
+        <label>Alteração viável?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Aprovacao_Analise_Credito__c</fullName>
+        <externalId>false</externalId>
+        <label>Aprovação Análise de Crédito?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Aprovacao_Solicitacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Aprovação da Solicitação</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aprovada</fullName>
+                    <default>false</default>
+                    <label>Aprovada</label>
+                </value>
+                <value>
+                    <fullName>Reprovada</fullName>
+                    <default>false</default>
+                    <label>Reprovada</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Arrematado_menor_valor__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrematado pelo menor valor?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Imovel_Arrematado__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <valueName>Sim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Não</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Boleto_Enviado__c</fullName>
+        <externalId>false</externalId>
+        <label>Boleto Enviado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Cartorio_Parceiro__c</fullName>
+        <externalId>false</externalId>
+        <label>Cartório Parceiro?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Caso__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Caso</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Atividades</relationshipLabel>
+        <relationshipName>Atividades</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cheque_Administrativo_Solicitado__c</fullName>
+        <externalId>false</externalId>
+        <label>Cheque Administrativo Solicitado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Cliente_Compareceu__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente Compareceu?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Cliente_Respondeu__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente Respondeu?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Cliente_entrou_em_contato__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente entrou em contato?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Cliente_far_com_cart_rio_parceiro__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente fará com cartório parceiro?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Condicao_Pagamento__c</fullName>
+        <externalId>false</externalId>
+        <label>Condição de Pagamento</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Condicoes_Reprovadas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Condições Reprovadas</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Contrato_Venda__c</fullName>
+        <externalId>false</externalId>
+        <label>Contrato de Venda</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com financiamento</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com financiamento</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>PCV Pública à vista</label>
+                </value>
+                <value>
+                    <fullName>14</fullName>
+                    <default>false</default>
+                    <label>PCV Particular à vista</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal com prev. Financiamento</label>
+                </value>
+                <value>
+                    <fullName>16</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal a vista</label>
+                </value>
+                <value>
+                    <fullName>17</fullName>
+                    <default>false</default>
+                    <label>Recibo de sinal com prev. AF</label>
+                </value>
+                <value>
+                    <fullName>18</fullName>
+                    <default>false</default>
+                    <label>CV com AF Particular</label>
+                </value>
+                <value>
+                    <fullName>19</fullName>
+                    <default>false</default>
+                    <label>CV Pública</label>
+                </value>
+                <value>
+                    <fullName>22</fullName>
+                    <default>false</default>
+                    <label>Rescisão Pública</label>
+                </value>
+                <value>
+                    <fullName>23</fullName>
+                    <default>false</default>
+                    <label>Rescisão Particular</label>
+                </value>
+                <value>
+                    <fullName>24</fullName>
+                    <default>false</default>
+                    <label>Cessão de Direitos Pública</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>Cessão de Direitos Particular</label>
+                </value>
+                <value>
+                    <fullName>26</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com previsão de AF</label>
+                </value>
+                <value>
+                    <fullName>27</fullName>
+                    <default>false</default>
+                    <label>CV com AF Pública</label>
+                </value>
+                <value>
+                    <fullName>28</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com previsão de AF</label>
+                </value>
+                <value>
+                    <fullName>29</fullName>
+                    <default>false</default>
+                    <label>Cessão Pública de AF</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>Cessão Particular de AF</label>
+                </value>
+                <value>
+                    <fullName>31</fullName>
+                    <default>false</default>
+                    <label>Dação em pagamento</label>
+                </value>
+                <value>
+                    <fullName>32</fullName>
+                    <default>false</default>
+                    <label>Aditamento de AF</label>
+                </value>
+                <value>
+                    <fullName>33</fullName>
+                    <default>false</default>
+                    <label>PCV Pública com recursos próprios</label>
+                </value>
+                <value>
+                    <fullName>34</fullName>
+                    <default>false</default>
+                    <label>PCV Particular com recursos próprios</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Agendamento__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Agendamento</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Ap_Rep_Analise_Credito__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Ap/Rep Análise de Crédito</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Assinatura_Banco_Interveniente__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Assinatura Banco Interveniente</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Assinatura_Banco__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Assinatura Banco</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Contrato__c</fullName>
+        <externalId>false</externalId>
+        <label>Data do Contrato</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Entrada_Cartorio__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Entrada Cartório</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Para_Assinatura__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Para Assinatura</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Primeira_Tentativa_Contato__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Primeira Tentativa Contato</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_SegundaTentativa_Contato__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Segunda Tentativa Contato</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Terceira_Tentativa_Contato__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Terceira Tentativa Contato</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_do_Registro__c</fullName>
+        <externalId>false</externalId>
+        <label>Data do Registro</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Descricao_Atividade__c</fullName>
+        <externalId>false</externalId>
+        <label>Descrição da Atividade</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Devolucao_Amigavel__c</fullName>
+        <externalId>false</externalId>
+        <label>Devolução Amigável?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Dias_Atividade_Aberta__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOW()- CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dias Atividade Aberta</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Divida_sera_toda_financiada__c</fullName>
+        <externalId>false</externalId>
+        <label>Dívida será toda financiada?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Docs_Entregues_Analise_de_Credito__c</fullName>
+        <externalId>false</externalId>
+        <label>Documentos Entregues-Análise de Crédito</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Identidade</fullName>
+                    <default>false</default>
+                    <label>Identidade</label>
+                </value>
+                <value>
+                    <fullName>CPF</fullName>
+                    <default>false</default>
+                    <label>CPF</label>
+                </value>
+                <value>
+                    <fullName>Comprovante de Residência</fullName>
+                    <default>false</default>
+                    <label>Comprovante de Residência</label>
+                </value>
+                <value>
+                    <fullName>3 Últimos Contracheques</fullName>
+                    <default>false</default>
+                    <label>3 Últimos Contracheques</label>
+                </value>
+                <value>
+                    <fullName>Última declaração de Imposto de Renda</fullName>
+                    <default>false</default>
+                    <label>Última declaração de Imposto de Renda</label>
+                </value>
+                <value>
+                    <fullName>Extratos Bancários</fullName>
+                    <default>false</default>
+                    <label>Extratos Bancários</label>
+                </value>
+                <value>
+                    <fullName>Ficha Cadastral Banco</fullName>
+                    <default>false</default>
+                    <label>Ficha Cadastral Banco</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Documentacao_correta__c</fullName>
+        <externalId>false</externalId>
+        <label>Documentação correta?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Documentos_Entregues__c</fullName>
+        <externalId>false</externalId>
+        <label>Documentos Entregues?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Enquadramento_realizado__c</fullName>
+        <externalId>false</externalId>
+        <label>Enquadramento realizado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Entrega_de_Chaves_em_paralelo__c</fullName>
+        <externalId>false</externalId>
+        <label>Entrega de Chaves em paralelo?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Enviar_Contraproposta__c</fullName>
+        <externalId>false</externalId>
+        <label>Enviar Contraproposta?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Aceite_Cliente__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Sim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Não</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Enviar_para_Aprovacao__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Enviar para Aprovação</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Envio_Positivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Envio Positivo</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Escalonar_Caso__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Escalonar Caso</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Existe_Cheque_Boleto_Anexado__c</fullName>
+        <externalId>false</externalId>
+        <label>Existe Cheque/Boleto Anexado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Existe_Pendencia_Condominial__c</fullName>
+        <externalId>false</externalId>
+        <label>Existe Pendência Condominial?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Existem_Pendencias__c</fullName>
+        <externalId>false</externalId>
+        <label>Existem Pendências?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Existem_Valores_Devolver__c</fullName>
+        <externalId>false</externalId>
+        <label>Existem Valores a Devolver?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Financiamento_Banco_Financiador__c</fullName>
+        <externalId>false</externalId>
+        <label>Financiamento com Banco Financiador?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Forma_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <label>Forma de Entrega</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Presencial</fullName>
+                    <default>false</default>
+                    <label>Presencial</label>
+                </value>
+                <value>
+                    <fullName>Expedição</fullName>
+                    <default>false</default>
+                    <label>Expedição</label>
+                </value>
+                <value>
+                    <fullName>Correios</fullName>
+                    <default>false</default>
+                    <label>Correios</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Imovel_Arrematado__c</fullName>
+        <externalId>false</externalId>
+        <label>Imóvel Arrematado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Kit_Chaves_Completo__c</fullName>
+        <externalId>false</externalId>
+        <label>Kit de Chaves Completo?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Minuta_Anexada__c</fullName>
+        <externalId>false</externalId>
+        <label>Minuta Anexada?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Modificacoes_foram_cadastradas_BRZ__c</fullName>
+        <externalId>false</externalId>
+        <label>Modificações foram cadastradas no BRZ?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Motivo_Cancelamento__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo Cancelamento</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Motivo_Reprovacao_Analise_Credito__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo Reprovação</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_N_Cheque__c</fullName>
+        <externalId>false</externalId>
+        <label>Nº Cheque</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_N_Cheque_do_Caso__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_N_Cheque__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nº Cheque do Caso</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessidade_de_reassinatura__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessidade de reassinatura?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_Aprovacao_Diretoria__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita Aprovação da Diretoria?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Negociacao_Aprovada__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <valueName>Sim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Não</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_Atualizar_no_UAU_CRM__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita Atualizar no UAU/CRM?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_Receber_Documentos__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita Receber Documentos?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_agendar_cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita agendar com cliente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_assinatura_banco__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita assinatura do banco?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_de_implanta_o__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita de implantação?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_enviar_Banco_Interveniente__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita enviar Banco Interveniente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Necessita_perguntar_obra__c</fullName>
+        <externalId>false</externalId>
+        <label>Necessita perguntar a obra?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Negociacao_Aprovada__c</fullName>
+        <externalId>false</externalId>
+        <label>Negociação Aprovada?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Negociacao_Bem_Sucedida__c</fullName>
+        <externalId>false</externalId>
+        <label>Negociação Bem Sucedida?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Numero_Registro__c</fullName>
+        <externalId>false</externalId>
+        <label>Numero de Registro</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_O_empreendimento_possui_socios__c</fullName>
+        <externalId>false</externalId>
+        <label>O empreendimento possui sócios?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Orcamento__c</fullName>
+        <externalId>false</externalId>
+        <label>Orçamento</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Pagamento_Internalizado__c</fullName>
+        <externalId>false</externalId>
+        <label>Pagamento Internalizado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Existe_Pendencia_Condominial__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <valueName>Sim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Não</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Pagamento_Realizado__c</fullName>
+        <externalId>false</externalId>
+        <label>Pagamento Realizado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Pendencias_Corrigidas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pendencias Corrigidas</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Registro_sera_realizado_pelo_cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Registro será realizado pelo cliente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Renegociacao_Bem_Sucedida__c</fullName>
+        <externalId>false</externalId>
+        <label>Renegociação Bem Sucedida?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Repasse_sera_realizado__c</fullName>
+        <externalId>false</externalId>
+        <label>Repasse será realizado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Retorno__c</fullName>
+        <externalId>false</externalId>
+        <label>Retorno</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Positivo</fullName>
+                    <default>false</default>
+                    <label>Positivo</label>
+                </value>
+                <value>
+                    <fullName>Negativo</fullName>
+                    <default>false</default>
+                    <label>Negativo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Reuniao_Presencial__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reunião Presencial</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Saida_Repasse__c</fullName>
+        <externalId>false</externalId>
+        <label>Saída do Repasse</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Repasse_sera_realizado__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>TW1_Saidas_Repasse</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Alienação Fiduciária</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Cessão de Direito</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Permuta</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Quitação</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Rescisão</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Rescisão com Venda Nova</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Inadimplência jurídica</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Permuta de Serviços</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Em Permuta de Terreno</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Setor__c</fullName>
+        <externalId>false</externalId>
+        <label>Setor</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Relacionamento</fullName>
+                    <default>false</default>
+                    <label>Relacionamento</label>
+                </value>
+                <value>
+                    <fullName>Comercial</fullName>
+                    <default>false</default>
+                    <label>Comercial</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Situacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Situação</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sem Contato</fullName>
+                    <default>false</default>
+                    <label>Sem Contato</label>
+                </value>
+                <value>
+                    <fullName>Dados Inválidos ou Inexistentes</fullName>
+                    <default>false</default>
+                    <label>Dados Inválidos ou Inexistentes</label>
+                </value>
+                <value>
+                    <fullName>Contato Realizado</fullName>
+                    <default>false</default>
+                    <label>Contato Realizado</label>
+                </value>
+                <value>
+                    <fullName>Financiamento após a averbação</fullName>
+                    <default>false</default>
+                    <label>Financiamento após a averbação</label>
+                </value>
+                <value>
+                    <fullName>Entrevista agendada</fullName>
+                    <default>false</default>
+                    <label>Entrevista agendada</label>
+                </value>
+                <value>
+                    <fullName>Processo iniciado</fullName>
+                    <default>false</default>
+                    <label>Processo iniciado</label>
+                </value>
+                <value>
+                    <fullName>Restrição cadastral</fullName>
+                    <default>false</default>
+                    <label>Restrição cadastral</label>
+                </value>
+                <value>
+                    <fullName>Aguardando envio ao banco</fullName>
+                    <default>false</default>
+                    <label>Aguardando envio ao banco</label>
+                </value>
+                <value>
+                    <fullName>Aguardando habite-se</fullName>
+                    <default>false</default>
+                    <label>Aguardando habite-se</label>
+                </value>
+                <value>
+                    <fullName>Em análise 1ª fase</fullName>
+                    <default>false</default>
+                    <label>Em análise 1ª fase</label>
+                </value>
+                <value>
+                    <fullName>Crédito aprovado</fullName>
+                    <default>false</default>
+                    <label>Crédito aprovado</label>
+                </value>
+                <value>
+                    <fullName>Em exigência 1ª fase</fullName>
+                    <default>false</default>
+                    <label>Em exigência 1ª fase</label>
+                </value>
+                <value>
+                    <fullName>Crédito negado</fullName>
+                    <default>false</default>
+                    <label>Crédito negado</label>
+                </value>
+                <value>
+                    <fullName>Em análise 2ª fase</fullName>
+                    <default>false</default>
+                    <label>Em análise 2ª fase</label>
+                </value>
+                <value>
+                    <fullName>Em exigência 2ª fase</fullName>
+                    <default>false</default>
+                    <label>Em exigência 2ª fase</label>
+                </value>
+                <value>
+                    <fullName>Aguardando emissão de contrato</fullName>
+                    <default>false</default>
+                    <label>Aguardando emissão de contrato</label>
+                </value>
+                <value>
+                    <fullName>Aprovado jurídico</fullName>
+                    <default>false</default>
+                    <label>Aprovado jurídico</label>
+                </value>
+                <value>
+                    <fullName>Confirmação valores construtoras</fullName>
+                    <default>false</default>
+                    <label>Confirmação valores construtoras</label>
+                </value>
+                <value>
+                    <fullName>Confirmação valores cliente</fullName>
+                    <default>false</default>
+                    <label>Confirmação valores cliente</label>
+                </value>
+                <value>
+                    <fullName>Liberado para agendamento</fullName>
+                    <default>false</default>
+                    <label>Liberado para agendamento</label>
+                </value>
+                <value>
+                    <fullName>Escritura agendada</fullName>
+                    <default>false</default>
+                    <label>Escritura agendada</label>
+                </value>
+                <value>
+                    <fullName>Contrato em assinatura</fullName>
+                    <default>false</default>
+                    <label>Contrato em assinatura</label>
+                </value>
+                <value>
+                    <fullName>Assinatura IQ</fullName>
+                    <default>false</default>
+                    <label>Assinatura IQ</label>
+                </value>
+                <value>
+                    <fullName>Em despachadoria - Check list</fullName>
+                    <default>false</default>
+                    <label>Em despachadoria - Check list</label>
+                </value>
+                <value>
+                    <fullName>Em despachadoria - Pendência documento</fullName>
+                    <default>false</default>
+                    <label>Em despachadoria - Pendência documento</label>
+                </value>
+                <value>
+                    <fullName>Liberado para prenotação</fullName>
+                    <default>false</default>
+                    <label>Liberado para prenotação</label>
+                </value>
+                <value>
+                    <fullName>Prenotado</fullName>
+                    <default>false</default>
+                    <label>Prenotado</label>
+                </value>
+                <value>
+                    <fullName>Exigência cartório</fullName>
+                    <default>false</default>
+                    <label>Exigência cartório</label>
+                </value>
+                <value>
+                    <fullName>Em finalização</fullName>
+                    <default>false</default>
+                    <label>Em finalização</label>
+                </value>
+                <value>
+                    <fullName>Inativo</fullName>
+                    <default>false</default>
+                    <label>Inativo</label>
+                </value>
+                <value>
+                    <fullName>Aguardando averbação do Habite-se</fullName>
+                    <default>false</default>
+                    <label>Aguardando averbação do Habite-se</label>
+                </value>
+                <value>
+                    <fullName>Registrado</fullName>
+                    <default>false</default>
+                    <label>Registrado</label>
+                </value>
+                <value>
+                    <fullName>Preenchido</fullName>
+                    <default>false</default>
+                    <label>Preenchido</label>
+                </value>
+                <value>
+                    <fullName>Não Preenchido</fullName>
+                    <default>false</default>
+                    <label>Não Preenchido</label>
+                </value>
+                <value>
+                    <fullName>Aguardando</fullName>
+                    <default>false</default>
+                    <label>Aguardando</label>
+                </value>
+                <value>
+                    <fullName>Emitido</fullName>
+                    <default>false</default>
+                    <label>Emitido</label>
+                </value>
+                <value>
+                    <fullName>Pago</fullName>
+                    <default>false</default>
+                    <label>Pago</label>
+                </value>
+                <value>
+                    <fullName>Baixa Emitida</fullName>
+                    <default>false</default>
+                    <label>Baixa Emitida</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Status_financeiro_do_cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Status financeiro do cliente</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Crédito</fullName>
+                    <default>false</default>
+                    <label>Crédito</label>
+                </value>
+                <value>
+                    <fullName>Débito</fullName>
+                    <default>false</default>
+                    <label>Débito</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_Tarefa__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo da Tarefa</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agendar Assinatura com Cliente</fullName>
+                    <default>false</default>
+                    <label>Agendar Assinatura com Cliente</label>
+                </value>
+                <value>
+                    <fullName>Agendar com Cliente</fullName>
+                    <default>false</default>
+                    <label>Agendar com Cliente</label>
+                </value>
+                <value>
+                    <fullName>Agendar Vistoria com Cliente</fullName>
+                    <default>false</default>
+                    <label>Agendar Vistoria com Cliente</label>
+                </value>
+                <value>
+                    <fullName>Aguardar Documentação de Contrato</fullName>
+                    <default>false</default>
+                    <label>Aguardar Documentação de Contrato</label>
+                </value>
+                <value>
+                    <fullName>Aguardar Documentação de Crédito</fullName>
+                    <default>false</default>
+                    <label>Aguardar Documentação de Crédito</label>
+                </value>
+                <value>
+                    <fullName>Aguardar Documentação do Cliente</fullName>
+                    <default>false</default>
+                    <label>Aguardar Documentação do Cliente</label>
+                </value>
+                <value>
+                    <fullName>Analisar Caso</fullName>
+                    <default>false</default>
+                    <label>Analisar Caso</label>
+                </value>
+                <value>
+                    <fullName>Analisar Caso Cessão</fullName>
+                    <default>false</default>
+                    <label>Analisar Caso Cessão</label>
+                </value>
+                <value>
+                    <fullName>Analisar Condições</fullName>
+                    <default>false</default>
+                    <label>Analisar Condições</label>
+                </value>
+                <value>
+                    <fullName>Analisar Contrato</fullName>
+                    <default>false</default>
+                    <label>Analisar Contrato</label>
+                </value>
+                <value>
+                    <fullName>Analisar Crédito</fullName>
+                    <default>false</default>
+                    <label>Analisar Crédito</label>
+                </value>
+                <value>
+                    <fullName>Analisar Documentos</fullName>
+                    <default>false</default>
+                    <label>Analisar Documentos</label>
+                </value>
+                <value>
+                    <fullName>Analisar Reclamação</fullName>
+                    <default>false</default>
+                    <label>Analisar Reclamação</label>
+                </value>
+                <value>
+                    <fullName>Analisar Saldo Devedor</fullName>
+                    <default>false</default>
+                    <label>Analisar Saldo Devedor</label>
+                </value>
+                <value>
+                    <fullName>Analisar Solicitação de Modificação</fullName>
+                    <default>false</default>
+                    <label>Analisar Solicitação de Modificação</label>
+                </value>
+                <value>
+                    <fullName>Analisar Solicitação do Cliente</fullName>
+                    <default>false</default>
+                    <label>Analisar Solicitação do Cliente</label>
+                </value>
+                <value>
+                    <fullName>Analisar Sugestão</fullName>
+                    <default>false</default>
+                    <label>Analisar Sugestão</label>
+                </value>
+                <value>
+                    <fullName>Análise de Solicitação</fullName>
+                    <default>false</default>
+                    <label>Análise de Solicitação</label>
+                </value>
+                <value>
+                    <fullName>Atualização Cadastral</fullName>
+                    <default>false</default>
+                    <label>Atualização Cadastral</label>
+                </value>
+                <value>
+                    <fullName>Comunicar Cliente</fullName>
+                    <default>false</default>
+                    <label>Comunicar Cliente</label>
+                </value>
+                <value>
+                    <fullName>Conferência de Contratos</fullName>
+                    <default>false</default>
+                    <label>Conferência de Contratos</label>
+                </value>
+                <value>
+                    <fullName>Contatar Cliente</fullName>
+                    <default>false</default>
+                    <label>Contatar Cliente</label>
+                </value>
+                <value>
+                    <fullName>Criar Simulação de Antecipação</fullName>
+                    <default>false</default>
+                    <label>Criar Simulação de Antecipação</label>
+                </value>
+                <value>
+                    <fullName>Devolução de Cheque</fullName>
+                    <default>false</default>
+                    <label>Devolução de Cheque</label>
+                </value>
+                <value>
+                    <fullName>Encaminhar para a Construtora Responsável</fullName>
+                    <default>false</default>
+                    <label>Encaminhar para a Construtora Responsável</label>
+                </value>
+                <value>
+                    <fullName>Encerrar Caso</fullName>
+                    <default>false</default>
+                    <label>Encerrar Caso</label>
+                </value>
+                <value>
+                    <fullName>Enviar Aprovação</fullName>
+                    <default>false</default>
+                    <label>Enviar Aprovação</label>
+                </value>
+                <value>
+                    <fullName>Enviar documentação</fullName>
+                    <default>false</default>
+                    <label>Enviar documentação</label>
+                </value>
+                <value>
+                    <fullName>Fornecer Feedback Interno</fullName>
+                    <default>false</default>
+                    <label>Fornecer Feedback Interno</label>
+                </value>
+                <value>
+                    <fullName>Gerar Boleto</fullName>
+                    <default>false</default>
+                    <label>Gerar Boleto</label>
+                </value>
+                <value>
+                    <fullName>Gerar Boleto de Antecipação</fullName>
+                    <default>false</default>
+                    <label>Gerar Boleto de Antecipação</label>
+                </value>
+                <value>
+                    <fullName>Gerar Boleto de Interveniência</fullName>
+                    <default>false</default>
+                    <label>Gerar Boleto de Interveniência</label>
+                </value>
+                <value>
+                    <fullName>Identificar Documentação</fullName>
+                    <default>false</default>
+                    <label>Identificar Documentação</label>
+                </value>
+                <value>
+                    <fullName>Implantar Alienação Fiduciária</fullName>
+                    <default>false</default>
+                    <label>Implantar Alienação Fiduciária</label>
+                </value>
+                <value>
+                    <fullName>Implantar Custas</fullName>
+                    <default>false</default>
+                    <label>Implantar Custas</label>
+                </value>
+                <value>
+                    <fullName>Implantar Negociação</fullName>
+                    <default>false</default>
+                    <label>Implantar Negociação</label>
+                </value>
+                <value>
+                    <fullName>Informar Aprovação ao Cliente</fullName>
+                    <default>false</default>
+                    <label>Informar Aprovação ao Cliente</label>
+                </value>
+                <value>
+                    <fullName>Informar Dados de Registro</fullName>
+                    <default>false</default>
+                    <label>Informar Dados de Registro</label>
+                </value>
+                <value>
+                    <fullName>Informar tratativa ao cliente</fullName>
+                    <default>false</default>
+                    <label>Informar tratativa ao cliente</label>
+                </value>
+                <value>
+                    <fullName>Negociar Com cliente</fullName>
+                    <default>false</default>
+                    <label>Negociar Com cliente</label>
+                </value>
+                <value>
+                    <fullName>Negociar Quitação</fullName>
+                    <default>false</default>
+                    <label>Negociar Quitação</label>
+                </value>
+                <value>
+                    <fullName>Notificar Extrajudicialmente</fullName>
+                    <default>false</default>
+                    <label>Notificar Extrajudicialmente</label>
+                </value>
+                <value>
+                    <fullName>Notificar via OAB</fullName>
+                    <default>false</default>
+                    <label>Notificar via OAB</label>
+                </value>
+                <value>
+                    <fullName>Preparar Ofício</fullName>
+                    <default>false</default>
+                    <label>Preparar Ofício</label>
+                </value>
+                <value>
+                    <fullName>Prestação de Contas</fullName>
+                    <default>false</default>
+                    <label>Prestação de Contas</label>
+                </value>
+                <value>
+                    <fullName>Providenciar Assinatura Contrato</fullName>
+                    <default>false</default>
+                    <label>Providenciar Assinatura Contrato</label>
+                </value>
+                <value>
+                    <fullName>Providenciar Documentação Interna</fullName>
+                    <default>false</default>
+                    <label>Providenciar Documentação Interna</label>
+                </value>
+                <value>
+                    <fullName>Providenciar Minuta</fullName>
+                    <default>false</default>
+                    <label>Providenciar Minuta</label>
+                </value>
+                <value>
+                    <fullName>Providenciar Registro</fullName>
+                    <default>false</default>
+                    <label>Providenciar Registro</label>
+                </value>
+                <value>
+                    <fullName>Realizar Vistoria com Cliente</fullName>
+                    <default>false</default>
+                    <label>Realizar Vistoria com Cliente</label>
+                </value>
+                <value>
+                    <fullName>Realizar Vistoria Interna</fullName>
+                    <default>false</default>
+                    <label>Realizar Vistoria Interna</label>
+                </value>
+                <value>
+                    <fullName>Reapresentação de Cheque</fullName>
+                    <default>false</default>
+                    <label>Reapresentação de Cheque</label>
+                </value>
+                <value>
+                    <fullName>Registrar Retorno</fullName>
+                    <default>false</default>
+                    <label>Registrar Retorno</label>
+                </value>
+                <value>
+                    <fullName>Renegociar com cliente</fullName>
+                    <default>false</default>
+                    <label>Renegociar com cliente</label>
+                </value>
+                <value>
+                    <fullName>Resolver Pendência</fullName>
+                    <default>false</default>
+                    <label>Resolver Pendência</label>
+                </value>
+                <value>
+                    <fullName>Sanar Pendência</fullName>
+                    <default>false</default>
+                    <label>Sanar Pendência</label>
+                </value>
+                <value>
+                    <fullName>Sanar Pendência - Reassinatura</fullName>
+                    <default>false</default>
+                    <label>Sanar Pendência - Reassinatura</label>
+                </value>
+                <value>
+                    <fullName>Solicitar assinatura do cliente</fullName>
+                    <default>false</default>
+                    <label>Solicitar assinatura do cliente</label>
+                </value>
+                <value>
+                    <fullName>Solicitar Cheque Administrativo</fullName>
+                    <default>false</default>
+                    <label>Solicitar Cheque Administrativo</label>
+                </value>
+                <value>
+                    <fullName>Solicitar Comprovante de Residencia</fullName>
+                    <default>false</default>
+                    <label>Solicitar Comprovante de Residencia</label>
+                </value>
+                <value>
+                    <fullName>Solicitar Documentos de Crédito</fullName>
+                    <default>false</default>
+                    <label>Solicitar Documentos de Crédito</label>
+                </value>
+                <value>
+                    <fullName>Solicitar Documentos do Contrato</fullName>
+                    <default>false</default>
+                    <label>Solicitar Documentos do Contrato</label>
+                </value>
+                <value>
+                    <fullName>Analisar Banco</fullName>
+                    <default>false</default>
+                    <label>Analisar Banco</label>
+                </value>
+                <value>
+                    <fullName>Analisar Crédito Repasse</fullName>
+                    <default>false</default>
+                    <label>Analisar Crédito Repasse</label>
+                </value>
+                <value>
+                    <fullName>Análise Jurídica do Caso</fullName>
+                    <default>false</default>
+                    <label>Análise Jurídica do Caso</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_de_Contrato__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Contrato</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Particular</fullName>
+                    <default>false</default>
+                    <label>Particular</label>
+                </value>
+                <value>
+                    <fullName>Pública</fullName>
+                    <default>false</default>
+                    <label>Pública</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tratativa_Proposta_Pelo_Cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Tratativa Proposta Pelo Cliente</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Tratativa_Rescisao__c</fullName>
+        <externalId>false</externalId>
+        <label>Tratativa Rescisão</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Permuta</fullName>
+                    <default>false</default>
+                    <label>Permuta</label>
+                </value>
+                <value>
+                    <fullName>Quitação</fullName>
+                    <default>false</default>
+                    <label>Quitação</label>
+                </value>
+                <value>
+                    <fullName>Cessão de Direitos</fullName>
+                    <default>false</default>
+                    <label>Cessão de Direitos</label>
+                </value>
+                <value>
+                    <fullName>Alienação Fiduciária</fullName>
+                    <default>false</default>
+                    <label>Alienação Fiduciária</label>
+                </value>
+                <value>
+                    <fullName>Rescisão com Venda Nova</fullName>
+                    <default>false</default>
+                    <label>Rescisão com Venda Nova</label>
+                </value>
+                <value>
+                    <fullName>Rescisão</fullName>
+                    <default>false</default>
+                    <label>Rescisão</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Tratativa__c</fullName>
+        <externalId>false</externalId>
+        <label>Tratativa</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Reapresentar Cheque</fullName>
+                    <default>false</default>
+                    <label>Reapresentar Cheque</label>
+                </value>
+                <value>
+                    <fullName>Suspender Reapresentação de Cheque</fullName>
+                    <default>false</default>
+                    <label>Suspender Reapresentação de Cheque</label>
+                </value>
+                <value>
+                    <fullName>Enviar via OAB</fullName>
+                    <default>false</default>
+                    <label>Enviar via OAB</label>
+                </value>
+                <value>
+                    <fullName>Não enviar via OAB</fullName>
+                    <default>false</default>
+                    <label>Não enviar via OAB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_UAU_CRM_foram_atualizados__c</fullName>
+        <externalId>false</externalId>
+        <label>UAU/CRM foram atualizados?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TW1_Necessita_Atualizar_no_UAU_CRM__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <valueName>Sim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sim</controllingFieldValue>
+                <controllingFieldValue>Não</controllingFieldValue>
+                <valueName>Não</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Unidade_Liberada__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidade Liberada?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+                <value>
+                    <fullName>Não, reagendar vistoria</fullName>
+                    <default>false</default>
+                    <label>Não, reagendar vistoria</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Unidade__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Unidade</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Atividades</relationshipLabel>
+        <relationshipName>Atividades</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Upload_Realizado__c</fullName>
+        <externalId>false</externalId>
+        <label>Upload Realizado?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_do_Cheque__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor do Cheque</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valores_estao_corretos__c</fullName>
+        <externalId>false</externalId>
+        <label>Valores estão corretos?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Vistoria_Aprovada__c</fullName>
+        <externalId>false</externalId>
+        <label>Vistoria Aprovada?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tw1_Cliente_concordou__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente concordou?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tw1_Cliente_deseja_realizar_altera_es__c</fullName>
+        <externalId>false</externalId>
+        <label>Cliente deseja realizar alterações?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+                <value>
+                    <fullName>Sim, reagendar vistoria</fullName>
+                    <default>false</default>
+                    <label>Sim, reagendar vistoria</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tw1_Dias_Tarefa_Aberta__c</fullName>
+        <externalId>false</externalId>
+        <formula>(5 * ( FLOOR( ( TODAY() - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( TODAY() - DATE( 1900, 1, 8), 7 ) ) )
+-
+(5 * ( FLOOR( ( DATEVALUE(CreatedDate) - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( DATEVALUE(CreatedDate) - DATE( 1900, 1, 8), 7 ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dias Tarefa Aberta</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tw1_Minuta_aceita_pelo_cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Minuta aceita pelo cliente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tw1_Modificacoes_aprovadas_pelo_cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>Modificações aprovadas pelo cliente?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AllActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>All Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <columns>ACTIVITY_SUBTYPE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>EVENT.LOCATION</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

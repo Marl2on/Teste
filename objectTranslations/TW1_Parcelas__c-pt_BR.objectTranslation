@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Parcela</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Parcelas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comentários --></label>
+        <name>TW1_Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Base --></label>
+        <name>TW1_Data_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Inicio Juros --></label>
+        <name>TW1_Data_Inicio_Juros__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data de Prorrogação --></label>
+        <name>TW1_Data_Prorrogacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Venda --></label>
+        <name>TW1_Data_Venda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dias em Aberto --></label>
+        <name>TW1_Dias_em_Aberto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Índice de reajuste --></label>
+        <name>TW1_Indice_Reajuste__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcelas/Meses --></label>
+        <name>TW1_Parcelas_meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Situação da Parcela --></label>
+        <name>TW1_Situacao_da_Parcela__c</name>
+        <picklistValues>
+            <masterLabel>Aberta</masterLabel>
+            <translation><!-- Aberta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adimplente</masterLabel>
+            <translation><!-- Adimplente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelada</masterLabel>
+            <translation><!-- Cancelada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inadimplente</masterLabel>
+            <translation><!-- Inadimplente --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>TW1_Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Mensal</masterLabel>
+            <translation><!-- Mensal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcela G</masterLabel>
+            <translation><!-- Parcela G --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcela P</masterLabel>
+            <translation><!-- Parcela P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinal</masterLabel>
+            <translation><!-- Sinal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unidade --></label>
+        <name>TW1_Unidade__c</name>
+        <relationshipLabel><!-- Parcelas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Valor Parcela --></label>
+        <name>TW1_Valor_Parcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valor Série --></label>
+        <name>TW1_Valor_Serie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vencto da 1ª Parcela --></label>
+        <name>TW1_Vencto_1_Parcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- amortizacao --></label>
+        <name>TW1_amortizacao__c</name>
+        <picklistValues>
+            <masterLabel>Gradiente</masterLabel>
+            <translation><!-- Gradiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAC</masterLabel>
+            <translation><!-- SAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simples</masterLabel>
+            <translation><!-- Simples --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- beginendprice --></label>
+        <name>TW1_beginendprice__c</name>
+        <picklistValues>
+            <masterLabel>Begin</masterLabel>
+            <translation><!-- Begin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End</masterLabel>
+            <translation><!-- End --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- capacrescimo --></label>
+        <name>TW1_capacrescimo__c</name>
+    </fields>
+    <fields>
+        <label><!-- capcorrecao --></label>
+        <name>TW1_capcorrecao__c</name>
+    </fields>
+    <fields>
+        <label><!-- capcorrecaoatraso --></label>
+        <name>TW1_capcorrecaoatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- capdesconto --></label>
+        <name>TW1_capdesconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- capdescontoantecipacao --></label>
+        <name>TW1_capdescontoantecipacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- capdescontocondicional --></label>
+        <name>TW1_capdescontocondicional__c</name>
+    </fields>
+    <fields>
+        <label><!-- capdescontocusta --></label>
+        <name>TW1_capdescontocusta__c</name>
+    </fields>
+    <fields>
+        <label><!-- capjuros --></label>
+        <name>TW1_capjuros__c</name>
+    </fields>
+    <fields>
+        <label><!-- capjurosatraso --></label>
+        <name>TW1_capjurosatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- capmulta --></label>
+        <name>TW1_capmulta__c</name>
+    </fields>
+    <fields>
+        <label><!-- capprincipal --></label>
+        <name>TW1_capprincipal__c</name>
+    </fields>
+    <fields>
+        <label><!-- caprepasse --></label>
+        <name>TW1_caprepasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- captaxaboleto --></label>
+        <name>TW1_captaxaboleto__c</name>
+    </fields>
+    <fields>
+        <label><!-- cobrarcorrecaocusta --></label>
+        <name>TW1_cobrarcorrecaocusta__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarimpostocusta --></label>
+        <name>TW1_cobrarimpostocusta__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarjurosatrasocusta --></label>
+        <name>TW1_cobrarjurosatrasocusta__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarjurosprimeiroperiodo --></label>
+        <name>TW1_cobrarjurosprimeiroperiodo__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarjurosprorata --></label>
+        <name>TW1_cobrarjurosprorata__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarjurosprorataprimeiromes --></label>
+        <name>TW1_cobrarjurosprorataprimeiromes__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrarmultacusta --></label>
+        <name>TW1_cobrarmultacusta__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cobrartaxaadministracaocusta --></label>
+        <name>TW1_cobrartaxaadministracaocusta__c</name>
+        <picklistValues>
+            <masterLabel>Cobrar</masterLabel>
+            <translation><!-- Cobrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Não Cobrar</masterLabel>
+            <translation><!-- Não Cobrar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- datacalculoreajuste --></label>
+        <name>TW1_datacalculoreajuste__c</name>
+    </fields>
+    <fields>
+        <label><!-- datainicioperiodoaluguel --></label>
+        <name>TW1_datainicioperiodoaluguel__c</name>
+    </fields>
+    <fields>
+        <label><!-- datainicioprimeirojuros --></label>
+        <name>TW1_datainicioprimeirojuros__c</name>
+    </fields>
+    <fields>
+        <label><!-- datainicioreajuste --></label>
+        <name>TW1_datainicioreajuste__c</name>
+    </fields>
+    <fields>
+        <label><!-- datainiciosegundojuros --></label>
+        <name>TW1_datainiciosegundojuros__c</name>
+    </fields>
+    <fields>
+        <label><!-- dataprimeiraparcelagrupo --></label>
+        <name>TW1_dataprimeiraparcelagrupo__c</name>
+    </fields>
+    <fields>
+        <label><!-- dataprorrogacao --></label>
+        <name>TW1_dataprorrogacao__c</name>
+    </fields>
+    <fields>
+        <label><!-- datarecebimento --></label>
+        <name>TW1_datarecebimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- datavencimento --></label>
+        <name>TW1_datavencimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- diascarenciacorrecaoatraso --></label>
+        <name>TW1_diascarenciacorrecaoatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- diascarenciamultajurosatraso --></label>
+        <name>TW1_diascarenciamultajurosatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- frequenciavencimento --></label>
+        <name>TW1_frequenciavencimento__c</name>
+    </fields>
+    <fields>
+        <label><!-- grupoplanoindexador --></label>
+        <name>TW1_grupoplanoindexador__c</name>
+    </fields>
+    <fields>
+        <label><!-- indicereajuste --></label>
+        <name>TW1_indicereajuste__c</name>
+    </fields>
+    <fields>
+        <label><!-- numeroparcela --></label>
+        <name>TW1_numeroparcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- numeroparcelageral --></label>
+        <name>TW1_numeroparcelageral__c</name>
+    </fields>
+    <fields>
+        <label><!-- observacaocusta --></label>
+        <name>TW1_observacaocusta__c</name>
+    </fields>
+    <fields>
+        <label><!-- origemcusta --></label>
+        <name>TW1_origemcusta__c</name>
+        <picklistValues>
+            <masterLabel>Administração</masterLabel>
+            <translation><!-- Administração --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obra</masterLabel>
+            <translation><!-- Obra --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- origemparcela --></label>
+        <name>TW1_origemparcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- padraocobranca --></label>
+        <name>TW1_padraocobranca__c</name>
+    </fields>
+    <fields>
+        <label><!-- parcelarecebida --></label>
+        <name>TW1_parcelarecebida__c</name>
+        <picklistValues>
+            <masterLabel>Não</masterLabel>
+            <translation><!-- Não --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sim</masterLabel>
+            <translation><!-- Sim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- repassarvalorlocadorcusta --></label>
+        <name>TW1_repassarvalorlocadorcusta__c</name>
+        <picklistValues>
+            <masterLabel>Não repassar</masterLabel>
+            <translation><!-- Não repassar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repassar</masterLabel>
+            <translation><!-- Repassar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- taxaprimeirojuros --></label>
+        <name>TW1_taxaprimeirojuros__c</name>
+    </fields>
+    <fields>
+        <label><!-- taxasegundojuros --></label>
+        <name>TW1_taxasegundojuros__c</name>
+    </fields>
+    <fields>
+        <label><!-- tipodacusta --></label>
+        <name>TW1_tipodacusta__c</name>
+    </fields>
+    <fields>
+        <label><!-- tipoparcela --></label>
+        <name>TW1_tipoparcela__c</name>
+    </fields>
+    <fields>
+        <label><!-- tiposeguro --></label>
+        <name>TW1_tiposeguro__c</name>
+        <picklistValues>
+            <masterLabel>DFI</masterLabel>
+            <translation><!-- DFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIP</masterLabel>
+            <translation><!-- MIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- totalparcelasdogrupo --></label>
+        <name>TW1_totalparcelasdogrupo__c</name>
+    </fields>
+    <fields>
+        <label><!-- totalparcelasdogrupoinformado --></label>
+        <name>TW1_totalparcelasdogrupoinformado__c</name>
+    </fields>
+    <fields>
+        <label><!-- usuariocedeudesconto --></label>
+        <name>TW1_usuariocedeudesconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- usuariorecebeu --></label>
+        <name>TW1_usuariorecebeu__c</name>
+    </fields>
+    <fields>
+        <label><!-- valoracrescimo --></label>
+        <name>TW1_valoracrescimo__c</name>
+    </fields>
+    <fields>
+        <label><!-- valoracrescimoconfirmado --></label>
+        <name>TW1_valoracrescimoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorcorrecao --></label>
+        <name>TW1_valorcorrecao__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorcorrecaoatraso --></label>
+        <name>TW1_valorcorrecaoatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorcorrecaoatrasoconfirmado --></label>
+        <name>TW1_valorcorrecaoatrasoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorcorrecaoconfirmado --></label>
+        <name>TW1_valorcorrecaoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorcorrecaoembutida --></label>
+        <name>TW1_valorcorrecaoembutida__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordesconto --></label>
+        <name>TW1_valordesconto__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordescontoadiantamento --></label>
+        <name>TW1_valordescontoadiantamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordescontoadiantamentoconfirmado --></label>
+        <name>TW1_valordescontoadiantamentoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordescontocondicional --></label>
+        <name>TW1_valordescontocondicional__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordescontocondicionalconfirmado --></label>
+        <name>TW1_valordescontocondicionalconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valordescontoconfirmado --></label>
+        <name>TW1_valordescontoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjurosatraso --></label>
+        <name>TW1_valorjurosatraso__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjurosatrasoconfirmado --></label>
+        <name>TW1_valorjurosatrasoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjuroscontrato --></label>
+        <name>TW1_valorjuroscontrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjuroscontratoconfirmado --></label>
+        <name>TW1_valorjuroscontratoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjuroscontratoembutido --></label>
+        <name>TW1_valorjuroscontratoembutido__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorjuroscontratoembutidoconfirmado --></label>
+        <name>TW1_valorjuroscontratoembutidoconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valormulta --></label>
+        <name>TW1_valormulta__c</name>
+    </fields>
+    <fields>
+        <label><!-- valormultaconfirmado --></label>
+        <name>TW1_valormultaconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorprincipal --></label>
+        <name>TW1_valorprincipal__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorprincipalconfirmado --></label>
+        <name>TW1_valorprincipalconfirmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- valorresiduo --></label>
+        <name>TW1_valorresiduo__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Layout de Parcela</layout>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Layout de Parcela - ADM</layout>
+        <sections>
+            <label><!-- Links personalizados --></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label><!-- Nova seção --></label>
+            <section>Nova seção</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
