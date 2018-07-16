@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ID_Acao_Aguardar_Pagamento__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Aguardar Pagamento</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Aguardar_Postergacao__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Aguardar Postergacao</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Analisar_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Analisar Inadimplência</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Analisar_Inclusao_Parcelas__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Ação Analisar Inclusão de Parcelas</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Analisar_Sinal_Aberto__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Ação Analisar Sinal Aberto</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Buscar_Contato_Cliente__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Buscar Contato Cliente</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Definir_Responsavel__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Definir Responsavel</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Distratar_Unidade__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Distratar Unidade</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Gerar_Boleto__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Gerar Boleto</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Negociar_Inadimplencia__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Ação Negociar Inadimplência</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Notificar_Judicialmente__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Notificar Judicialmente</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Realizar_Negociacao__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Realizar Negociacao</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Acao_Registrar_Tratativa__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Acao Registrar Tratativa</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Tipo_Inadimplencia_Amigavel__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Tipo Inadimplência Amigável</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Tipo_Inadimplencia_Extrajudicial__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Tipo Inadimplência Extrajudicial</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_Tipo_Inadimplencia_Judicial__c</fullName>
+        <externalId>false</externalId>
+        <label>ID Tipo Inadimplência Judicial</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Id_Acao_Analisar_Negociacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Id Acao Analisar Negociacao</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Tempo_Inadimplencia_Amigavel__c</fullName>
+        <externalId>false</externalId>
+        <label>Tempo Inadimplência Amigável</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Tempo_Inadimplencia_Extrajudicial__c</fullName>
+        <externalId>false</externalId>
+        <label>Tempo Inadimplência Extrajudicial</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_parcelaNaoConciliada__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Parcela Não Conciliada</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_qtdDiasVencimento__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantidade Dias Vencimento</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_urlCallback__c</fullName>
+        <externalId>false</externalId>
+        <label>URL Callback</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Padrões Inadimplência</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Dias_Notificacao_Extrajudicial__c</fullName>
+        <externalId>false</externalId>
+        <label>Dias Notificacao Extrajudicial</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dias_Notificacao_OAB__c</fullName>
+        <externalId>false</externalId>
+        <label>Dias Notificacao OAB</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_Devedor_Maximo__c</fullName>
+        <externalId>false</externalId>
+        <label>Saldo Devedor Máximo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Padrões Financeiros Calçada</label>
+    <visibility>Public</visibility>
+</CustomObject>

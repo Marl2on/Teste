@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Data_Atualizacao_Saldo_Devedor__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Atualização</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SERASA__c</fullName>
+        <externalId>false</externalId>
+        <label>SERASA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Com Restrições</fullName>
+                    <default>false</default>
+                    <label>Com Restrições</label>
+                </value>
+                <value>
+                    <fullName>Sem Restrições</fullName>
+                    <default>false</default>
+                    <label>Sem Restrições</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Analise_Comprometimento_Renda__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+		ISBLANK(TEXT(TW1_Tipo_Renda_Mensal__c)),
+		&quot;Sem tipo de renda preenchido&quot;,
+		IF(
+				OR(
+					AND( 
+							TEXT(TW1_Tipo_Renda_Mensal__c) = &quot;Líquida&quot; , 
+							TW1_Comprometimento_de_Renda__c &lt; 0.3
+						),
+						
+					AND(
+							TEXT(TW1_Tipo_Renda_Mensal__c) = &quot;Bruta&quot;, 
+							TW1_Comprometimento_de_Renda__c &lt; 0.25)
+				  )
+			,
+		&quot;Baixo Risco&quot;,
+		&quot;Alto Risco&quot;
+		)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Análise Comprometimento de Renda</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Anelise_Credito__c</fullName>
+        <externalId>false</externalId>
+        <label>Análise de Crédito</label>
+        <length>1300</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Ato__c</fullName>
+        <externalId>false</externalId>
+        <label>Ato</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Bloco__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Bloco__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Bloco</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Boleto__c</fullName>
+        <externalId>false</externalId>
+        <label>Boleto (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Capitalizacao_Anual__c</fullName>
+        <externalId>false</externalId>
+        <formula>( MONTH(  TW1_Vencimento_1_Parcela_Anual__c  ) + (YEAR (  TW1_Vencimento_1_Parcela_Anual__c  )*12)) - 
+(MONTH (TW1_Data_Fiduciaria__c ) + (YEAR (TW1_Data_Fiduciaria__c )*12))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Capitalização Anual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Capitalizacao_Semestral__c</fullName>
+        <externalId>false</externalId>
+        <formula>( MONTH( TW1_Vencimento_1_Parcela_Semestral__c ) + (YEAR ( TW1_Vencimento_1_Parcela_Semestral__c )*12)) - 
+(MONTH (TW1_Data_Fiduciaria__c ) + (YEAR (TW1_Data_Fiduciaria__c )*12))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Capitalização Semestral</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Caso__c</fullName>
+        <externalId>false</externalId>
+        <label>Caso</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Simulações de Alienação Fiduciária</relationshipLabel>
+        <relationshipName>Simulacoes_Alienacao_Fiduciaria</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TW1_Certidoes_Custas_Compradores__c</fullName>
+        <externalId>false</externalId>
+        <label>Certidões / Custas Compradores</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Certidoes_Custas_Imovel__c</fullName>
+        <externalId>false</externalId>
+        <label>Certidões / Custas Imóvel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comentario_para_Aprovacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Comentário para Aprovação</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comprometimento_Anual__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (TW1_Valor_Parcela_Anual_com_Juros__c / 12 &gt;0), (TW1_Valor_Parcela_Anual_com_Juros__c / 12), 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comprometimento Anual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comprometimento_Mensal_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Comprometimento_Mensal__c +  TW1_Outras_Parcelas_Correspondente_Men__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comprometimento Mensal Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comprometimento_Mensal__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Valor_Parcela_Mensal_com_Juros__c + TW1_Comprometimento_Semestral__c +
+
+(TW1_Valor_Parcela_Anual_com_Juros__c / 12)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comprometimento Mensal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comprometimento_Semestral__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Valor_Parcela_Semestral_com_Juros__c / 6</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comprometimento Semestral</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Comprometimento_de_Renda__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Comprometimento_Mensal_Total__c /  TW1_Renda_Media_Mensal__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comprometimento de Renda</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Conferencia_Valores__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ((TW1_Ato__c + TW1_Parcelas_Mensais__c + TW1_Parcelas_Anuais__c + TW1_Parcela_Unica__c + TW1_Parcela_Unica_B__c + TW1_Outras_Parcelas__c+ TW1_Parcelas_Semestrais__c )= TW1_Valor_Fiduciaria__c ), 
+0, TW1_Valor_Fiduciaria__c - (TW1_Ato__c + TW1_Parcelas_Mensais__c + TW1_Parcelas_Anuais__c + TW1_Parcela_Unica__c + TW1_Parcela_Unica_B__c + TW1_Outras_Parcelas__c+TW1_Parcelas_Semestrais__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Conferência de Valores</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Criterio_Limite_Idade__c</fullName>
+        <defaultValue>&quot;Idade máxima 69,9 anos&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Critério para Limite de Idade</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Criterio_Prazo_Financiamento__c</fullName>
+        <defaultValue>&quot;Idade + Prazo de Financiamento &lt; 73 anos&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Critério para Prazo de Financiamento</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Criterio_Saldo_Devedor__c</fullName>
+        <defaultValue>&quot;Limite máximo por CPF é R$ 3.000.000,00&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Critério para Saldo Devedor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Custas__c</fullName>
+        <externalId>false</externalId>
+        <label>Custas (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Ato__c</fullName>
+        <externalId>false</externalId>
+        <label>Data do Ato</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Base_Inicio__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE(YEAR(TW1_Data_Base__c),MONTH(TW1_Data_Base__c),01)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Base Inicio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Base__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Base Assinatura</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Fiduciaria__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Data_Base__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Fiduciária</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Habite_se__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Data_Habite_se__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data do Habite-se</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Parcela_Mensal_Inicio__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE(YEAR( TW1_Vencimento_Parcela_Mensal__c ),MONTH( TW1_Vencimento_Parcela_Mensal__c ),01)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Parcela Mensal Inicio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_da_Venda__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Data_da_Venda__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data da Venda</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Desconto_Acrescimo__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Saldo_Fiduciaria__c -  TW1_Saldo_Devedor__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Desconto/Acréscimo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Descricao_Serasa__c</fullName>
+        <externalId>false</externalId>
+        <label>Descrição SERASA</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Despachante__c</fullName>
+        <externalId>false</externalId>
+        <label>Despachante</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Empreendimento__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Empreendimento__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Empreendimento</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Encargos__c</fullName>
+        <externalId>false</externalId>
+        <label>Encargos (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Enviar_para_Aprovacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Enviar para Aprovação</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sim</fullName>
+                    <default>false</default>
+                    <label>Sim</label>
+                </value>
+                <value>
+                    <fullName>Não</fullName>
+                    <default>false</default>
+                    <label>Não</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Fator_de_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>(( TW1_Taxa_de_Juros_Anual_1_2__c  + 1))^(IF ( ( TW1_Data_da_Venda__c &gt;  TW1_Data_Habite_se__c ),
+
+(ABS((YEAR( TW1_Data_da_Venda__c) * 12 + MONTH (TW1_Data_da_Venda__c)) - (YEAR(  TW1_Data_Fiduciaria__c  ) * 12 + MONTH (TW1_Data_Fiduciaria__c)))),
+
+(ABS((YEAR(  TW1_Data_Habite_se__c ) * 12 + MONTH (TW1_Data_Habite_se__c)) - (YEAR(  TW1_Data_Fiduciaria__c  ) * 12 + MONTH (TW1_Data_Fiduciaria__c))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fator de Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_IGPM_Atual_Nao_Encontrado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IGPM Atual Não Encontrado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_IGPM_Base_nao_encontrado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IGPM Base não encontrado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_IGP_M_Atual__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>IGP-M Atual</label>
+        <referenceTo>TW1_IGP_M__c</referenceTo>
+        <relationshipLabel>Simulações de Alienação Fiduciária (IGP-M Atual)</relationshipLabel>
+        <relationshipName>AF_IGPM_Atual</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_IGP_M_Base__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>IGP-M Base</label>
+        <referenceTo>TW1_IGP_M__c</referenceTo>
+        <relationshipLabel>Simulações de Alienação Fiduciária</relationshipLabel>
+        <relationshipName>AF_IGPM_Base</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_INCC_Base_Nao_Encontrado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>INCC Base Não Encontrado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_INCC_Base__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>INCC Base</label>
+        <referenceTo>TW1_INCC__c</referenceTo>
+        <relationshipLabel>Simulações de Alienação Fiduciária</relationshipLabel>
+        <relationshipName>AF_INCC_BASE</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_INCC_Habite_se__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>INCC Habite-se</label>
+        <referenceTo>TW1_INCC__c</referenceTo>
+        <relationshipLabel>Simulações de Alienação Fiduciária (INCC Habite-se)</relationshipLabel>
+        <relationshipName>AF_INCC_Habite_Se</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_INCC_Habitese_Nao_Encontrado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>INCC Habite-se Não Encontrado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_ITBI_Simulacao__c</fullName>
+        <externalId>false</externalId>
+        <label>ITBI</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_ITBI__c</fullName>
+        <externalId>false</externalId>
+        <label>ITBI (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Id_Unidade__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Id Unidade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Idade_Maxima__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+		(IF( (TW1_Caso__r.TW1_Maior_Idade__c &lt; 70),&quot;Ok&quot;,&quot;Acima do Limite&quot;)) ,
+		&quot;Ok&quot;,IMAGE(&quot;servlet/servlet.ImageServer?id=0150v00000076CK&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;,&quot;Apto&quot;),
+		&quot;Acima do Limite&quot;,IMAGE(&quot;servlet/servlet.ImageServer?id=0150v000000766R&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;, &quot;Acima do Limite&quot;),
+		IMAGE(&quot;servlet/servlet.ImageServer?id=0150v00000076CK&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;,&quot;Apto&quot;)
+	)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Idade Máxima</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Juros_Anuais_Efetivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Juros Anuais Efetivo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Juros_Semestrais_Efetivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Juros Semestrais Efetivo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_LTV_Atualizado__c</fullName>
+        <externalId>false</externalId>
+        <formula>( TW1_Valor_Fiduciaria__c -  TW1_Ato__c ) /   TW1_Valor_de_Venda_Atualizado__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LTV Atualizado</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_LTV__c</fullName>
+        <externalId>false</externalId>
+        <formula>( TW1_Valor_Fiduciaria__c -  TW1_Ato__c ) /  TW1_Valor_da_Venda_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LTV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Limite_Saldo_Devedor__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (( TW1_Saldo_Fiduciaria__c -  TW1_Ato__c) &lt; $Setup.TW1_Padroes_Financeiros_Calcada__c.TW1_Saldo_Devedor_Maximo__c ), &quot;Ok&quot;, &quot;Acima do Limite &quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Limite Saldo Devedor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Mes_Habite_se__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH(TW1_Caso__r.TW1_Unidade__r.TW1_Data_Habite_se__c )) + &quot;/&quot; + 
+TEXT(YEAR(TW1_Caso__r.TW1_Unidade__r.TW1_Data_Habite_se__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mês Habite-se</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Mes_Inicio_Correcao_Monetaria__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH( TW1_Data_Fiduciaria__c )) + &quot;/&quot; + 
+TEXT(YEAR(TW1_Data_Fiduciaria__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mês Início Correção Monetária</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Mes_Inicio_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(MONTH( TW1_Data_Fiduciaria__c )) + &quot;/&quot; + 
+TEXT(YEAR(TW1_Data_Fiduciaria__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mês Início Juros</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Meses_Capitalizacao__c</fullName>
+        <externalId>false</externalId>
+        <formula>( MONTH( TW1_Vencimento_Parcela_Mensal__c ) + (YEAR ( TW1_Vencimento_Parcela_Mensal__c )*12)) -
+(MONTH (TW1_Data_Fiduciaria__c ) + (YEAR (TW1_Data_Fiduciaria__c )*12))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Meses de Capitalização</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Observacao_Desc_Acres__c</fullName>
+        <externalId>false</externalId>
+        <label>Observação Desc/Acres</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Observacao_das_Parcelas__c</fullName>
+        <externalId>false</externalId>
+        <label>Observação das Parcelas</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Opcao_Modif__c</fullName>
+        <externalId>false</externalId>
+        <label>Opção/Modificação (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Outras_Parcelas_Correspondente_Men__c</fullName>
+        <externalId>false</externalId>
+        <label>Outras Parcelas - Correspondente Mensal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Outras_Parcelas__c</fullName>
+        <externalId>false</externalId>
+        <label>Outras Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcela_Unica_B__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcela_Unica_B_capitalizada__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcela_Unica_B__c * ((1 +  TW1_Taxa_Juros_Efetiva_Unica_B__c  )^ (( MONTH( TW1_Vencimento_Parcela_Unica_B__c ) + (YEAR ( TW1_Vencimento_Parcela_Unica_B__c )*12)) - 
+(MONTH (TW1_Data_Fiduciaria__c ) + (YEAR (TW1_Data_Fiduciaria__c )*12))) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parcela Única B com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcela_Unica_Capitalizada__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcela_Unica__c * ((1 + TW1_Taxa_de_Juros_Parcela_Unica__c )^ (( MONTH( TW1_Vencimento_Parcela_Unica__c ) + (YEAR ( TW1_Vencimento_Parcela_Unica__c )*12)) -
+(MONTH (TW1_Data_Fiduciaria__c ) + (YEAR (TW1_Data_Fiduciaria__c )*12))) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parcela Única com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcela_Unica__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Anuais_Capitalizadas__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Anuais__c * ((1 +  TW1_Taxa_de_Juros_Anual_1_2__c  )^  TW1_Capitalizacao_Anual__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parcelas Anuais Capitalizadas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Anuais__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Mensais_Capitalizadas__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Mensais__c * ((1 + TW1_Taxa_de_Juros_Efetiva__c )^  TW1_Meses_Capitalizacao__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parcelas Mensais Capitalizadas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Mensais__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Semestrais_Capitalizadas__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Semestrais__c * ((1 +  TW1_Taxa_de_Juros_Semestrais_1_2__c  )^ TW1_Capitalizacao_Semestral__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parcelas Semestrais Capitalizadas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Parcelas_Semestrais__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Patrimonio__c</fullName>
+        <externalId>false</externalId>
+        <label>Patrimônio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Prazo_Financiamento__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+		IF((((((TW1_Qtd_Parcelas_Mensais__c)/12)+TW1_Caso__r.TW1_Maior_Idade__c))&lt;=73),&quot;Ok&quot;,&quot;Acima do Limite&quot;) ,
+		&quot;Ok&quot;,IMAGE(&quot;servlet/servlet.ImageServer?id=0150v00000076CK&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;,&quot;Apto&quot;),
+		&quot;Acima do Limite&quot;,IMAGE(&quot;servlet/servlet.ImageServer?id=0150v000000766R&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;, &quot;Acima do Limite&quot;),
+		IMAGE(&quot;servlet/servlet.ImageServer?id=0150v00000076CK&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;,&quot;Apto&quot;)
+	)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Prazo Financiamento</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Proprietario__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.Contact.FirstName + &quot; &quot;+  TW1_Caso__r.Contact.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Proprietário</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Outras_Parcelas__c</fullName>
+        <externalId>false</externalId>
+        <label>Qtd Outras Parcelas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Parcelas_Anuais__c</fullName>
+        <externalId>false</externalId>
+        <label>Qtd Parcelas Anuais</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Parcelas_Mensais__c</fullName>
+        <externalId>false</externalId>
+        <label>Qtd Parcelas Mensais</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Parcelas_Semestrais__c</fullName>
+        <externalId>false</externalId>
+        <label>Qtd Parcelas Semestrais</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Rateio__c</fullName>
+        <externalId>false</externalId>
+        <label>Rateio (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Registro__c</fullName>
+        <externalId>false</externalId>
+        <label>Registro</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Renda_Media_Mensal__c</fullName>
+        <externalId>false</externalId>
+        <label>Renda Média Mensal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_Devedor_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Saldo_Devedor_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Saldo Devedor UAU</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_Devedor__c</fullName>
+        <externalId>false</externalId>
+        <label>Saldo Devedor Base</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Saldo_Fiduciaria__c</fullName>
+        <externalId>false</externalId>
+        <label>Saldo Fiduciária</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Seguro_Prestamista__c</fullName>
+        <externalId>false</externalId>
+        <label>Seguro Prestamista (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Seguro__c</fullName>
+        <externalId>false</externalId>
+        <label>Seguro (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Selecionada__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Selecionada</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Servico_Complementar__c</fullName>
+        <externalId>false</externalId>
+        <label>Serviço Complementar (-)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Situacao_Simulacao_AF__c</fullName>
+        <externalId>false</externalId>
+        <label>Situação da Simulação da AF</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Em elaboração</fullName>
+                    <default>true</default>
+                    <label>Em elaboração</label>
+                </value>
+                <value>
+                    <fullName>Aprovada pela Diretoria</fullName>
+                    <default>false</default>
+                    <label>Aprovada pela Diretoria</label>
+                </value>
+                <value>
+                    <fullName>Aprovada pela Gerência</fullName>
+                    <default>false</default>
+                    <label>Aprovada pela Gerência</label>
+                </value>
+                <value>
+                    <fullName>Reprovada pela Diretoria</fullName>
+                    <default>false</default>
+                    <label>Reprovada pela Diretoria</label>
+                </value>
+                <value>
+                    <fullName>Reprovada pela Gerência</fullName>
+                    <default>false</default>
+                    <label>Reprovada pela Gerência</label>
+                </value>
+                <value>
+                    <fullName>Em Aprovação da Diretoria</fullName>
+                    <default>false</default>
+                    <label>Em Aprovação da Diretoria</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Status_da_Conferencia__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TW1_Conferencia_Valores__c &lt;&gt; 0, IMAGE(&quot;servlet/servlet.ImageServer?id=0150v000000Eq7v&amp;oid=00D0v000000CmTj&amp;lastMod=1521150023000&quot;, &quot;Total saldo da fiduciária diferente do total das parcelas&quot;),IMAGE(&quot;servlet/servlet.ImageServer?id=0150v00000076CK&amp;oid=00D0v000000CmTj&amp;lastMod=1516821347000&quot;,&quot;Ok&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status da Conferência</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_Juros_Efetiva_Unica_B__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxa de Juros Efetiva ao mês</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Anual_1_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>(EXP((1/12)*LN((1 + TW1_Taxa_de_Juros_Efetiva_Anuais__c))) - 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Taxa de Juros Anual 1/2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Efetiva_Anuais__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxa de Juros Efetiva Anuais</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Efetiva_Semestral__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxa de Juros Efetiva Semestral</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Efetiva__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxa de Juros Efetiva ao mês</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Parcela_Unica__c</fullName>
+        <externalId>false</externalId>
+        <label>Taxa de Juros Efetiva ao mês</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Taxa_de_Juros_Semestrais_1_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>(EXP((1/6)*LN((1 +  TW1_Taxa_de_Juros_Efetiva_Semestral__c ))) - 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Taxa de Juros Semestrais 1/2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>7</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo_Renda_Mensal__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Renda Mensal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bruta</fullName>
+                    <default>false</default>
+                    <label>Bruta</label>
+                </value>
+                <value>
+                    <fullName>Líquida</fullName>
+                    <default>false</default>
+                    <label>Líquida</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Total_Pagar_Custas__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_ITBI_Simulacao__c +  TW1_Certidoes_Custas_Compradores__c +  TW1_Certidoes_Custas_Imovel__c +  TW1_Despachante__c +  TW1_Registro__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total a Pagar (Custas)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Unidade__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Unidade__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unidade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Fiduciaria__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Saldo_Fiduciaria__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor Fiduciária</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Pago_Preco__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Valor_Total_Pago__c - TW1_Custas__c - TW1_Seguro_Prestamista__c - TW1_Seguro__c - TW1_Servico_Complementar__c - TW1_Rateio__c - TW1_Boleto__c - TW1_Opcao_Modif__c - TW1_ITBI__c - TW1_Encargos__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor Pago Preço</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Parcela_Anual_com_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Anuais_Capitalizadas__c * ((TW1_Taxa_de_Juros_Efetiva_Anuais__c * ((1 + TW1_Taxa_de_Juros_Efetiva_Anuais__c) ^ (TW1_Qtd_Parcelas_Anuais__c -1))) / ((1 + TW1_Taxa_de_Juros_Efetiva_Anuais__c) ^ TW1_Qtd_Parcelas_Anuais__c -1 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor Parcela Anual com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Parcela_Mensal_com_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Mensais__c * ((TW1_Taxa_de_Juros_Efetiva__c *((TW1_Taxa_de_Juros_Efetiva__c + 1)^( TW1_Qtd_Parcelas_Mensais__c +  TW1_Meses_Capitalizacao__c  -1)))/((( TW1_Taxa_de_Juros_Efetiva__c + 1 )^ TW1_Qtd_Parcelas_Mensais__c )- 1 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor Parcela Mensal com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Parcela_Semestral_com_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Parcelas_Semestrais_Capitalizadas__c * (( TW1_Taxa_de_Juros_Efetiva_Semestral__c  * ((1 + TW1_Taxa_de_Juros_Efetiva_Semestral__c) ^ (TW1_Qtd_Parcelas_Semestrais__c -1))) / ((1 + TW1_Taxa_de_Juros_Efetiva_Semestral__c) ^ TW1_Qtd_Parcelas_Semestrais__c -1 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor Parcela Semestral com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_Total_Pago__c</fullName>
+        <externalId>false</externalId>
+        <label>Valor Total Pago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_da_Venda_UAU__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Caso__r.TW1_Unidade__r.TW1_Valor_da_Venda_UAU__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor da Venda UAU</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Valor_de_Venda_Atualizado__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Venda_Atualizada_Ate_Habite_se__c /  TW1_IGP_M_Base__r.TW1_Indice_Base__c *  TW1_IGP_M_Atual__r.TW1_Indice_Base__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valor de Venda Atualizado</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Vencimento_1_Parcela_Anual__c</fullName>
+        <externalId>false</externalId>
+        <label>Vencimento 1ª Parcela Anual</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Vencimento_1_Parcela_Semestral__c</fullName>
+        <externalId>false</externalId>
+        <label>Vencimento 1ª Parcela Semestral</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Vencimento_Parcela_Mensal__c</fullName>
+        <externalId>false</externalId>
+        <label>Vencimento 1ª Parcela Mensal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Vencimento_Parcela_Unica_B__c</fullName>
+        <externalId>false</externalId>
+        <label>Vencimento Parcela Única B</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Vencimento_Parcela_Unica__c</fullName>
+        <externalId>false</externalId>
+        <label>Vencimento Parcela Única</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Venda_Atualizada_Ate_Habite_se__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TW1_Data_da_Venda__c &gt;    TW1_Data_Habite_se__c ,
+
+
+
+ TW1_Valor_da_Venda_UAU__c ,
+
+
+TW1_Valor_da_Venda_UAU__c /   TW1_INCC_Base__r.TW1_Indice_Base__c  *   TW1_INCC_Habite_se__r.TW1_Indice_Base__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Venda Atualizada Até Habite-se</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Venda_Atualizada_Com_Juros__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Valor_de_Venda_Atualizado__c  *  TW1_Fator_de_Juros__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Venda Atualizada Com Juros</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Simulação de Alienação Fiduciária</label>
+    <nameField>
+        <displayFormat>AF{0000}</displayFormat>
+        <label>Nome de Simulação Alienação Fiduciária</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Simulações de Alienação Fiduciária</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>TW1_Padrao</fullName>
+        <active>true</active>
+        <label>Padrão</label>
+        <picklistValues>
+            <picklist>SERASA__c</picklist>
+            <values>
+                <fullName>Com Restrições</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sem Restrições</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TW1_Enviar_para_Aprovacao__c</picklist>
+            <values>
+                <fullName>Não</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sim</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TW1_Situacao_Simulacao_AF__c</picklist>
+            <values>
+                <fullName>Aprovada pela Diretoria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aprovada pela Gerência</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Em Aprovação da Diretoria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Em elaboração</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reprovada pela Diretoria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reprovada pela Gerência</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TW1_Tipo_Renda_Mensal__c</picklist>
+            <values>
+                <fullName>Bruta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Líquida</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>AprovacaoDiretoria</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+NOT($Profile.Name = &quot;Diretoria&quot;), 
+ISCHANGED(TW1_Situacao_Simulacao_AF__c),
+OR(ISPICKVAL(TW1_Situacao_Simulacao_AF__c, &quot;Aprovada pela Diretoria&quot;),
+ISPICKVAL(TW1_Situacao_Simulacao_AF__c, &quot;Reprovada pela Diretoria&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>TW1_Situacao_Simulacao_AF__c</errorDisplayField>
+        <errorMessage>Somente a Diretoria poderá alterar a situação para Aprovada pela Diretoria ou Reprovada pela Diretoria.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ConferenciaValores</fullName>
+        <active>true</active>
+        <description>Não é possível salvar a simulação se houver valores entre o saldo da fiduciária e o total de parcelas.</description>
+        <errorConditionFormula>AND(TW1_Conferencia_Valores__c &lt;&gt; 0,
+ISCHANGED ( TW1_Enviar_para_Aprovacao__c ),
+ISPICKVAL( TW1_Enviar_para_Aprovacao__c ,&quot;Sim&quot;)
+)</errorConditionFormula>
+        <errorMessage>Não é possível salvar a simulação de AF se houver divergências entre o Saldo da Fiduciária e o somatório das parcelas. Favor verificar a diferença no campo Conferência de Valores.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Editar_AF_Selecionada</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ $Profile.Name &lt;&gt; &quot;Gestor Financeiro&quot;,
+
+   TW1_Selecionada__c=TRUE
+)</errorConditionFormula>
+        <errorMessage>Não é possível editar Simulação aprovada/Selecionada.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Nao_editar_AF_selecionada</fullName>
+        <active>true</active>
+        <description>Não é possível editar AF selecionada.</description>
+        <errorConditionFormula>AND(
+ TW1_Selecionada__c = TRUE,
+ $Profile.Name &lt;&gt; &quot;Gestor Financeiro&quot;
+)</errorConditionFormula>
+        <errorMessage>Não é possível alterar  uma simulação selecionada. Entre em contato com o Gestor Financeiro.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>TW1_Atualiza_Saldo_Devedor</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Atualiza Saldo Devedor</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/TW1_Flow_AtualizaSaldoDevedor?CodUnidade={!TW1_Simulacao_AF__c.TW1_Id_Unidade__c}&amp;IdSimulacaoAF={!TW1_Simulacao_AF__c.Id}&amp;retURL={!TW1_Simulacao_AF__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>TW1_Selecionar_AF</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Selecionar AF</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/TW1_Flow_SomenteUmaSimulacaoAF?ID_Caso={!TW1_Simulacao_AF__c.TW1_CasoId__c}&amp;Aprovacao={!TW1_Simulacao_AF__c.TW1_Situacao_Simulacao_AF__c}&amp;ID_SimulacaoAF={!TW1_Simulacao_AF__c.Id}&amp;retURL={!TW1_Simulacao_AF__c.Id}</url>
+    </webLinks>
+</CustomObject>

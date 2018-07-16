@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>TW1_Academia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Academia</description>
+        <externalId>false</externalId>
+        <label>Academia</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Banco_Financiador__c</fullName>
+        <externalId>false</externalId>
+        <label>Banco Financiador</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Banco do Brasil</fullName>
+                    <default>false</default>
+                    <label>Banco do Brasil</label>
+                </value>
+                <value>
+                    <fullName>Bradesco</fullName>
+                    <default>false</default>
+                    <label>Bradesco</label>
+                </value>
+                <value>
+                    <fullName>Caixa Econômica</fullName>
+                    <default>false</default>
+                    <label>Caixa Econômica</label>
+                </value>
+                <value>
+                    <fullName>Itaú</fullName>
+                    <default>false</default>
+                    <label>Itaú</label>
+                </value>
+                <value>
+                    <fullName>Santander</fullName>
+                    <default>false</default>
+                    <label>Santander</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Bar_Piscina__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Bar da Piscina</description>
+        <externalId>false</externalId>
+        <label>Bar da Piscina</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Brinquedoteca__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Brinquedoteca</description>
+        <externalId>false</externalId>
+        <label>Brinquedoteca</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_CEP__c</fullName>
+        <description>CEP do endereço do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>CEP</label>
+        <length>8</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Churrasqueira__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Churrasqueira</description>
+        <externalId>false</externalId>
+        <label>Churrasqueira</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Cidade__c</fullName>
+        <description>Cidade do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Cidade</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Codigo_Obra_UAU__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Código da Obra no ERP</label>
+        <length>5</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Vistoria__c</fullName>
+        <externalId>false</externalId>
+        <label>Data da Vistoria</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Descricao__c</fullName>
+        <externalId>false</externalId>
+        <label>Descricao</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Dth_Fim_Obra__c</fullName>
+        <description>Data de Fim da Obra</description>
+        <externalId>false</externalId>
+        <label>Fim da Obra</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Dth_Inicio_Obra__c</fullName>
+        <description>Data de início da Obra</description>
+        <externalId>false</externalId>
+        <label>Inicio da Obra</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Empresa__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Empresa vinculada ao Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Empresa</label>
+        <referenceTo>TW1_Empresa__c</referenceTo>
+        <relationshipLabel>Empreendimentos</relationshipLabel>
+        <relationshipName>Empreendimentos</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Endereco__c</fullName>
+        <description>Endereço do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Endereço</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Espacao_Kids__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Espaço Kids</description>
+        <externalId>false</externalId>
+        <label>Espaço Kids</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Estado__c</fullName>
+        <description>Estado do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Estado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TW1_Lista_Estado</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Imagem_Empreendimento__c</fullName>
+        <description>Imagem do Empreendimento com fachada ou aérea</description>
+        <externalId>false</externalId>
+        <label>Imagem</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Logo_Empreendimento__c</fullName>
+        <description>Logomarca do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>⁬⁬⁭</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TW1_Metragem__c</fullName>
+        <description>Área total do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Metragem</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_N_Blocos__c</fullName>
+        <description>Número total de blocos do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Nº de Blocos</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Piscina_Infantil__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Piscina Infantil</description>
+        <externalId>false</externalId>
+        <label>Piscina Infantil</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Piscina__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Piscina.</description>
+        <externalId>false</externalId>
+        <label>Piscina</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Playground__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Playground</description>
+        <externalId>false</externalId>
+        <label>Playground</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Unidades__c</fullName>
+        <description>Quantidade total de unidades do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Qtd Unidades</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Qtd_Vagas__c</fullName>
+        <description>Quantidade total de vagas</description>
+        <externalId>false</externalId>
+        <label>Qtd Vagas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Quadra_Poliesportiva__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Quadra Poliesportiva</description>
+        <externalId>false</externalId>
+        <label>Quadra Poliesportiva</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Salao_Festas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Salão de Festas</description>
+        <externalId>false</externalId>
+        <label>Salão de Festas</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Salao_Jogos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Salão de Jogos</description>
+        <externalId>false</externalId>
+        <label>Salão de Jogos</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Sauna__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Informa se o Empreendimento possui Sauna</description>
+        <externalId>false</externalId>
+        <label>Sauna</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Tipo__c</fullName>
+        <description>Tipo do Empreendimento</description>
+        <externalId>false</externalId>
+        <label>Tipo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Comercial</fullName>
+                    <default>false</default>
+                    <label>Comercial</label>
+                </value>
+                <value>
+                    <fullName>Residencial</fullName>
+                    <default>false</default>
+                    <label>Residencial</label>
+                </value>
+                <value>
+                    <fullName>Comercial/Residencial</fullName>
+                    <default>false</default>
+                    <label>Comercial/Residencial</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TW1_Vistoria_Realizada__c</fullName>
+        <externalId>false</externalId>
+        <label>Vistoria Realizada</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Não Realizada</fullName>
+                    <default>true</default>
+                    <label>Não Realizada</label>
+                </value>
+                <value>
+                    <fullName>Parcial</fullName>
+                    <default>false</default>
+                    <label>Parcial</label>
+                </value>
+                <value>
+                    <fullName>Total</fullName>
+                    <default>false</default>
+                    <label>Total</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Empreendimento</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Tudo</label>
+    </listViews>
+    <nameField>
+        <label>Nome do Empreendimento</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Empreendimentos</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
