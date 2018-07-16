@@ -75,7 +75,28 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Contato__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contato</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>Assistente de comercialização, Executivo de vendas</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Black Lists</relationshipLabel>
+        <relationshipName>Black_Lists</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>TW1_Promocao__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
