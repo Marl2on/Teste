@@ -36,14 +36,7 @@
         <actionName>Tab</actionName>
         <type>Default</type>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Loja_Inexistente</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
+
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Loja_Inexistente</compactLayoutAssignment>
     <compactLayouts>
