@@ -38,7 +38,14 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-
+    <compactLayoutAssignment>Shopping</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Shopping</fullName>
+        <fields>Name</fields>
+        <fields>TW1_Shopping__c</fields>
+        <fields>RecordTypeId</fields>
+        <label>Shopping</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -49,18 +56,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>TW1_Shopping__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Shopping</label>
-        <referenceTo>TW1_Shopping__c</referenceTo>
-        <relationshipName>Cinemas</relationshipName>
-        <required>false</required>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
+    
     <label>Entretenimento</label>
     <nameField>
         <label>Nome do Entretenimento</label>
