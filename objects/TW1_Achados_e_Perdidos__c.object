@@ -39,17 +39,7 @@
 
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Layout_Compact</fullName>
-        <fields>TW1_Cliente__c</fields>
-        <fields>TW1_Data__c</fields>
-        <fields>TW1_Encontrado_em__c</fields>
-        <fields>TW1_Local__c</fields>
-        <fields>TW1_Objeto__c</fields>
-        <fields>TW1_Shopping__c</fields>
-        <fields>TW1_Status__c</fields>
-        <label>Layout Compact</label>
-    </compactLayouts>
+    
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -302,23 +292,7 @@
         </filters>
         <label>Doado</label>
     </listViews>
-    <listViews>
-        <fullName>Perdido</fullName>
-        <columns>NAME</columns>
-        <columns>TW1_Cliente__c</columns>
-        <columns>TW1_Data_da_Perda__c</columns>
-        <columns>TW1_Descricao__c</columns>
-        <columns>TW1_Local__c</columns>
-        <columns>TW1_Objeto__c</columns>
-        <columns>TW1_Shopping__c</columns>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>TW1_Achados_e_Perdidos__c.Perdido</value>
-        </filters>
-        <label>Perdido</label>
-    </listViews>
+    
     <nameField>
         <displayFormat>{0000000}</displayFormat>
         <label>Número</label>
@@ -365,12 +339,7 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>TW1_Solicita_dados_cliente</fullName>
-        <active>false</active>
-        <errorConditionFormula>ISCHANGED(TW1_Status__c) &amp;&amp; TEXT(TW1_Status__c) = &quot;Devolvido&quot; &amp;&amp; (ISBLANK(TW1_Cliente__c) || ISBLANK(TW1_Data_da_Devolucao__c))</errorConditionFormula>
-        <errorMessage>Por favor preencha os dados da conta e a data da devolução.</errorMessage>
-    </validationRules>
+    
     <validationRules>
         <fullName>TW1_Solicita_dados_doacao</fullName>
         <active>false</active>
