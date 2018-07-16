@@ -306,7 +306,7 @@
     <recordTypes>
         <fullName>Achado</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Achado</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -327,7 +327,7 @@
     <recordTypes>
         <fullName>Perdido</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Perdido</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
