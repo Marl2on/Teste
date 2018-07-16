@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TopicsForObjects xmlns="http://soap.sforce.com/2006/04/metadata">
-    <enableTopics>false</enableTopics>
-    <entityApiName>Tw1_Dados_de_Contato_adicionais__c</entityApiName>
-</TopicsForObjects>

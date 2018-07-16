@@ -1,3 +1,0 @@
-<apex:page standardController="TW1_Inadimplencia__c" extensions="Cal_Cls_Ctr_TimeLine_Inadimplencia">
-    <c:TimeLineInadimplenciaComponent fasesClasses="{! fasesClasses }" fasesLabels="{! fasesLabels }" fasesIcons="{! fasesIcons }" fasesTimes="{! fasesTimes }" inadimplenciaFase="{! TW1_Inadimplencia__c.TW1_Fase__c }" />
-</apex:page>

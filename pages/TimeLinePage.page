@@ -1,3 +1,0 @@
-<apex:page standardController="Case" extensions="Cal_Cls_Ctr_TimeLine">
-    <c:TimeLineComponent statusClasses="{! statusClasses }" statusLabels="{! statusLabels }" statusIcons="{! statusIcons }" statusTimes="{! statusTimes }" timelineRepasse="{! case.TW1_Timeline_Repasse__c }" status="{! case.Status }" />
-</apex:page>
