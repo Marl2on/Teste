@@ -113,7 +113,25 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Item</label>
-        
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.TW1_Tipo_de_Emprestimo__c</field>
+                <operation>equals</operation>
+                <valueField>TW1_Item__c.TW1_Tipo__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.TW1_Shopping__c</field>
+                <operation>equals</operation>
+                <valueField>TW1_Item__c.TW1_Shopping__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>TW1_Item__c.TW1_Status__c</field>
+                <operation>equals</operation>
+                <value>Vago</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>z
         <referenceTo>TW1_Item__c</referenceTo>
         <relationshipLabel>Empréstimos</relationshipLabel>
         <relationshipName>Empr_stimos</relationshipName>
@@ -123,7 +141,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    
+   
     <fields>
         <fullName>TW1_Observacao__c</fullName>
         <externalId>false</externalId>
