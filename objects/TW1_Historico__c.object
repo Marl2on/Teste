@@ -53,12 +53,7 @@
         <enableStreamingApi>true</enableStreamingApi>
     
     <label>Histórico</label>
-    <nameField>
-        <displayFormat>HIST-{00000000}</displayFormat>
-        <label>Código Histórico</label>
-        <trackHistory>true</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
+    
     <pluralLabel>Históricos</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
