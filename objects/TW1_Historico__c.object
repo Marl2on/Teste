@@ -50,8 +50,7 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>false</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
+        <enableStreamingApi>true</enableStreamingApi>
     
     <label>Histórico</label>
     <nameField>
