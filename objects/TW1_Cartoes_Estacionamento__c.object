@@ -41,14 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Cartao_Estacionamento</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Cartao_Estacionamento</fullName>
-        <fields>TW1_Numero_do_Cartao__c</fields>
-        <fields>TW1_Numero_Fidelidade__c</fields>
-        <fields>TW1_Status__c</fields>
-        <label>Cartão Estacionamento</label>
-    </compactLayouts>
+    
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -69,6 +62,6 @@
     </nameField>
     <pluralLabel>Cartões Estacionamento</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    
     <visibility>Public</visibility>
 </CustomObject>
