@@ -41,19 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Layout_Compact</fullName>
-        <fields>TW1_Data_da_Nota__c</fields>
-        <fields>TW1_Fidelidade__c</fields>
-        <fields>TW1_Pontos__c</fields>
-        <fields>RecordTypeId</fields>
-        <fields>TW1_Saldo__c</fields>
-        <fields>TW1_Status__c</fields>
-        <fields>TW1_Tipo__c</fields>
-        <fields>TW1_Valor_RS__c</fields>
-        <label>Layout Compact</label>
-    </compactLayouts>
+    
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
