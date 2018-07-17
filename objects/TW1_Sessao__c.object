@@ -38,7 +38,15 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-    
+    <compactLayoutAssignment>Sessao</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Sessao</fullName>
+        <fields>TW1_Horarios__c</fields>
+        <fields>Programacao__c</fields>
+        <fields>TW1_Sala__c</fields>
+        <fields>TW1_Shopping__c</fields>
+        <label>Sessão</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
