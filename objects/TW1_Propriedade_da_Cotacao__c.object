@@ -105,20 +105,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>TW1_Propriedade__c</fullName>
-        <externalId>false</externalId>
-        <label>Propriedade</label>
-        <referenceTo>TW1_Propriedade__c</referenceTo>
-        <relationshipLabel>Propriedades da Cotação</relationshipLabel>
-        <relationshipName>Propriedades_da_Cotacao</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
+
     <fields>
         <fullName>TW1_Valor__c</fullName>
         <externalId>false</externalId>
