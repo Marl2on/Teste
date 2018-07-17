@@ -186,6 +186,6 @@
     </nameField>
     <pluralLabel>Cartões Estacionamento</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    
     <visibility>Public</visibility>
 </CustomObject>
