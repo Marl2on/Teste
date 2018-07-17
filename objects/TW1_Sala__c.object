@@ -38,7 +38,16 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-    
+    <compactLayoutAssignment>Sala</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Sala</fullName>
+        <fields>TW1_Entretenimento__c</fields>
+        <fields>Name</fields>
+        <fields>TW1_Numero_de_Lugares__c</fields>
+        <fields>TW1_Shopping__c</fields>
+        <fields>TW1_Tipo__c</fields>
+        <label>Sala</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -49,7 +58,36 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    
+    <fields>
+        <fullName>TW1_Entretenimento__c</fullName>
+        <externalId>false</externalId>
+        <label>Entretenimento</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>TW1_Entretenimento__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Cinema</value>
+            </filterItems>
+            <filterItems>
+                <field>TW1_Entretenimento__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Teatro</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>TW1_Entretenimento__c</referenceTo>
+        <relationshipLabel>Salas</relationshipLabel>
+        <relationshipName>Salas</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
     <fields>
         <fullName>TW1_Numero_de_Lugares__c</fullName>
         <externalId>false</externalId>
