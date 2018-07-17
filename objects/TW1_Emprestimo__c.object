@@ -75,16 +75,7 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Dependente</label>
-        <lookupFilter>
-            <active>true</active>
-            <errorMessage>Esse cliente não possui dependentes cadastrados.</errorMessage>
-            <filterItems>
-                <field>TW1_Dependente__c.TW1_Conta_Associada__c</field>
-                <operation>equals</operation>
-                <valueField>$Source.TW1_Nome_do_Cliente__c</valueField>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
+		
         <referenceTo>TW1_Dependente__c</referenceTo>
         <relationshipLabel>Empréstimos</relationshipLabel>
         <relationshipName>Empr_stimos</relationshipName>
@@ -209,17 +200,7 @@
         </valueSet>
     </fields>
     <label>Empréstimo</label>
-    <listViews>
-        <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>TW1_Data_do_Emprestimo__c</columns>
-        <columns>TW1_Item__c</columns>
-        <columns>TW1_Nome_do_Cliente__c</columns>
-        <columns>TW1_Shopping__c</columns>
-        <columns>TW1_Status__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    
     <nameField>
         <displayFormat>{0000000}</displayFormat>
         <label>Código do Empréstimo</label>
@@ -400,26 +381,6 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>TW1_VR_Emprestimo_Solicita_Data_Devolu</fullName>
-        <active>false</active>
-        <description>Se o status for alterado para devolvido o sistema solicita data de devolução.</description>
-        <errorConditionFormula>ISCHANGED(TW1_Status__c) &amp;&amp; ISPICKVAL(TW1_Status__c, &apos;Devolvido&apos;) &amp;&amp; ISNULL(TW1_Data_da_Devolucao__c)</errorConditionFormula>
-        <errorMessage>Favor preencher data de devolução.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>TW1_VR_Emprestimo_Solicita_status</fullName>
-        <active>false</active>
-        <description>A data de devolução só deve ser preenchida com o status igual a devolvida.</description>
-        <errorConditionFormula>NOT(ISNULL(TW1_Data_da_Devolucao__c)) &amp;&amp; ISPICKVAL(TW1_Status__c,&quot;Em uso&quot;)</errorConditionFormula>
-        <errorMessage>Se a data de devolução for preenchida alterar o status para Devolvido.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>TW1_VR_Emprestimo_Valida_status_item</fullName>
-        <active>true</active>
-        <description>Verifica se o item selecionado está com o status de Locado, caso positivo impede o salvamento solicitando um item vago.</description>
-        <errorConditionFormula>(ISNEW() || ISCHANGED(TW1_Item__c)) &amp;&amp; ISPICKVAL(TW1_Item__r.TW1_Status__c, &apos;Locado&apos;)</errorConditionFormula>
-        <errorMessage>Não é possível vincular um item com status de locado a um empréstimo já existente, por favor selecione um item vago.</errorMessage>
-    </validationRules>
+    
     <visibility>Public</visibility>
 </CustomObject>
