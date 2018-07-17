@@ -65,68 +65,67 @@
     <recordTypes>
         <fullName>Acao_Marketing</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
-        <label>Ação Marketing</label>
+                <label>Ação Marketing</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Ajuste_de_Saldo</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Ajuste de Saldo</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Aniversario</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Aniversário</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Cartao_Estacionamento</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Cartão Estacionamento</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Downgrade</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+       
         <label>Downgrade</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Nota_Expirada</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Nota Expirada</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Saldo_Inicial</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Saldo Inicial</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>TW1_Cadastro_de_NTFS</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Cadastro de NTFS</label>
         
     </recordTypes>
     <recordTypes>
         <fullName>Vinho</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Vinho</label>
         
     </recordTypes>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    
     
     <visibility>Public</visibility>
 </CustomObject>
