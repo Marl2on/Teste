@@ -41,7 +41,19 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    
+    <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Layout_Compact</fullName>
+        <fields>TW1_Data_da_Nota__c</fields>
+        <fields>TW1_Fidelidade__c</fields>
+        <fields>TW1_Pontos__c</fields>
+        <fields>RecordTypeId</fields>
+        <fields>TW1_Saldo__c</fields>
+        <fields>TW1_Status__c</fields>
+        <fields>TW1_Tipo__c</fields>
+        <fields>TW1_Valor_RS__c</fields>
+        <label>Layout Compact</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -97,13 +109,32 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    
+    <fields>
+        <fullName>TW1_ID_Shopping__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Loja__r.TW1_ID_Shopping__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ID Shopping</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>TW1_Loja__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <externalId>false</externalId>
         <label>Loja</label>
-        
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Loja</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Históricos</relationshipLabel>
         <relationshipName>Hist_ricos</relationshipName>
@@ -147,7 +178,20 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Saldo__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Fidelidade__r.TW1_Saldo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Saldo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>TW1_Status__c</fullName>
         <externalId>false</externalId>
@@ -286,7 +330,7 @@
     <recordTypes>
         <fullName>Acao_Marketing</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Ação Marketing</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -321,7 +365,7 @@
     <recordTypes>
         <fullName>Ajuste_de_Saldo</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Ajuste de Saldo</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -356,7 +400,7 @@
     <recordTypes>
         <fullName>Aniversario</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Aniversário</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -391,7 +435,7 @@
     <recordTypes>
         <fullName>Cartao_Estacionamento</fullName>
         <active>true</active>
-       
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Cartão Estacionamento</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -426,7 +470,7 @@
     <recordTypes>
         <fullName>Downgrade</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Downgrade</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -461,7 +505,7 @@
     <recordTypes>
         <fullName>Nota_Expirada</fullName>
         <active>true</active>
-      
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Nota Expirada</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -496,7 +540,7 @@
     <recordTypes>
         <fullName>Saldo_Inicial</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Saldo Inicial</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -531,7 +575,7 @@
     <recordTypes>
         <fullName>TW1_Cadastro_de_NTFS</fullName>
         <active>true</active>
-        
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Cadastro de NTFS</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -570,7 +614,7 @@
     <recordTypes>
         <fullName>Vinho</fullName>
         <active>true</active>
-       
+        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
         <label>Vinho</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -604,6 +648,61 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
-    
+    <validationRules>
+        <fullName>TW1_VR_Historico_Cliente_Platinum</fullName>
+        <active>true</active>
+        <description>Libera primeira taça de vinho diário grátis para clientes Platinum.</description>
+        <errorConditionFormula>ISPICKVAL(TW1_Fidelidade__r.TW1_Modalidade__c ,&apos;Platinum&apos;) &amp;&amp; ISPICKVAL(TW1_Tipo__c, &apos;Vinho&apos;) &amp;&amp; TW1_Fidelidade__r.Vinhos_diarios__c &gt;=1 &amp;&amp; TW1_Saldo__c &lt; 100</errorConditionFormula>
+        <errorMessage>Saldo insuficiente.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Pontos_Nota_Expirada</fullName>
+        <active>true</active>
+        <description>Impede que o usuário altere o valos do campo &quot;Pontos&quot; do tipo de registro &quot;Nota Expirada&quot;.</description>
+        <errorConditionFormula>NOT(ISNEW()) &amp;&amp; ISCHANGED(TW1_Pontos__c) &amp;&amp; (ISPICKVAL(TW1_Tipo__c, &apos;Cadastro de NTFS&apos;)  || ISPICKVAL(TW1_Tipo__c, &apos;Nota Expirada&apos;))</errorConditionFormula>
+        <errorMessage>O campo de ponto não pode ser alterado manualmente, crie um novo registro para ajustar os pontos.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_BonusAniversario</fullName>
+        <active>true</active>
+        <description>Quando o campo Bônus aniversário tiver marcado não permitirá um novo registro. O campo só será desmarcado após um ano de sua marcação.</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; ISPICKVAL(TW1_Tipo__c, &quot;Aniversario&quot;) &amp;&amp; TW1_Fidelidade__r.TW1_Bonus_Aniversario__c = True</errorConditionFormula>
+        <errorMessage>O bônus de aniversário já foi utilizado este ano.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_Data_da_Nota</fullName>
+        <active>true</active>
+        <description>Se a nota fiscal tiver com data maior que 30 dias por regra de negócio não é possível realizar seu cadastramento.</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; RecordType.Name = &apos;Cadastro de NTFS&apos; &amp;&amp; (TODAY() - 30) &gt; TW1_Data_da_Nota__c</errorConditionFormula>
+        <errorMessage>A data da nota não pode ser maior do que 30 dias corridos.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_Modalidade</fullName>
+        <active>true</active>
+        <description>Clientes prospect não podem usufruir de vinho e mimos de aniversários.</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; (ISPICKVAL(TW1_Tipo__c, &apos;Vinho&apos;) || ISPICKVAL(TW1_Tipo__c, &apos;Aniversario&apos;)) &amp;&amp; ISPICKVAL(TW1_Fidelidade__r.TW1_Modalidade__c, &apos;Prospect&apos;)</errorConditionFormula>
+        <errorMessage>Somente clientes Gold ou Platinum podem usufruir desse tipo de benefício.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_Quant_Vinho_Gold</fullName>
+        <active>true</active>
+        <description>Valida a quantidade de vinhos utilizados pelo clientes Gold, não permitindo mais de uma por dia.</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; ISPICKVAL(TW1_Tipo__c, &quot;Vinho&quot;) &amp;&amp; ISPICKVAL(TW1_Fidelidade__r.TW1_Modalidade__c, &apos;Gold&apos;) &amp;&amp; TW1_Fidelidade__r.Vinhos_diarios__c = 1</errorConditionFormula>
+        <errorMessage>Clientes de modalidade Gold só podem usufruir de uma taça de vinho por dia.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_Quant_Vinho_Plat</fullName>
+        <active>true</active>
+        <description>Valida a quantidade de vinhos utilizados pelo clientes Platinum, não permitindo mais de duas por dia.</description>
+        <errorConditionFormula>ISNEW()&amp;&amp; ISPICKVAL(TW1_Tipo__c, &quot;Vinho&quot;) &amp;&amp; ISPICKVAL(TW1_Fidelidade__r.TW1_Modalidade__c, &apos;Platinum&apos;) &amp;&amp; TW1_Fidelidade__r.Vinhos_diarios__c = 2</errorConditionFormula>
+        <errorMessage>Clientes de modalidade Platinum só podem usufruir de duas taças de vinho por dia.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TW1_VR_Historico_Valida_Saldo</fullName>
+        <active>true</active>
+        <description>Quando um novo registro do tipo Vinho é criado a regra valida se o cliente tem saldo suficiente.</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; ISPICKVAL(TW1_Tipo__c, &apos;Vinho&apos;) &amp;&amp; TW1_Saldo__c &lt; 100 &amp;&amp; ISPICKVAL(TW1_Fidelidade__r.TW1_Modalidade__c, &apos;Gold&apos;)</errorConditionFormula>
+        <errorMessage>Saldo insuficiente.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
