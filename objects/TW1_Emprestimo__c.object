@@ -106,45 +106,8 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>TW1_Item__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Item</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>$Source.TW1_Tipo_de_Emprestimo__c</field>
-                <operation>equals</operation>
-                <valueField>TW1_Item__c.TW1_Tipo__c</valueField>
-            </filterItems>
-            <filterItems>
-                <field>$Source.TW1_Shopping__c</field>
-                <operation>equals</operation>
-                <valueField>TW1_Item__c.TW1_Shopping__c</valueField>
-            </filterItems>
-            <filterItems>
-                <field>TW1_Item__c.TW1_Status__c</field>
-                <operation>equals</operation>
-                <value>Vago</value>
-            </filterItems>
-            <isOptional>true</isOptional>
-        </lookupFilter>
-        <referenceTo>TW1_Item__c</referenceTo>
-        <relationshipLabel>Empréstimos</relationshipLabel>
-        <relationshipName>Empr_stimos</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>TW1_Nome_do_Cliente__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Nome do Cliente</label>
-        <lookupFilter>
+    
+    
             <active>true</active>
             <filterItems>
                 <field>Account.IsPersonAccount</field>
@@ -288,7 +251,7 @@
     <recordTypes>
         <fullName>Armario</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Armário</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -312,7 +275,7 @@
     <recordTypes>
         <fullName>Cadeira_de_Rodas</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Cadeira de Rodas</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -336,7 +299,7 @@
     <recordTypes>
         <fullName>Cadeira_de_Rodas_motorizada</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Cadeira de Rodas motorizada</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -360,7 +323,7 @@
     <recordTypes>
         <fullName>Carregador_Portatil</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Carregador Portátil</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -384,7 +347,7 @@
     <recordTypes>
         <fullName>Carrinho_de_Bebe</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Carrinho de Bebê</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -408,7 +371,7 @@
     <recordTypes>
         <fullName>PetCar</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>PetCar</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -432,7 +395,7 @@
     <recordTypes>
         <fullName>Sala</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Sala</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
