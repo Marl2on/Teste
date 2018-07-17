@@ -62,21 +62,7 @@
         <fullName>TW1_Entretenimento__c</fullName>
         <externalId>false</externalId>
         <label>Entretenimento</label>
-        <lookupFilter>
-            <active>true</active>
-            <booleanFilter>1 OR 2</booleanFilter>
-            <filterItems>
-                <field>TW1_Entretenimento__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Cinema</value>
-            </filterItems>
-            <filterItems>
-                <field>TW1_Entretenimento__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Teatro</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
+        
         <referenceTo>TW1_Entretenimento__c</referenceTo>
         <relationshipLabel>Salas</relationshipLabel>
         <relationshipName>Salas</relationshipName>
