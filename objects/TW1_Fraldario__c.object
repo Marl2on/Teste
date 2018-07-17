@@ -38,7 +38,16 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-    
+    <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Layout_Compact</fullName>
+        <fields>TW1_Dependente__c</fields>
+        <fields>TW1_Nome_do_Cliente__c</fields>
+        <fields>TW1_Data__c</fields>
+        <fields>TW1_Shopping__c</fields>
+        <fields>Name</fields>
+        <label>Layout Compact</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -65,7 +74,16 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Dependente</label>
-        
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Esse cliente não possui dependentes cadastrados.</errorMessage>
+            <filterItems>
+                <field>$Source.TW1_Nome_do_Cliente__c</field>
+                <operation>equals</operation>
+                <valueField>TW1_Dependente__c.TW1_Conta_Associada__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>TW1_Dependente__c</referenceTo>
         <relationshipLabel>Fraldário</relationshipLabel>
         <relationshipName>Frald_rio</relationshipName>
@@ -144,7 +162,29 @@
         </valueSet>
         <visibleLines>8</visibleLines>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Nome_do_Cliente__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Nome do Cliente</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.IsPersonAccount</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Fraldário</relationshipLabel>
+        <relationshipName>Frald_rio</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>TW1_Shopping__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -160,7 +200,16 @@
         <type>Lookup</type>
     </fields>
     <label>Fraldário</label>
-    
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>TW1_Nome_do_Cliente__c</columns>
+        <columns>TW1_Data__c</columns>
+        <columns>TW1_Dependente__c</columns>
+        <columns>TW1_Itens__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>{0000000}</displayFormat>
         <label>Número do Registro</label>
