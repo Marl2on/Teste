@@ -41,7 +41,7 @@
     <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Layout_Compact</fullName>
-        
+        <fields>TW1_Nome_do_Cliente__c</fields>
         <fields>TW1_Dependente__c</fields>
         <fields>TW1_Data_do_Emprestimo__c</fields>
         <fields>TW1_Item__c</fields>
@@ -86,7 +86,16 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Dependente</label>
-        
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Esse cliente não possui dependentes cadastrados.</errorMessage>
+            <filterItems>
+                <field>TW1_Dependente__c.TW1_Conta_Associada__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.TW1_Nome_do_Cliente__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>TW1_Dependente__c</referenceTo>
         <relationshipLabel>Empréstimos</relationshipLabel>
         <relationshipName>Empr_stimos</relationshipName>
@@ -131,7 +140,7 @@
                 <value>Vago</value>
             </filterItems>
             <isOptional>true</isOptional>
-        </lookupFilter>z
+        </lookupFilter>
         <referenceTo>TW1_Item__c</referenceTo>
         <relationshipLabel>Empréstimos</relationshipLabel>
         <relationshipName>Empr_stimos</relationshipName>
@@ -141,7 +150,29 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-   
+    <fields>
+        <fullName>TW1_Nome_do_Cliente__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Nome do Cliente</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.IsPersonAccount</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Empréstimos</relationshipLabel>
+        <relationshipName>Empr_stimos</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>TW1_Observacao__c</fullName>
         <externalId>false</externalId>
@@ -249,7 +280,7 @@
         <columns>NAME</columns>
         <columns>TW1_Data_do_Emprestimo__c</columns>
         <columns>TW1_Item__c</columns>
-        
+        <columns>TW1_Nome_do_Cliente__c</columns>
         <columns>TW1_Shopping__c</columns>
         <columns>TW1_Status__c</columns>
         <filterScope>Everything</filterScope>
