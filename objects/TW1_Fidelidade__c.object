@@ -41,18 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Fidelidade</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Fidelidade</fullName>
-        <fields>Name</fields>
-        <fields>TW1_Modalidade__c</fields>
-        <fields>TW1_Saldo_inicial__c</fields>
-        <fields>TW1_Saldo__c</fields>
-        <fields>TW1_Utilizado__c</fields>
-        <fields>TW1_Perdidos__c</fields>
-        <fields>TW1_Shopping__c</fields>
-        <label>Fidelidade</label>
-    </compactLayouts>
+    
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -76,26 +65,7 @@
     <pluralLabel>Fidelidade</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>TW1_VR_Fidelidade_Criar_Prospect</fullName>
-        <active>true</active>
-        <description>Evita que o registro de Fidelidade seja criado com modalidade diferente de prospect.</description>
-        <errorConditionFormula>ISNEW() &amp;&amp; NOT(ISPICKVAL(TW1_Modalidade__c, &quot;Prospect&quot;))</errorConditionFormula>
-        <errorMessage>O registro de fidelidade não pode ser criado com modalidade diferente de &quot;Prospect&quot;.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>TW1_VR_Fidelidade_Duplicidade</fullName>
-        <active>true</active>
-        <description>Validação para não permitir que um usuário possa criar mais de um registro de Fidadelidade para um mesmo cliente.</description>
-        <errorConditionFormula>ISNEW() &amp;&amp; NOT(ISBLANK(TW1_Nome_Cliente__r.TW1_Fidelidade__c))</errorConditionFormula>
-        <errorMessage>Esse cliente já possui cadastro de Fidelidade. Não é possível criar um novo registro.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>TW1_VR_Fidelidade_Impede_marcar_AcaoMark</fullName>
-        <active>true</active>
-        <description>Quando um usuário tentar acionar o botão &quot;Tornar Platinum&quot; e ele não for do perfil &quot;Marketing&quot; a validação impede da atualização seja realizada.</description>
-        <errorConditionFormula>$Profile.Name &lt;&gt; &quot;Marketing&quot; &amp;&amp; $Profile.Name &lt;&gt; &quot;Administrador do sistema&quot; &amp;&amp; ISCHANGED(Acao_Marketing__c) &amp;&amp; Acao_Marketing__c = True</errorConditionFormula>
-        <errorMessage>Somente usuário do Marketing podem tonar um usuário Platinum manualmente.</errorMessage>
-    </validationRules>
+  
+    
     <visibility>Public</visibility>
 </CustomObject>
