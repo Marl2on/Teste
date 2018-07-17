@@ -50,7 +50,7 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
+    
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>TW1_Cartao_Gerado__c</fullName>
