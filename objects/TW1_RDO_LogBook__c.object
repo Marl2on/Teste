@@ -444,22 +444,7 @@
         </filters>
         <label>RDO</label>
     </listViews>
-    <listViews>
-        <fullName>TW1_LogBook</fullName>
-        <columns>NAME</columns>
-        <columns>TW1_Data__c</columns>
-        <columns>TW1_Dia_da_Semana__c</columns>
-        <columns>TW1_Responsavel_Turno__c</columns>
-        <columns>TW1_Area__c</columns>
-        <columns>TW1_Descricao__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>TW1_Tipo__c</field>
-            <operation>equals</operation>
-            <value>LogBook</value>
-        </filters>
-        <label>LogBook</label>
-    </listViews>
+    
     <nameField>
         <displayFormat>RD-{0000000}</displayFormat>
         <label>Código do Relatório Diário</label>
