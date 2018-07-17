@@ -48,7 +48,7 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    
+    <enableSharing>False</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>TW1_Area__c</fullName>
