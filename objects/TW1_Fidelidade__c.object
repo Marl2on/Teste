@@ -41,7 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Fidelidade</compactLayoutAssignment>
+    
     
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
