@@ -60,6 +60,6 @@
     </nameField>
     <pluralLabel>Propriedades da Cotação</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    
     <visibility>Public</visibility>
 </CustomObject>
