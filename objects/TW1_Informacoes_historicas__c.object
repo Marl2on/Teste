@@ -196,7 +196,16 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Marca</label>
-        
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>O valor preenchido no filtro não retornou nenhum registro existente.</errorMessage>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Marca</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Informações históricas da propriedade</relationshipLabel>
         <relationshipName>Informacoes_historicas_da_propriedade</relationshipName>
