@@ -106,25 +106,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    
-    
-            <active>true</active>
-            <filterItems>
-                <field>Account.IsPersonAccount</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Empréstimos</relationshipLabel>
-        <relationshipName>Empr_stimos</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
+   
     <fields>
         <fullName>TW1_Observacao__c</fullName>
         <externalId>false</externalId>
