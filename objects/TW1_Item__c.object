@@ -52,20 +52,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>TW1_Emprestimo_del__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Empréstimo</label>
-        <referenceTo>TW1_Emprestimo__c</referenceTo>
-        <relationshipLabel>Itens</relationshipLabel>
-        <relationshipName>Itens_del</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
+    
     <fields>
         <fullName>TW1_ID_Externo__c</fullName>
         <externalId>true</externalId>
@@ -202,18 +189,7 @@
         </valueSet>
     </fields>
     <label>Item</label>
-    <listViews>
-        <fullName>Itens</fullName>
-        <columns>NAME</columns>
-        <columns>TW1_Tipo__c</columns>
-        <columns>TW1_Status__c</columns>
-        <columns>TW1_Shopping__c</columns>
-        <columns>TW1_Emprestimo_del__c</columns>
-        <columns>TW1_Observacao__c</columns>
-        <columns>TW1_Patrimonio__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>Itens</label>
-    </listViews>
+    
     <nameField>
         <label>Nome do Item</label>
         <trackFeedHistory>false</trackFeedHistory>
