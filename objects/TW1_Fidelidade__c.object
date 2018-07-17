@@ -120,29 +120,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>TW1_Nome_Cliente__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Nome do Cliente</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Account.IsPersonAccount</field>
-                <operation>equals</operation>
-                <value>True</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Fidelidade</relationshipLabel>
-        <relationshipName>Fidelidade</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
+    
     
     <fields>
         <fullName>TW1_SGL__c</fullName>
