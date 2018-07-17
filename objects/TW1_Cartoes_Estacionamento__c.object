@@ -50,16 +50,11 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
+    <enableSharing>false</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     
     <label>Cartão Estacionamento</label>
-    <nameField>
-        <label>Número do cartão</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>AutoNumber</type>
-    </nameField>
+    
     <pluralLabel>Cartões Estacionamento</pluralLabel>
     <searchLayouts/>
     
