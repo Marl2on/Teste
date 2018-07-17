@@ -149,22 +149,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>TW1_Utilizado__c</fullName>
-        <externalId>false</externalId>
-        <label>Utilizado</label>
-        <summarizedField>TW1_Historico__c.TW1_Pontos__c</summarizedField>
-        <summaryFilterItems>
-            <field>TW1_Historico__c.RecordTypeId</field>
-            <operation>equals</operation>
-            <value>Cartão Estacionamento, Vinho</value>
-        </summaryFilterItems>
-        <summaryForeignKey>TW1_Historico__c.TW1_Fidelidade__c</summaryForeignKey>
-        <summaryOperation>sum</summaryOperation>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Summary</type>
-    </fields>
+    
     <label>Fidelidade</label>
     <nameField>
         <displayFormat>{0000000}</displayFormat>
