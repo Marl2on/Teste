@@ -286,7 +286,7 @@
     <recordTypes>
         <fullName>Acao_Marketing</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Ação Marketing</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -321,7 +321,7 @@
     <recordTypes>
         <fullName>Ajuste_de_Saldo</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Ajuste de Saldo</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -356,7 +356,7 @@
     <recordTypes>
         <fullName>Aniversario</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Aniversário</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -391,7 +391,7 @@
     <recordTypes>
         <fullName>Cartao_Estacionamento</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+       
         <label>Cartão Estacionamento</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -426,7 +426,7 @@
     <recordTypes>
         <fullName>Downgrade</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Downgrade</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -461,7 +461,7 @@
     <recordTypes>
         <fullName>Nota_Expirada</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+      
         <label>Nota Expirada</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -496,7 +496,7 @@
     <recordTypes>
         <fullName>Saldo_Inicial</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Saldo Inicial</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -531,7 +531,7 @@
     <recordTypes>
         <fullName>TW1_Cadastro_de_NTFS</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+        
         <label>Cadastro de NTFS</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
@@ -570,7 +570,7 @@
     <recordTypes>
         <fullName>Vinho</fullName>
         <active>true</active>
-        <compactLayoutAssignment>Layout_Compact</compactLayoutAssignment>
+       
         <label>Vinho</label>
         <picklistValues>
             <picklist>TW1_Status__c</picklist>
