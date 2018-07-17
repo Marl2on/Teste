@@ -38,16 +38,7 @@
     </actionOverrides>
 
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>Sala</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Sala</fullName>
-        <fields>TW1_Entretenimento__c</fields>
-        <fields>Name</fields>
-        <fields>TW1_Numero_de_Lugares__c</fields>
-        <fields>TW1_Shopping__c</fields>
-        <fields>TW1_Tipo__c</fields>
-        <label>Sala</label>
-    </compactLayouts>
+    
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -59,27 +50,60 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>TW1_Entretenimento__c</fullName>
+        <fullName>Programacao__c</fullName>
         <externalId>false</externalId>
-        <label>Entretenimento</label>
-        <lookupFilter>
-            <active>true</active>
-            <booleanFilter>1 OR 2</booleanFilter>
-            <filterItems>
-                <field>TW1_Entretenimento__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Cinema</value>
-            </filterItems>
-            <filterItems>
-                <field>TW1_Entretenimento__c.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Teatro</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>TW1_Entretenimento__c</referenceTo>
-        <relationshipLabel>Salas</relationshipLabel>
-        <relationshipName>Salas</relationshipName>
+        <label>Programação</label>
+        <referenceTo>TW1_Programacao__c</referenceTo>
+        <relationshipLabel>Sessões</relationshipLabel>
+        <relationshipName>Sess_es</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Fim__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Fim</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Data_Inicio__c</fullName>
+        <externalId>false</externalId>
+        <label>Data Início</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Horarios__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Ex.: 12:50 (LEG) / 17:50 (LEG)</inlineHelpText>
+        <label>Horários</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TW1_Sala__c</fullName>
+        <externalId>false</externalId>
+        <label>Sala</label>
+        <referenceTo>TW1_Sala__c</referenceTo>
+        <relationshipLabel>Sessões</relationshipLabel>
+        <relationshipName>Sessoes</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackFeedHistory>false</trackFeedHistory>
@@ -89,22 +113,9 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
-        <fullName>TW1_Numero_de_Lugares__c</fullName>
-        <externalId>false</externalId>
-        <label>Número de Lugares</label>
-        <precision>3</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>TW1_Shopping__c</fullName>
         <externalId>false</externalId>
-        <formula>TW1_Entretenimento__r.TW1_Shopping__r.Name</formula>
+        <formula>TW1_Sala__r.TW1_Shopping__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Shopping</label>
         <required>false</required>
@@ -114,25 +125,45 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TW1_Tipo__c</fullName>
+        <fullName>TW1_Status__c</fullName>
         <externalId>false</externalId>
-        <label>Tipo</label>
-        <length>50</length>
+        <label>Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Estreia</fullName>
+                    <default>false</default>
+                    <label>Estreia</label>
+                </value>
+                <value>
+                    <fullName>Continuação</fullName>
+                    <default>false</default>
+                    <label>Continuação</label>
+                </value>
+                <value>
+                    <fullName>Encerrado</fullName>
+                    <default>false</default>
+                    <label>Encerrado</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
-    <label>Sala</label>
+    <label>Sessão</label>
     <nameField>
-        <label>Nome da Sala</label>
+        <displayFormat>SES-{000000000}</displayFormat>
+        <label>Código da Sessão</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Salas</pluralLabel>
+    <pluralLabel>Sessões</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
