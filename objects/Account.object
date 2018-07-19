@@ -74,9 +74,6 @@
     <enableHistory>true</enableHistory>
     
     
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
-
         <fullName>TW1_Marca</fullName>
         <active>true</active>
         <compactLayoutAssignment>TW1_Marca</compactLayoutAssignment>
