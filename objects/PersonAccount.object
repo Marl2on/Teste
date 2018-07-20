@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <compactLayoutAssignment>SYSTEMPersonAccount</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Conta_pessoal_vendas</fullName>
-        <fields>Name</fields>
-        <fields>PersonMobilePhone</fields>
-        <fields>PersonEmail</fields>
-        <fields>TW1_CPF__c</fields>
-        <label>Conta pessoal - vendas</label>
-    </compactLayouts>
-    <compactLayouts>
-        <fullName>TW1_Conta_Pessoal</fullName>
-        <fields>Name</fields>
-        <fields>TW1_EmailCB__c</fields>
-        <fields>PersonEmail</fields>
-        <fields>TW1_Email__c</fields>
-        <fields>PersonMobilePhone</fields>
-        <fields>TW1_CEP__pc</fields>
-        <fields>TW1_CPF__c</fields>
-        <fields>TW1_CPF__pc</fields>
-        <label>Conta Pessoal</label>
-    </compactLayouts>
+    
     <enableHistory>true</enableHistory>
     <recordTypes>
         <fullName>PersonAccount</fullName>
