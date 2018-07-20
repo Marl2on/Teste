@@ -216,16 +216,7 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>TW1_Baixou_Aplicativo__c</picklist>
-            <values>
-                <fullName>Não</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sim</fullName>
-                <default>false</default>
-            </values>
+       
         </picklistValues>
         <picklistValues>
             <picklist>TW1_Baixou_aplicativo__pc</picklist>
@@ -3291,17 +3282,7 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>TW1_Baixou_Aplicativo__c</picklist>
-            <values>
-                <fullName>Não</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sim</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>TW1_Baixou_aplicativo__pc</picklist>
             <values>
@@ -6366,17 +6347,7 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>TW1_Baixou_Aplicativo__c</picklist>
-            <values>
-                <fullName>Não</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sim</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>TW1_Baixou_aplicativo__pc</picklist>
             <values>
