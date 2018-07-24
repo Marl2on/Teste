@@ -1167,7 +1167,7 @@ window.location.href = retURL;</url>
         <linkType>page</linkType>
         <masterLabel>Atualizar oportunidade</masterLabel>
         <openType>sidebar</openType>
-        <page>TW1_Ancar_SyncCotacao</page>
+        
         <protected>false</protected>
     </webLinks>
 </CustomObject>
