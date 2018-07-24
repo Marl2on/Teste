@@ -1548,7 +1548,7 @@
         <fullName>Elogios</fullName>
         <active>true</active>
         <businessProcess>Elogio</businessProcess>
-        <compactLayoutAssignment>Case_compact_layout</compactLayoutAssignment>
+        
         <label>Elogios</label>
         <picklistValues>
             <picklist>Assunto__c</picklist>
@@ -2016,7 +2016,7 @@
         <fullName>Reclamaoes</fullName>
         <active>true</active>
         <businessProcess>Reclamação</businessProcess>
-        <compactLayoutAssignment>Case_compact_layout</compactLayoutAssignment>
+        
         <label>Reclamações</label>
         <picklistValues>
             <picklist>Assunto__c</picklist>
@@ -2971,7 +2971,7 @@
         <fullName>Solicitacoes</fullName>
         <active>true</active>
         <businessProcess>Solicitações</businessProcess>
-        <compactLayoutAssignment>Case_compact_layout</compactLayoutAssignment>
+        
         <label>Solicitações</label>
         <picklistValues>
             <picklist>Assunto__c</picklist>
@@ -3439,7 +3439,7 @@
         <fullName>Sugestoes</fullName>
         <active>true</active>
         <businessProcess>Sugestão</businessProcess>
-        <compactLayoutAssignment>Case_compact_layout</compactLayoutAssignment>
+        
         <label>Sugestões</label>
         <picklistValues>
             <picklist>Assunto__c</picklist>
@@ -3933,23 +3933,5 @@
         <errorConditionFormula>ISPICKVAL(TW1_Nivel_1__c, &apos;Estacionamento&apos;) &amp;&amp; (ISBLANK(TW1_Modelo__c) || ISBLANK(TW1_Marca__c) || ISBLANK(TW1_Placa__c))</errorConditionFormula>
         <errorMessage>Para ocorrências referente a &quot;Estacionamento&quot; se faz necessário o preenchimento da sessão dados do veículo.</errorMessage>
     </validationRules>
-    <webLinks>
-        <fullName>HTPPV__Printable_View</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Printable View</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>/apex/HTPPV__PrintableView?id={!Case.Id}</url>
-    </webLinks>
+
 </CustomObject>
