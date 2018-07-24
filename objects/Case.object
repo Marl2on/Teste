@@ -4136,15 +4136,5 @@ ISPICKVAL(Origin, &quot;Web&quot;), True, False)</errorConditionFormula>
         <showsStatus>false</showsStatus>
         <url>/apex/HTPPV__PrintableView?id={!Case.Id}</url>
     </webLinks>
-    <webLinks>
-        <fullName>webm__Webmerge</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>Webmerge</masterLabel>
-        <openType>sidebar</openType>
-        <page>webm__WebmergeCase</page>
-        <protected>false</protected>
-    </webLinks>
+
 </CustomObject>
