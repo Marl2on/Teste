@@ -202,20 +202,7 @@
             <default>false</default>
         </values>
     </businessProcesses>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Case_compact_layout</fullName>
-        <fields>Subject</fields>
-        <fields>Priority</fields>
-        <fields>Status</fields>
-        <fields>CaseNumber</fields>
-        <fields>RecordTypeId</fields>
-        <fields>ContactEmail</fields>
-        <fields>ContactId</fields>
-        <fields>ContactPhone</fields>
-        <fields>TW1_Shopping__c</fields>
-        <label>Case compact layout</label>
-    </compactLayouts>
+
     <enableFeeds>true</enableFeeds>
     <fields>
         <fullName>AccountId</fullName>
@@ -427,13 +414,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SourceId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
