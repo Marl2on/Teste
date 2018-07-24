@@ -152,7 +152,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Masculino</gender>
+
     <label>Registro de ligações</label>
     <listViews>
         <fullName>All</fullName>
