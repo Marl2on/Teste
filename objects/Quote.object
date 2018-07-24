@@ -1159,5 +1159,15 @@ retURL = retURL + &apos;apex/TW1_Ancar_Venda_NovaCotacaoVF?TipoChamada=&apos;+&a
 
 window.location.href = retURL;</url>
     </webLinks>
-
+    <webLinks>
+        <fullName>TW1_Atualizar_oportunidade</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>550</height>
+        <linkType>page</linkType>
+        <masterLabel>Atualizar oportunidade</masterLabel>
+        <openType>sidebar</openType>
+        <page>TW1_Ancar_SyncCotacao</page>
+        <protected>false</protected>
+    </webLinks>
 </CustomObject>
