@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <actionCalls>
-        <name>Valida_CNPJ</name>
-        <label>Valida CNPJ</label>
-        <locationX>566</locationX>
-        <locationY>594</locationY>
-        <actionName>ValidacaoCpfCnpjAnnotation</actionName>
-        <actionType>apex</actionType>
-        <connector>
-            <targetReference>Existe_um_contato_comercial_com_mesmo_CNPJ</targetReference>
-        </connector>
-        <inputParameters>
-            <name>cpfsCnpjs</name>
-            <value>
-                <elementReference>CNPJ</elementReference>
-            </value>
-        </inputParameters>
-        <outputParameters>
-            <assignToReference>RetornoValidacaoCPFCNPJ</assignToReference>
-            <name>output</name>
-        </outputParameters>
-    </actionCalls>
+    
     
     <choices>
         <name>Nao</name>
