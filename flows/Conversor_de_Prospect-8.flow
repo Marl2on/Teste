@@ -21,27 +21,7 @@
             <name>output</name>
         </outputParameters>
     </actionCalls>
-    <actionCalls>
-        <name>Valida_CPF</name>
-        <label>Valida CPF</label>
-        <locationX>368</locationX>
-        <locationY>594</locationY>
-        <actionName>ValidacaoCpfCnpjAnnotation</actionName>
-        <actionType>apex</actionType>
-        <connector>
-            <targetReference>Existe_um_contato_comercial_com_mesmo_CPF</targetReference>
-        </connector>
-        <inputParameters>
-            <name>cpfsCnpjs</name>
-            <value>
-                <elementReference>CPF</elementReference>
-            </value>
-        </inputParameters>
-        <outputParameters>
-            <assignToReference>RetornoValidacaoCPFCNPJ</assignToReference>
-            <name>output</name>
-        </outputParameters>
-    </actionCalls>
+    
     <choices>
         <name>Nao</name>
         <choiceText>Não</choiceText>
