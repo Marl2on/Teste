@@ -1593,9 +1593,7 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
-        <connector>
-            <targetReference>Valida_CNPJ</targetReference>
-        </connector>
+
         <fields>
             <name>CNPJ</name>
             <dataType>String</dataType>
