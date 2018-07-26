@@ -194,7 +194,7 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Participante</label>
     <nameField>
         <displayFormat>PA#{000000}</displayFormat>
