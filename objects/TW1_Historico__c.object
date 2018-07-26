@@ -275,11 +275,7 @@
                     <default>false</default>
                     <label>Ajuste de Saldo</label>
                 </value>
-                <value>
-                    <fullName>Aniversario</fullName>
-                    <default>false</default>
-                    <label>Aniversário</label>
-                </value>
+                
                 <value>
                     <fullName>Cadastro de NTFS</fullName>
                     <default>false</default>
@@ -420,7 +416,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <recordTypes>
+  
         <fullName>Aniversario</fullName>
         <active>true</active>
         <label>Aniversário</label>
