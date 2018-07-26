@@ -258,62 +258,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>TW1_Tipo__c</fullName>
-        <externalId>false</externalId>
-        <label>Tipo</label>
-        <required>false</required>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Ajuste de Saldo</fullName>
-                    <default>false</default>
-                    <label>Ajuste de Saldo</label>
-                </value>
-                
-                <value>
-                    <fullName>Cadastro de NTFS</fullName>
-                    <default>false</default>
-                    <label>Cadastro de NTFS</label>
-                </value>
-                <value>
-                    <fullName>Cartão Estacionamento</fullName>
-                    <default>false</default>
-                    <label>Cartão Estacionamento</label>
-                </value>
-                <value>
-                    <fullName>Saldo Inicial</fullName>
-                    <default>false</default>
-                    <label>Saldo Inicial</label>
-                </value>
-                <value>
-                    <fullName>Vinho</fullName>
-                    <default>false</default>
-                    <label>Vinho</label>
-                </value>
-                <value>
-                    <fullName>Nota Expirada</fullName>
-                    <default>false</default>
-                    <label>Nota Expirada</label>
-                </value>
-                <value>
-                    <fullName>Ação Marketing</fullName>
-                    <default>false</default>
-                    <label>Ação Marketing</label>
-                </value>
-                <value>
-                    <fullName>Downgrade</fullName>
-                    <default>false</default>
-                    <label>Downgrade</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
+    
     <fields>
         <fullName>TW1_Valor_RS__c</fullName>
         <externalId>false</externalId>
@@ -416,40 +361,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-  
-        <fullName>Aniversario</fullName>
-        <active>true</active>
-        <label>Aniversário</label>
-        <picklistValues>
-            <picklist>TW1_Status__c</picklist>
-            <values>
-                <fullName>Expirada</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Válida</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>TW1_Taca_de_vinho_hoje_del__c</picklist>
-            <values>
-                <fullName>Não</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sim</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>TW1_Tipo__c</picklist>
-            <values>
-                <fullName>Aniversario</fullName>
-                <default>true</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
+    
     <recordTypes>
         <fullName>Cartao_Estacionamento</fullName>
         <active>true</active>
