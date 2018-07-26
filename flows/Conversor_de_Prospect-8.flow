@@ -1570,9 +1570,7 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
-        <connector>
-            <targetReference>Valida_CPF</targetReference>
-        </connector>
+
         <fields>
             <name>CPF</name>
             <dataType>String</dataType>
