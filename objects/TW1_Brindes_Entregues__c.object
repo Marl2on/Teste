@@ -314,7 +314,7 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Brindes Entregues</label>
     <listViews>
         <fullName>All</fullName>

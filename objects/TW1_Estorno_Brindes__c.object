@@ -132,7 +132,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Estorno De Brindes</label>
     <listViews>
         <fullName>All</fullName>

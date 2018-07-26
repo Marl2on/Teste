@@ -78,7 +78,7 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Marca e Plano de mix</label>
     <listViews>
         <fullName>All</fullName>

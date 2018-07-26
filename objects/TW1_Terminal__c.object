@@ -92,7 +92,7 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Terminal</label>
     <listViews>
         <fullName>All</fullName>

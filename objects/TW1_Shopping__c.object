@@ -419,7 +419,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Shopping</label>
     <listViews>
         <fullName>TW1_Todos_os_Shoppings_ListView</fullName>

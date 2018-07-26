@@ -145,7 +145,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Operador</label>
     <listViews>
         <fullName>Coordenadores</fullName>

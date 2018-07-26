@@ -192,7 +192,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+
     <label>Cartão Estacionamento</label>
     <listViews>
         <fullName>All</fullName>

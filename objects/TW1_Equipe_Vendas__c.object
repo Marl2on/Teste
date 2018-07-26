@@ -121,7 +121,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Equipe de vendas</label>
     <nameField>
         <displayFormat>Venda#{000}</displayFormat>

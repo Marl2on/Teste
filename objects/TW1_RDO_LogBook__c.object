@@ -444,7 +444,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Relatório Diário</label>
     <listViews>
         <fullName>All</fullName>

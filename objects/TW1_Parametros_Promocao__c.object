@@ -1173,7 +1173,7 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Parâmetros da Promoção</label>
     <listViews>
         <fullName>All</fullName>

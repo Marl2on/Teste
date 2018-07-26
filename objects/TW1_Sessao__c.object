@@ -164,7 +164,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Sessão</label>
     <listViews>
         <fullName>Sess_es</fullName>

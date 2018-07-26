@@ -133,7 +133,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+
     <label>Calendário de propriedade</label>
     <nameField>
         <displayFormat>{YYYY}{MM}{DD}-{0}</displayFormat>

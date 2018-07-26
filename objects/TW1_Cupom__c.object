@@ -616,7 +616,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Cupom</label>
     <listViews>
         <fullName>All</fullName>

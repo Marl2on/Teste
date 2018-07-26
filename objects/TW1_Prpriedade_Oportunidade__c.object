@@ -92,7 +92,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Propriedade da Oportunidade</label>
     <nameField>
         <displayFormat>{YYYY}{MM}-{0}</displayFormat>

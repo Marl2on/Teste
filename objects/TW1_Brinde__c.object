@@ -131,7 +131,7 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <gender>Masculine</gender>
+
     <label>Brinde</label>
     <listViews>
         <fullName>All</fullName>

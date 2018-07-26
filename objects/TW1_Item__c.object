@@ -232,7 +232,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Item</label>
     <listViews>
         <fullName>Itens_de_emprestimo</fullName>

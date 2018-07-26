@@ -78,7 +78,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Masculine</gender>
+
     <label>Brinde da Promoção</label>
     <listViews>
         <fullName>All</fullName>

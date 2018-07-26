@@ -108,7 +108,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Plano de mix</label>
     <listViews>
         <fullName>All</fullName>

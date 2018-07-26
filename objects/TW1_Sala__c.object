@@ -129,7 +129,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Sala</label>
     <nameField>
         <label>Nome da Sala</label>

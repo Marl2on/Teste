@@ -263,7 +263,7 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Fraldário</label>
     <listViews>
         <fullName>Tudo</fullName>

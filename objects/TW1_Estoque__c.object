@@ -139,7 +139,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Estoque</label>
     <listViews>
         <fullName>All</fullName>

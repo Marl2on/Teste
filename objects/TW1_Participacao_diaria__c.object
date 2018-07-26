@@ -376,7 +376,7 @@ TW1_Participante__r.TW1_Qtde_participacao__c  &gt; 1)
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Participação diária</label>
     <nameField>
         <displayFormat>PD#{0000000}</displayFormat>

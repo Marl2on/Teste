@@ -122,7 +122,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Auditoria Inf. Histórica</label>
     <listViews>
         <fullName>All</fullName>

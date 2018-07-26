@@ -373,7 +373,7 @@
         <trackTrending>false</trackTrending>
         <type>Url</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Programação</label>
     <listViews>
         <fullName>Filmes</fullName>

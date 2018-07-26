@@ -140,7 +140,7 @@ etc</description>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Atividade do Cliente</label>
     <listViews>
         <fullName>All</fullName>

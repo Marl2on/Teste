@@ -75,7 +75,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Entretenimento</label>
     <listViews>
         <fullName>Empreendimentos</fullName>

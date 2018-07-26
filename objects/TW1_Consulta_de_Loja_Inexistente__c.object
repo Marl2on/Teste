@@ -103,7 +103,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Consulta de Loja Inexistente</label>
     <listViews>
         <fullName>All</fullName>

@@ -77,7 +77,7 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Stand</label>
     <listViews>
         <fullName>All</fullName>

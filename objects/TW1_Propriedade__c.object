@@ -654,7 +654,7 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Propriedade</label>
     <listViews>
         <fullName>TW1_Propriedade_de_Loja_ListView</fullName>

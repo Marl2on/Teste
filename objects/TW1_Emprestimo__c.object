@@ -260,7 +260,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Empréstimo</label>
     <listViews>
         <fullName>Items_Devolvidos</fullName>

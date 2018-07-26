@@ -329,7 +329,7 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Histórico</label>
     <listViews>
         <fullName>All</fullName>

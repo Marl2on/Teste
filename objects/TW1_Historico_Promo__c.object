@@ -88,7 +88,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+    
     <label>Histórico da Promoção</label>
     <listViews>
         <fullName>All</fullName>

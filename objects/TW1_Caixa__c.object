@@ -125,7 +125,7 @@
         <trackTrending>false</trackTrending>
         <type>Summary</type>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Caixa</label>
     <listViews>
         <fullName>All</fullName>

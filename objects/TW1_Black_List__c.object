@@ -144,7 +144,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <gender>Feminine</gender>
+
     <label>Black List</label>
     <listViews>
         <fullName>All</fullName>
