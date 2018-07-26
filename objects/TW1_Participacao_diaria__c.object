@@ -137,7 +137,16 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Antigo__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Participante__r.TW1_Antigo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Antigo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <fields>
         <fullName>TW1_Cliente__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -254,7 +263,16 @@
         </valueSet>
         <visibleLines>10</visibleLines>
     </fields>
-    
+    <fields>
+        <fullName>TW1_Novo__c</fullName>
+        <externalId>false</externalId>
+        <formula>TW1_Participante__r.TW1_Novo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Novo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <fields>
         <fullName>TW1_Parametros_da_Promocao__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -267,6 +285,21 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TW1_Part_Mais_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+TW1_Participante__r.TW1_Menor_data__c &lt;&gt; TW1_Data_de_participacao__c,
+TW1_Participante__r.TW1_Qtde_participacao__c  &gt; 1)
+,true
+,false
+)</formula>
+        <label>Part. Mais de 1 Vez</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>TW1_Participante__c</fullName>
