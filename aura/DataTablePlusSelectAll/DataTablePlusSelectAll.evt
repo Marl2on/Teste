@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="Fires when the Select All checkbox is clicked on the Data Table" >
-    <aura:attribute name="selected" type="Boolean" description="If Select All checkbox is checked or not"/>
-</aura:event>

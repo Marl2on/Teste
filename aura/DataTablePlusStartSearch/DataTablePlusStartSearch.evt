@@ -1,2 +1,0 @@
-<aura:event type="APPLICATION" description="Fires when the Search button is pressed" >
-</aura:event>
