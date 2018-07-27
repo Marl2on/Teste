@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>Grupo Natal Shopping</groups>
+    <groups>Grupo Shopping Center Iguatemi Porto Ale</groups>
+    <groups>Ancar</groups>
+    <groups>Grupo Área Atendimento</groups>
+    <groups>Grupo Área Comercial</groups>
+    <groups>Grupo Assistente Comercialização</groups>
+    <groups>Grupo Botafogo Praia Shopping</groups>
+    <groups>Grupo Boulevard Rio Shopping</groups>
+    <groups>Grupo Centervale Shopping</groups>
+    <groups>Grupo Downtown</groups>
+    <groups>Grupo Executivo de vendas</groups>
+    <groups>Grupo Gerente Regional</groups>
+    <groups>Grupo Golden Square Shopping</groups>
+    <groups>Grupo North Shopping Fortaleza</groups>
+    <groups>Grupo North Shopping Joquei</groups>
+    <groups>Grupo North Shopping Maracanau</groups>
+    <groups>Grupo Pantanal Shopping</groups>
+    <groups>Grupo Porto Velho Shopping</groups>
+    <groups>Grupo Rio Design Barra</groups>
+    <groups>Grupo Rio Design Leblon</groups>
+    <groups>Grupo Shopping Conjunto Nacional</groups>
+    <groups>Grupo Shopping Eldorado</groups>
+    <groups>Grupo Shopping Metro Itaquera</groups>
+    <groups>Grupo Shopping Nova America</groups>
+    <groups>Grupo Shopping Nova Iguaçu</groups>
+    <groups>Grupo Shopping Parque Das Bandeiras</groups>
+    <groups>Grupo Via Sul Shopping</groups>
+    <groups>Grupo Comercial EC</groups>
+    <groups>Grupo Coordenador Stand BAN</groups>
+    <groups>Grupo Coordenador Stand BLD</groups>
+    <groups>Grupo Coordenador Stand BPS</groups>
+    <groups>Grupo Coordenador Stand CNB</groups>
+    <groups>Grupo Coordenador Stand CVS</groups>
+    <groups>Grupo Coordenador Stand DWT</groups>
+    <groups>Grupo Coordenador Stand ELD</groups>
+    <groups>Grupo Coordenador Stand GOL</groups>
+    <groups>Grupo Coordenador Stand ITA</groups>
+    <groups>Grupo Coordenador Stand NAT</groups>
+    <groups>Grupo Coordenador Stand NSF</groups>
+    <groups>Grupo Coordenador Stand NSJ</groups>
+    <groups>Grupo Coordenador Stand NSM</groups>
+    <groups>Grupo Coordenador Stand PAN</groups>
+    <groups>Grupo Coordenador Stand PVS</groups>
+    <groups>Grupo Coordenador Stand RDB</groups>
+    <groups>Grupo Coordenador Stand RDL</groups>
+    <groups>Grupo Coordenador Stand SCIPA</groups>
+    <groups>Grupo Coordenador Stand SNA</groups>
+    <groups>Grupo Coordenador Stand SNI</groups>
+    <groups>Grupo Coordenador Stand VSS</groups>
+    <groups>Grupo Coordenador Stand</groups>
+    <groups>Grupo Supervisão BAN</groups>
+    <groups>Grupo Supervisão BLD</groups>
+    <groups>Grupo Supervisão BPS</groups>
+    <groups>Grupo Supervisão CNB</groups>
+    <groups>Grupo Supervisão CVS</groups>
+    <groups>Grupo Supervisão DTW</groups>
+    <groups>Grupo Supervisão ELD</groups>
+    <groups>Grupo Supervisão GOL</groups>
+    <groups>Grupo Supervisão ITA</groups>
+    <groups>Grupo Supervisão NAT</groups>
+    <groups>Grupo Supervisão NSF</groups>
+    <groups>Grupo Supervisão NSJ</groups>
+    <groups>Grupo Supervisão NSM</groups>
+    <groups>Grupo Supervisão PAN</groups>
+    <groups>Grupo Supervisão PVS</groups>
+    <groups>Grupo Supervisão RDB</groups>
+    <groups>Grupo Supervisão RDL</groups>
+    <groups>Grupo Supervisão SCIPA</groups>
+    <groups>Grupo Supervisão SNA</groups>
+    <groups>Grupo Supervisão SNI</groups>
+    <groups>Grupo Supervisão VSS</groups>
+    <label>TI Ancar</label>
+    <loginAccess>true</loginAccess>
+    <profiles>Atendente</profiles>
+    <profiles>Coordenador Stand</profiles>
+    <profiles>Assistente de comercialização</profiles>
+    <profiles>Comercial EC</profiles>
+    <profiles>Executivo de vendas loja</profiles>
+    <profiles>Executivo de vendas mall e mídia</profiles>
+    <profiles>Gerente Regional</profiles>
+    <profiles>Supervisão</profiles>
+    <profiles>Operador Stand</profiles>
+    <roles>Atendimento</roles>
+    <roles>Comercial</roles>
+    <roles>Comercial EC</roles>
+    <roles>Coordenador Stand</roles>
+    <roles>Gerente Regional</roles>
+    <roles>Regional Loja Centro-Oeste e Norte 1</roles>
+    <roles>Regional Loja Centro-Oeste e Norte 2</roles>
+    <roles>Regional Loja Nordeste</roles>
+    <roles>Regional Loja Rio de Janeiro</roles>
+    <roles>Regional Loja São Paulo</roles>
+    <roles>Regional Mall &amp; Mídia Centro Oeste/Norte</roles>
+    <roles>Regional Mall &amp; Mídia Nordeste</roles>
+    <roles>Regional Mall &amp; Mídia Rio de Janeiro 1</roles>
+    <roles>Regional Mall &amp; Mídia Rio de Janeiro2</roles>
+    <roles>Regional Mall &amp; Mídia São Paulo 1</roles>
+    <roles>Regional Mall &amp; Mídia São Paulo 2</roles>
+    <roles>Regional Mall &amp; Mídia Sul</roles>
+    <roles>Trade e Mídia</roles>
+    <roles>Supervisão</roles>
+</DelegateGroup>
