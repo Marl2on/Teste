@@ -9,7 +9,11 @@
         <type>Flexipage</type>
         <pageOrSobjectType>TW1_Shopping__c</pageOrSobjectType>
     </actionOverrides>
-
+    <brand>
+        <headerColor>#B73A3A</headerColor>
+        <logo>photo</logo>
+        <logoVersion>1</logoVersion>
+    </brand>
     <formFactors>Large</formFactors>
     <label>Atendimento</label>
     <navType>Standard</navType>
