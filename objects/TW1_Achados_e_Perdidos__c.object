@@ -275,7 +275,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
+    
     <label>Achados e Perdidos</label>
     <listViews>
         <fullName>Achados</fullName>
