@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Shopping_P_gina_de_registro</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>TW1_Shopping__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#B73A3A</headerColor>
+        <logo>photo1</logo>
+        <logoVersion>1</logoVersion>
+    </brand>
+    <formFactors>Large</formFactors>
+    <label>Entretenimento</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contato_P_gina_de_registro</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.TW1_Cadastro_Func</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contato_P_gina_de_registro</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <recordType>Contact.TW1_Cadastro_Func</recordType>
+        <type>Flexipage</type>
+        <profile>Atendente</profile>
+    </profileActionOverrides>
+    <tab>TW1_Entretenimento__c</tab>
+    <tab>TW1_Programacao__c</tab>
+    <uiType>Lightning</uiType>
+    <utilityBar>Entretenimento_UtilityBar1</utilityBar>
+</CustomApplication>
